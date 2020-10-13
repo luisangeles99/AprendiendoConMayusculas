@@ -15,6 +15,14 @@
 		8819E7272535318000B8A4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8819E7252535318000B8A4F1 /* LaunchScreen.storyboard */; };
 		8819E7322535318100B8A4F1 /* Aprendiendo_con_Mayu_sculasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E7312535318100B8A4F1 /* Aprendiendo_con_Mayu_sculasTests.swift */; };
 		8819E73D2535318100B8A4F1 /* Aprendiendo_con_Mayu_sculasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E73C2535318100B8A4F1 /* Aprendiendo_con_Mayu_sculasUITests.swift */; };
+		8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E74A25355C2000B8A4F1 /* TableViewController.swift */; };
+		8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E74C2535612800B8A4F1 /* NormaController.swift */; };
+		8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E74E2535619100B8A4F1 /* EjemploViewController.swift */; };
+		8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E7502536210B00B8A4F1 /* DifcultadPracticaViewController.swift */; };
+		8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E7522536211C00B8A4F1 /* BasicoVFViewController.swift */; };
+		8819E755253623B300B8A4F1 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E754253623B300B8A4F1 /* ConfigViewController.swift */; };
+		8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E756253623BD00B8A4F1 /* RecursosViewController.swift */; };
+		8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E758253623C500B8A4F1 /* ContactoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		8819E7382535318100B8A4F1 /* Aprendiendo con MayúsculasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aprendiendo con MayúsculasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8819E73C2535318100B8A4F1 /* Aprendiendo_con_Mayu_sculasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aprendiendo_con_Mayu_sculasUITests.swift; sourceTree = "<group>"; };
 		8819E73E2535318100B8A4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8819E74A25355C2000B8A4F1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8819E74C2535612800B8A4F1 /* NormaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormaController.swift; sourceTree = "<group>"; };
+		8819E74E2535619100B8A4F1 /* EjemploViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploViewController.swift; sourceTree = "<group>"; };
+		8819E7502536210B00B8A4F1 /* DifcultadPracticaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifcultadPracticaViewController.swift; sourceTree = "<group>"; };
+		8819E7522536211C00B8A4F1 /* BasicoVFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicoVFViewController.swift; sourceTree = "<group>"; };
+		8819E754253623B300B8A4F1 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		8819E756253623BD00B8A4F1 /* RecursosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursosViewController.swift; sourceTree = "<group>"; };
+		8819E758253623C500B8A4F1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
+				8819E754253623B300B8A4F1 /* ConfigViewController.swift */,
+				8819E756253623BD00B8A4F1 /* RecursosViewController.swift */,
+				8819E758253623C500B8A4F1 /* ContactoViewController.swift */,
+				8819E7522536211C00B8A4F1 /* BasicoVFViewController.swift */,
+				8819E7502536210B00B8A4F1 /* DifcultadPracticaViewController.swift */,
+				8819E74E2535619100B8A4F1 /* EjemploViewController.swift */,
+				8819E74C2535612800B8A4F1 /* NormaController.swift */,
+				8819E74A25355C2000B8A4F1 /* TableViewController.swift */,
 				8819E7232535318000B8A4F1 /* Assets.xcassets */,
 				8819E7252535318000B8A4F1 /* LaunchScreen.storyboard */,
 				8819E7282535318000B8A4F1 /* Info.plist */,
@@ -259,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
+				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
+				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */,
+				8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */,
+				8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */,
+				8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */,
 				8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */,
+				8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */,
+				8819E755253623B300B8A4F1 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
