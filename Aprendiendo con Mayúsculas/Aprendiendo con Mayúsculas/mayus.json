@@ -1,0 +1,22 @@
+[{
+    "categoria": 1,
+    "tema_id": 1,
+    "nombre_tema": "Mayusculas",
+    "norma": "La norma estable que ....",
+    "ejemplos":[
+        {
+            "ejemplo": "En el parque yo visité a mi amiga.",
+            "justifiacion": "La norma dicta que..."
+        }
+    ],
+    "ejercicios":[
+        {
+            "ejercicio":[
+                {
+                    "pregunta": "La Vida es Bella según el Miércoles",
+                    "respuesta": true
+                }
+            ]
+        }
+    ]
+}]

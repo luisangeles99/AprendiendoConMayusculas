@@ -23,6 +23,8 @@
 		8819E755253623B300B8A4F1 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E754253623B300B8A4F1 /* ConfigViewController.swift */; };
 		8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E756253623BD00B8A4F1 /* RecursosViewController.swift */; };
 		8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E758253623C500B8A4F1 /* ContactoViewController.swift */; };
+		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
+		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		8819E754253623B300B8A4F1 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		8819E756253623BD00B8A4F1 /* RecursosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursosViewController.swift; sourceTree = "<group>"; };
 		8819E758253623C500B8A4F1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
+		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		8819E7192535317F00B8A4F1 /* Aprendiendo con Mayúsculas */ = {
 			isa = PBXGroup;
 			children = (
+				8819E75C2536C30800B8A4F1 /* mayus.json */,
 				8819E71A2535317F00B8A4F1 /* AppDelegate.swift */,
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
@@ -126,6 +131,7 @@
 				8819E7502536210B00B8A4F1 /* DifcultadPracticaViewController.swift */,
 				8819E74E2535619100B8A4F1 /* EjemploViewController.swift */,
 				8819E74C2535612800B8A4F1 /* NormaController.swift */,
+				8819E75A2536C18E00B8A4F1 /* LoadData.swift */,
 				8819E74A25355C2000B8A4F1 /* TableViewController.swift */,
 				8819E7232535318000B8A4F1 /* Assets.xcassets */,
 				8819E7252535318000B8A4F1 /* LaunchScreen.storyboard */,
@@ -257,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8819E7272535318000B8A4F1 /* LaunchScreen.storyboard in Resources */,
+				8819E75D2536C30800B8A4F1 /* mayus.json in Resources */,
 				8819E7242535318000B8A4F1 /* Assets.xcassets in Resources */,
 				8819E7222535317F00B8A4F1 /* Main.storyboard in Resources */,
 			);
@@ -294,6 +301,7 @@
 				8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */,
 				8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */,
 				8819E755253623B300B8A4F1 /* ConfigViewController.swift in Sources */,
+				8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
