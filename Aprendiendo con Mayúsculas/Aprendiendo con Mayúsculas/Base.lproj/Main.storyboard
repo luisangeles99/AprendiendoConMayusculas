@@ -393,6 +393,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="falseBtn:" destination="1xl-7K-TgQ" eventType="touchUpInside" id="SlJ-K7-vZD"/>
+                                    <segue destination="dJC-7P-4Sq" kind="show" id="LZy-mU-uxg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSI-0C-gUU">
@@ -401,6 +402,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="trueBtn:" destination="1xl-7K-TgQ" eventType="touchUpInside" id="jmc-bQ-tlW"/>
+                                    <segue destination="dJC-7P-4Sq" kind="show" id="GPe-nY-1ul"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -415,6 +417,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cN-KO-wC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3840.579710144928" y="937.5"/>
+        </scene>
+        <!--Puntaje View Controller-->
+        <scene sceneID="fY9-EI-Yci">
+            <objects>
+                <viewController id="dJC-7P-4Sq" customClass="PuntajeViewController" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Roa-1K-Ug6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Correcto!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAq-hJ-Zpy">
+                                <rect key="frame" x="0.0" y="125" width="414" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puntaje" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woe-TD-BSC">
+                                <rect key="frame" x="178" y="253" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWU-M1-45t">
+                                <rect key="frame" x="86" y="322" width="243" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tmC-Al-4PU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R4H-vM-hqq"/>
+                    <connections>
+                        <outlet property="lbCorrecto" destination="yAq-hJ-Zpy" id="PCB-h2-3mu"/>
+                        <outlet property="lbPuntos" destination="vWU-M1-45t" id="6AS-eC-OnE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="en5-Ta-nfM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5018.840579710145" y="937.5"/>
         </scene>
         <!--Recursos-->
         <scene sceneID="FNg-Xw-zb5">
@@ -451,9 +496,15 @@
             <point key="canvasLocation" x="-136" y="938"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="GPe-nY-1ul"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
