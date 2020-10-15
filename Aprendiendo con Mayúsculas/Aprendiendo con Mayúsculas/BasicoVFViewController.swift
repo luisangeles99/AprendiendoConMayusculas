@@ -11,18 +11,31 @@ import UIKit
 class BasicoVFViewController: UIViewController {
 
     @IBOutlet weak var txtProblema: UILabel!
-    var arrDiccionarios: NSArray!
+    var arrDiccionarios: NSDictionary!
     let defaults = UserDefaults.standard
     var bCorrecto: Bool = false
+    var problemasDisp : NSMutableArray!
+    var problema: NSDictionary!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
-        arrDiccionarios = NSArray(contentsOfFile: path!)
-        let problema = arrDiccionarios[0] as! NSDictionary
+        arrDiccionarios = NSDictionary(contentsOfFile: path!)
+        let  tema = arrDiccionarios["Nombres propios"] as! NSDictionary
+        let  tipo = tema["Basico"] as! NSDictionary
+        let problemas = tipo["verdaderoFalso"] as! NSMutableArray
+        problemasDisp = problemas
+        var x = Int.random(in: 0..<problemas.count)
+        problema = problemas[x] as! NSDictionary
         txtProblema.text = problema["Problema"] as! String
         
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        var x = Int.random(in: 0..<problemasDisp.count)
+        problema = problemasDisp[x] as! NSDictionary
+        txtProblema.text = problema["Problema"] as! String
     }
     
     @IBAction func falseBtn(_ sender: UIButton) {
@@ -41,18 +54,17 @@ class BasicoVFViewController: UIViewController {
         let puntajeView = segue.destination as! PuntajeViewController
         let boton = sender as! UIButton
         if(boton.restorationIdentifier == "btTrue"){
-            let problema = arrDiccionarios[0] as! NSDictionary
             print(problema)
             if  true == (problema["Respuesta"] as! Bool){
                 print("correcto")
                 bCorrecto = true
                 defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
+                
             }else{
                 print("incorrecto")
                 bCorrecto = false
             }
         } else {
-            let problema = arrDiccionarios[0] as! NSDictionary
             print(problema)
             if  false == (problema["Respuesta"] as! Bool){
                 print("correcto")
