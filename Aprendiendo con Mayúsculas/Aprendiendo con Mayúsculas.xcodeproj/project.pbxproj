@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
+		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
+		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
 		8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71A2535317F00B8A4F1 /* AppDelegate.swift */; };
 		8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */; };
 		8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71E2535317F00B8A4F1 /* ViewController.swift */; };
@@ -25,6 +28,7 @@
 		8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E758253623C500B8A4F1 /* ContactoViewController.swift */; };
 		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
+		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
+		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
 		8819E7172535317F00B8A4F1 /* Aprendiendo con Mayúsculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aprendiendo con Mayúsculas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8819E71A2535317F00B8A4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +76,7 @@
 		8819E758253623C500B8A4F1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
+		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
+				4DB518F1253798D600C79229 /* Property List.plist */,
+				4DB518FB2537AEDC00C79229 /* TemasPList.plist */,
 				8819E71A2535317F00B8A4F1 /* AppDelegate.swift */,
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
+				BE210F562537A78900A30341 /* PuntajeViewController.swift */,
+				4DB518F625379AE000C79229 /* TrueFalseViewController.swift */,
 				8819E754253623B300B8A4F1 /* ConfigViewController.swift */,
 				8819E756253623BD00B8A4F1 /* RecursosViewController.swift */,
 				8819E758253623C500B8A4F1 /* ContactoViewController.swift */,
@@ -265,6 +277,8 @@
 				8819E7272535318000B8A4F1 /* LaunchScreen.storyboard in Resources */,
 				8819E75D2536C30800B8A4F1 /* mayus.json in Resources */,
 				8819E7242535318000B8A4F1 /* Assets.xcassets in Resources */,
+				4DB518F2253798D600C79229 /* Property List.plist in Resources */,
+				4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */,
 				8819E7222535317F00B8A4F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,10 +310,12 @@
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */,
 				8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */,
+				BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */,
 				8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */,
 				8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */,
 				8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */,
 				8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */,
+				4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */,
 				8819E755253623B300B8A4F1 /* ConfigViewController.swift in Sources */,
 				8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */,
 			);

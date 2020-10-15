@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Dias</key>
+	<dict>
+		<key>Teoría</key>
+		<dict>
+			<key>Imagen</key>
+			<string>imagen</string>
+			<key>Explicación</key>
+			<string>Los días de la semana no llevan mayúsculas</string>
+		</dict>
+		<key>Ejemplos</key>
+		<array>
+			<dict>
+				<key>Justificación</key>
+				<string>Minúscula porque es día de la semana </string>
+				<key>Ejemplo</key>
+				<string>Hoy es lunes</string>
+			</dict>
+		</array>
+	</dict>
+	<key>NombresPropios</key>
+	<dict>
+		<key>Teoría</key>
+		<dict>
+			<key>Imagen</key>
+			<string>imagen</string>
+			<key>Explicación</key>
+			<string>Los nombres propios llevan mayúsculas</string>
+		</dict>
+		<key>Ejemplos</key>
+		<array>
+			<dict>
+				<key>Ejemplo</key>
+				<string>Me llamo Moisés</string>
+				<key>Justificación</key>
+				<string>Es un nombre propio.</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
