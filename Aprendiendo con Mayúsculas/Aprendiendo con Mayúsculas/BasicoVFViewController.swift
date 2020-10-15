@@ -26,28 +26,11 @@ class BasicoVFViewController: UIViewController {
     }
     
     @IBAction func falseBtn(_ sender: UIButton) {
-        let problema = arrDiccionarios[0] as! NSDictionary
-        print(problema)
-        if  false == (problema["Respuesta"] as! Bool){
-            print("correcto")
-            bCorrecto = true
-        }else{
-            print("incorrecto")
-            bCorrecto = false
-        }
+        
     }
     
     @IBAction func trueBtn(_ sender: UIButton) {
-        let problema = arrDiccionarios[0] as! NSDictionary
-        print(problema)
-        if  true == (problema["Respuesta"] as! Bool){
-            print("correcto")
-            bCorrecto = true
-            defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
-        }else{
-            print("incorrecto")
-            bCorrecto = false
-        }
+        
     }
     
     // MARK: - Navigation
@@ -56,6 +39,29 @@ class BasicoVFViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let puntajeView = segue.destination as! PuntajeViewController
+        let boton = sender as! UIButton
+        if(boton.restorationIdentifier == "btTrue"){
+            let problema = arrDiccionarios[0] as! NSDictionary
+            print(problema)
+            if  true == (problema["Respuesta"] as! Bool){
+                print("correcto")
+                bCorrecto = true
+                defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
+            }else{
+                print("incorrecto")
+                bCorrecto = false
+            }
+        } else {
+            let problema = arrDiccionarios[0] as! NSDictionary
+            print(problema)
+            if  false == (problema["Respuesta"] as! Bool){
+                print("correcto")
+                bCorrecto = true
+            }else{
+                print("incorrecto")
+                bCorrecto = false
+            }
+        }
         puntajeView.correcto = bCorrecto
     }
     
