@@ -28,6 +28,7 @@
 		8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E758253623C500B8A4F1 /* ContactoViewController.swift */; };
 		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
+		88E630052539FE5E00F13608 /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E630042539FE5E00F13608 /* Tema.swift */; };
 		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		8819E758253623C500B8A4F1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
+		88E630042539FE5E00F13608 /* Tema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
 		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 				8819E74E2535619100B8A4F1 /* EjemploViewController.swift */,
 				8819E74C2535612800B8A4F1 /* NormaController.swift */,
 				8819E75A2536C18E00B8A4F1 /* LoadData.swift */,
+				88E630042539FE5E00F13608 /* Tema.swift */,
 				8819E74A25355C2000B8A4F1 /* TableViewController.swift */,
 				8819E7232535318000B8A4F1 /* Assets.xcassets */,
 				8819E7252535318000B8A4F1 /* LaunchScreen.storyboard */,
@@ -306,6 +309,7 @@
 			files = (
 				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
+				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */,

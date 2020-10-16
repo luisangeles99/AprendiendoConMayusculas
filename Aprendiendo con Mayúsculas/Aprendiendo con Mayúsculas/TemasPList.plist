@@ -2,43 +2,77 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Fechas y estaciones</key>
+	<key>Mayúsculas</key>
 	<dict>
-		<key>Teoría</key>
+		<key>Nombres propios</key>
 		<dict>
-			<key>Imagen</key>
-			<string>imagen</string>
-			<key>Explicación</key>
-			<string>Los días de la semana no llevan mayúsculas</string>
-		</dict>
-		<key>Ejemplos</key>
-		<array>
+			<key>Teoría</key>
 			<dict>
-				<key>Justificación</key>
-				<string>Minúscula porque es día de la semana </string>
-				<key>Ejemplo</key>
-				<string>Hoy es lunes</string>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
 			</dict>
-		</array>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Marcas</key>
+		<dict/>
+		<key>Publicaciones periódicas</key>
+		<dict/>
+		<key>Títulos de publicaciones</key>
+		<dict/>
+		<key>Días festivos</key>
+		<dict/>
+		<key>Nombres de organismos públicos y privados</key>
+		<dict/>
+		<key>Abreviaturas, siglas y acrónimos</key>
+		<dict/>
+		<key>Nombres de disciplinas científicas y materias escolares</key>
+		<dict/>
+		<key>Fórmulas de tratamiento</key>
+		<dict/>
+		<key>Unidades de medición</key>
+		<dict/>
+		<key>Símbolos químicos</key>
+		<dict/>
+		<key>Nombres científicos</key>
+		<dict/>
+		<key>Usos diacríticos</key>
+		<dict/>
 	</dict>
-	<key>Nombres propios</key>
+	<key>Minúsculas</key>
 	<dict>
-		<key>Teoría</key>
+		<key>Nombres comunes</key>
+		<dict/>
+		<key>Gentilicios</key>
+		<dict/>
+		<key>Fechas y estaciones</key>
 		<dict>
-			<key>Imagen</key>
-			<string>imagen</string>
-			<key>Explicación</key>
-			<string>Los nombres propios llevan mayúsculas</string>
-		</dict>
-		<key>Ejemplos</key>
-		<array>
+			<key>Teoría</key>
 			<dict>
-				<key>Ejemplo</key>
-				<string>Me llamo Moisés</string>
-				<key>Justificación</key>
-				<string>Es un nombre propio.</string>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los días de la semana no llevan mayúsculas</string>
 			</dict>
-		</array>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Justificación</key>
+					<string>Minúscula porque es día de la semana </string>
+					<key>Ejemplo</key>
+					<string>Hoy es lunes</string>
+				</dict>
+			</array>
+		</dict>
 	</dict>
 </dict>
 </plist>
