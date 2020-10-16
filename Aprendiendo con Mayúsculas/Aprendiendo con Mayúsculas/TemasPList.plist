@@ -24,36 +24,274 @@
 			</array>
 		</dict>
 		<key>Marcas</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Publicaciones periódicas</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Títulos de publicaciones</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Días festivos</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Nombres de organismos públicos y privados</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Abreviaturas, siglas y acrónimos</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Nombres de disciplinas científicas y materias escolares</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Fórmulas de tratamiento</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Unidades de medición</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Símbolos químicos</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Nombres científicos</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Usos diacríticos</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 	</dict>
 	<key>Minúsculas</key>
 	<dict>
 		<key>Nombres comunes</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Gentilicios</key>
-		<dict/>
+		<dict>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres propios llevan mayúsculas</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Fechas y estaciones</key>
 		<dict>
 			<key>Teoría</key>

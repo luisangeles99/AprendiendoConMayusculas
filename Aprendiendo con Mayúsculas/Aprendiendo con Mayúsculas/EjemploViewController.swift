@@ -24,8 +24,9 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
         super.viewDidLoad()
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
+        let cat = myPList["Mayúsculas"] as! NSDictionary
         print(tema)
-        var norma = myPList[tema] as! NSDictionary
+        let norma = cat[tema] as! NSDictionary
         arrEjemplos = norma["Ejemplos"] as! NSArray
         
 
@@ -38,7 +39,7 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
         let alert = UIAlertController(title: "Justificación", message: (unEjemplo["Justificación"] as! String), preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
-        print(unEjemplo["Justificación"])
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,12 +47,12 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 90
+        return 151.0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celda") as! customCell
-        var unEjemplo = arrEjemplos[indexPath.row] as! NSDictionary
+        let unEjemplo = arrEjemplos[indexPath.row] as! NSDictionary
         celda.myLb.text = unEjemplo["Ejemplo"] as! String
         celda.myBtn.tag = indexPath.row
         return celda

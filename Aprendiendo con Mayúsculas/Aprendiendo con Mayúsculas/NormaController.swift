@@ -9,6 +9,8 @@
 import UIKit
 
 class NormaController: UIViewController {
+    
+    @IBOutlet weak var media1img: UIImageView!
     @IBOutlet weak var myTitle: UILabel!
     @IBOutlet weak var explicacion: UILabel!
     var myPList : NSDictionary!
@@ -24,6 +26,7 @@ class NormaController: UIViewController {
         norma = norma["Teoría"] as! NSDictionary
         explicacion.text = norma["Explicación"] as! String
         myTitle.text = tema
+        media1img.image = UIImage(named: "infografia_ej")
         // Do any additional setup after loading the view.
     }
     
