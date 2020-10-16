@@ -18,6 +18,16 @@ class ViewController: UIViewController {
         title = minmay
         // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueTeoria"{
+            let vistaTeoria = segue.destination as! NormaController
+            vistaTeoria.tema = tema
+        }else if segue.identifier == "segueEjemplos"{
+            let vistaEjemplos = segue.destination as!EjemploViewController
+            vistaEjemplos.tema = tema
+        }
+    }
 
 
 }
