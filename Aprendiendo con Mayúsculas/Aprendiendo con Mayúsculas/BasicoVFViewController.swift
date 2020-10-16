@@ -26,8 +26,8 @@ class BasicoVFViewController: UIViewController {
         let problemas = tipo["verdaderoFalso"] as! NSMutableArray
         problemasDisp = problemas
         var x = Int.random(in: 0..<problemas.count)
-        problema = problemas[x] as! NSDictionary
-        txtProblema.text = problema["Problema"] as! String
+        problema = problemas[x] as? NSDictionary
+        txtProblema.text = problema["Problema"] as? String
         
         // Do any additional setup after loading the view.
     }
