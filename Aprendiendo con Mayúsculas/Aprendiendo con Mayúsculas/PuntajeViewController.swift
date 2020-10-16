@@ -20,7 +20,7 @@ class PuntajeViewController: UIViewController {
         if (correcto) {
             lbCorrecto.text = "¡Correcto!"
         } else {
-            lbCorrecto.tintColor = UIColor.red
+            lbCorrecto.textColor = UIColor.red
             lbCorrecto.text = "Incorrecto"
         }
     }

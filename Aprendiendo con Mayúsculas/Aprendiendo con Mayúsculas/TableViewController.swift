@@ -10,8 +10,8 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    var numOfRows = [7,3]
-    let dummyArray = [["Nombres propios", "titulo", "titulo", "titulo", "titulo", "titulo", "titulo7"], ["Días de la semana.", "min2", "min3"]]
+    var numOfRows = [13,3]
+    let dummyArray = [["Nombres propios", "Marcas", "Publicaciones periódicas", "Títulos de publicaciones", "Días festivos", "Organismos públicos y privados", "Abreviaturas, siglas y acrónimos", "Disciplinas científicas", "Grados académicos", "Unidades de medición", "Símbolos químicos", "Nombres científicos", "Usos diacríticos"], ["Nombres comunes", "Gentilicios", "Fechas y estaciones"]]
     let headerTitles = ["Mayúsculas", "Minúsculas"]
     
     override func viewDidLoad() {
@@ -97,8 +97,8 @@ class TableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var destination = segue.destination as! ViewController
-        destination.minmay = "MinMay"
         let indice = tableView.indexPathForSelectedRow!
+        destination.minmay = headerTitles[indice.section]
         destination.tema = dummyArray[indice.section][indice.row]
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.

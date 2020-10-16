@@ -9,10 +9,19 @@
 import UIKit
 
 class NormaController: UIViewController {
+    @IBOutlet weak var myTitle: UILabel!
+    @IBOutlet weak var explicacion: UILabel!
+    var myPList : NSDictionary!
+    var tema : String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
+        myPList = NSDictionary(contentsOfFile: path!)
+        var norma = myPList[tema] as! NSDictionary
+        norma = norma["Teoría"] as! NSDictionary
+        explicacion.text = norma["Explicación"] as! String
+        myTitle.text = tema
         // Do any additional setup after loading the view.
     }
     

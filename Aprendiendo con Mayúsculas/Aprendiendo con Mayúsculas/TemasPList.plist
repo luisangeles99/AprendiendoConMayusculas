@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Dias</key>
+	<key>Fechas y estaciones</key>
 	<dict>
 		<key>Teoría</key>
 		<dict>
@@ -21,7 +21,7 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NombresPropios</key>
+	<key>Nombres propios</key>
 	<dict>
 		<key>Teoría</key>
 		<dict>
