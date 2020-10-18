@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1E2773253CFA530001DC29 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E2772253CFA530001DC29 /* customButton.swift */; };
+		4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E277A253CFC870001DC29 /* customButtonVF.swift */; };
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
 		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
@@ -130,9 +134,11 @@
 			isa = PBXGroup;
 			children = (
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
+				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				4DB518F1253798D600C79229 /* Property List.plist */,
 				4DB518FB2537AEDC00C79229 /* TemasPList.plist */,
 				8819E71A2535317F00B8A4F1 /* AppDelegate.swift */,
+				4D1E277A253CFC870001DC29 /* customButtonVF.swift */,
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
@@ -311,8 +317,10 @@
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
 				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
+				4D1E2773253CFA530001DC29 /* customButton.swift in Sources */,
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */,
+				4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */,
 				8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */,
 				BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */,
 				8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */,
