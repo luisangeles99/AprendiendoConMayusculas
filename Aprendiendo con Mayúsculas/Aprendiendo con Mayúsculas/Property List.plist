@@ -1,18 +1,566 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+<dict>
+	<key>Marcas</key>
 	<dict>
-		<key>completado</key>
-		<false/>
-		<key>Respuesta</key>
-		<true/>
-		<key>Problema</key>
-		<string>PROBLEMA TEST</string>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
 	</dict>
-	<array/>
-	<array/>
-	<string></string>
-	<string></string>
-</array>
+	<key>Nombres propios</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Fechas y estaciones</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Gentilicios</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Nombres comunes</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Usos diacríticos</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Nombres científicos</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Símbolos químicos</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Unidades de medición</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Grados académicos</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Disciplinas científicas</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Abreviaturas, siglas y acrónimos</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Organismos públicos y privados</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Días festivos</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Títulos de publicaciones</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Publicaciones periódicas</key>
+	<dict>
+		<key>Avanzado</key>
+		<dict/>
+		<key>Basico</key>
+		<dict>
+			<key>verdaderoFalso</key>
+			<array>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 1</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 2</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Problema de prueba 3</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
 </plist>

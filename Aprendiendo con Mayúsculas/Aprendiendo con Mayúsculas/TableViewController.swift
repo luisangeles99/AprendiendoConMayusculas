@@ -8,17 +8,39 @@
 
 import UIKit
 
+class customTableViewCell: UITableViewCell{
+    //celda customized
+    @IBOutlet weak var imgTema: UIImageView!
+    @IBOutlet weak var nombreTema: UILabel!
+    @IBOutlet weak var insignia: UIImageView!
+}
+
 class TableViewController: UITableViewController {
 
+    
+    
+    @IBOutlet weak var navBarAppearence: UINavigationItem!
+    
+    var infoPlist : NSDictionary!
     var numOfRows = [13,3]
-    let dummyArray = [["Nombres propios", "Marcas", "Publicaciones periódicas", "Títulos de publicaciones", "Días festivos", "Organismos públicos y privados", "Abreviaturas, siglas y acrónimos", "Disciplinas científicas", "Grados académicos", "Unidades de medición", "Símbolos químicos", "Nombres científicos", "Usos diacríticos"], ["Nombres comunes", "Gentilicios", "Fechas y estaciones"]]
-    let headerTitles = ["Mayúsculas", "Minúsculas"]
+    var headerTitles : [String]!
+    var temasTitles : [[String]?] = [[],[]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        obtenerInfo()
         title = "Inicio"
+        
+        headerTitles = infoPlist.allKeys as? [String]
+        let mayusTitles = infoPlist["Mayúsculas"] as! NSDictionary
+        let minusTitles = infoPlist["Minúsculas"] as! NSDictionary
+        temasTitles[0] = mayusTitles.allKeys as? [String]
+        temasTitles[1] = minusTitles.allKeys as? [String]
+        
+      
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -30,7 +52,7 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         
-        return 2
+        return headerTitles.count
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -47,12 +69,18 @@ class TableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! customTableViewCell
 
-        cell.textLabel?.text = dummyArray[indexPath.section][indexPath.row]
-        
+        cell.nombreTema.text = temasTitles[indexPath.section]![indexPath.row]
+        cell.imgTema.image = UIImage(named: "Aa")
+        cell.insignia.image = UIImage(named: "medalla")
 
         return cell
+    }
+    
+    //Height of row
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 126.0
     }
     
 
@@ -90,7 +118,13 @@ class TableViewController: UITableViewController {
         return true
     }
     */
-
+    
+    //MARK: - Obtener Temas del plist
+    @IBAction func obtenerInfo(){
+        let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
+        infoPlist = NSDictionary(contentsOfFile: path!)
+    }
+    
     
     // MARK: - Navigation
 
@@ -99,7 +133,7 @@ class TableViewController: UITableViewController {
         var destination = segue.destination as! ViewController
         let indice = tableView.indexPathForSelectedRow!
         destination.minmay = headerTitles[indice.section]
-        destination.tema = dummyArray[indice.section][indice.row]
+        destination.tema = temasTitles[indice.section]![indice.row]
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
