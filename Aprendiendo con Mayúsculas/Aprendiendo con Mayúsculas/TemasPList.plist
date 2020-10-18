@@ -21,6 +21,12 @@
 					<key>Justificación</key>
 					<string>Es un nombre propio.</string>
 				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Me llamo Moisés</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
 			</array>
 		</dict>
 		<key>Marcas</key>
@@ -30,7 +36,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Las marcas comerciales son nombres propios, de forma que, utilizados específicamente para referirse a un producto de la marca, han de escribirse con mayúscula.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -68,15 +74,27 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>La primera palabra del título de cualquier obra de creación (libros, películas, cuadros, esculturas, piezas musicales, programas de radio o televisión, etc.); el resto de las palabras que lo componen, salvo que se trate de nombres propios, deben escribirse con minúscula.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>El laberinto de la soledad</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Solo se pone mayúscula en la primer palabra, aunque sea un preposición.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Por quién doblan las campanas</string>
+					<key>Justificación</key>
+					<string>Solo se pone mayúscula en la primer palabra, aunque sea un preposición.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Cien años de soledad</string>
+					<key>Justificación</key>
+					<string>Solo se pone mayúscula en la primer palabra.</string>
 				</dict>
 			</array>
 		</dict>
@@ -87,7 +105,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Los nombres de festividades religiosas o civiles se escriben con mayúscula.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -106,7 +124,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Se escriben con mayúscula los sustantivos y adjetivos que componen el nombre de entidades, organismos, departamentos o divisiones administrativas, edificios, monumentos, establecimientos públicos, partidos políticos, etc.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>

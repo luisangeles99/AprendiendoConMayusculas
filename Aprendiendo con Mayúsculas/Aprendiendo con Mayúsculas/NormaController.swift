@@ -19,6 +19,7 @@ class NormaController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = tema
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
         var cat = myPList["Mayúsculas"] as! NSDictionary
