@@ -22,12 +22,15 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Ejemplos"
+        
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
         let cat = myPList["Mayúsculas"] as! NSDictionary
-        print(tema)
-        let norma = cat[tema] as! NSDictionary
-        arrEjemplos = norma["Ejemplos"] as! NSArray
+        //print(tema)
+        let norma = cat[tema!] as! NSDictionary
+        arrEjemplos = norma["Ejemplos"] as? NSArray
         
 
         // Do any additional setup after loading the view.

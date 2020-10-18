@@ -17,7 +17,10 @@ class customTableViewCell: UITableViewCell{
 
 class TableViewController: UITableViewController {
 
-
+    
+    
+    @IBOutlet weak var navBarAppearence: UINavigationItem!
+    
     var infoPlist : NSDictionary!
     var numOfRows = [13,3]
     var headerTitles : [String]!
@@ -35,6 +38,7 @@ class TableViewController: UITableViewController {
         temasTitles[0] = mayusTitles.allKeys as? [String]
         temasTitles[1] = minusTitles.allKeys as? [String]
         
+      
         
         
         // Uncomment the following line to preserve selection between presentations
