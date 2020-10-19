@@ -16,16 +16,17 @@ class NormaController: UIViewController {
     var myPList : NSDictionary!
     var tema : String!
     var seccion : Int!
+    var categoria: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = tema
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
-        var cat = myPList["Mayúsculas"] as! NSDictionary
-        var norma = cat[tema] as! NSDictionary
+        let cat = myPList[categoria!] as! NSDictionary
+        var norma = cat[tema!] as! NSDictionary
         norma = norma["Teoría"] as! NSDictionary
-        explicacion.text = norma["Explicación"] as! String
+        explicacion.text = norma["Explicación"] as? String
         myTitle.text = tema
         media1img.image = UIImage(named: "infografia_ej")
         // Do any additional setup after loading the view.
