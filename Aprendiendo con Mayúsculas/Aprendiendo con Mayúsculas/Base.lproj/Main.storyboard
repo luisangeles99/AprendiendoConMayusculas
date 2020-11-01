@@ -15,43 +15,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-
-
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB4-al-A6b">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB4-al-A6b" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="71" y="204" width="273" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.16418161988258362" green="0.47509568929672241" blue="0.93177968263626099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Norma"/>
-
                                 <connections>
                                     <segue destination="THo-fU-ZAn" kind="show" identifier="segueTeoria" id="eW2-oz-QPp"/>
                                 </connections>
                             </button>
-
-
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obF-yF-kEq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obF-yF-kEq" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="71" y="390" width="273" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.039017278701066971" green="0.92684626579284668" blue="0.79674476385116577" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Ejemplos"/>
-
-
                                 <connections>
                                     <segue destination="PvL-WQ-axu" kind="show" id="F2U-wK-4Bt"/>
                                 </connections>
                             </button>
-
-
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-vS-Ogq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-vS-Ogq" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="71" y="579" width="273" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484375" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Práctica"/>
-
-
                                 <connections>
                                     <segue destination="n3D-vp-5dc" kind="show" identifier="segueEjemplos" id="g6Q-GJ-ZJu"/>
                                 </connections>
@@ -485,12 +474,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qs-6K-98j">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qs-6K-98j" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="71" y="336" width="273" height="117"/>
-
-
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5607843137254902" green="0.9137254901960784" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -499,11 +484,8 @@
                                     <segue destination="1xl-7K-TgQ" kind="show" id="08k-gN-I0E"/>
                                 </connections>
                             </button>
-
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-he-kco">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-he-kco" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="72" y="567" width="273" height="117"/>
-
-
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -534,10 +516,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="btFalse" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ln-oc-2iR">
                                 <rect key="frame" x="49" y="563" width="145" height="64"/>
-
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="False"/>
@@ -546,13 +526,10 @@
                                     <segue destination="dJC-7P-4Sq" kind="show" id="LZy-mU-uxg"/>
                                 </connections>
                             </button>
-
-
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="btTrue" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSI-0C-gUU">
                                 <rect key="frame" x="230" y="563" width="145" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26777303218841553" green="0.91636151075363159" blue="0.25262558460235596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-
                                 <state key="normal" title="True"/>
                                 <connections>
                                     <action selector="trueBtn:" destination="1xl-7K-TgQ" eventType="touchUpInside" id="jmc-bQ-tlW"/>
@@ -628,7 +605,7 @@
                 <navigationController id="XDL-Kh-Io7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Recursos" image="pencil" catalog="system" selectedImage="pencil" id="ZKz-mb-tLy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="npL-NQ-tJ3">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
