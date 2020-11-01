@@ -23,9 +23,11 @@ class ViewController: UIViewController {
         if segue.identifier == "segueTeoria"{
             let vistaTeoria = segue.destination as! NormaController
             vistaTeoria.tema = tema
+            vistaTeoria.categoria = minmay
         }else if segue.identifier == "segueEjemplos"{
             let vistaEjemplos = segue.destination as!EjemploViewController
             vistaEjemplos.tema = tema
+            vistaEjemplos.categoria = minmay
         }
     }
 

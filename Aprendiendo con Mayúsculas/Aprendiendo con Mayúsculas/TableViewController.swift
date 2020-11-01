@@ -34,9 +34,13 @@ class TableViewController: UITableViewController {
         
         headerTitles = infoPlist.allKeys as? [String]
         let mayusTitles = infoPlist["Mayúsculas"] as! NSDictionary
+        
         let minusTitles = infoPlist["Minúsculas"] as! NSDictionary
         temasTitles[0] = mayusTitles.allKeys as? [String]
+        temasTitles[0] = temasTitles[0]!.sorted(by: { s1, s2 in return s1 < s2 })
         temasTitles[1] = minusTitles.allKeys as? [String]
+        temasTitles[1] = temasTitles[1]!.sorted(by: { s1, s2 in return s1 < s2 })
+        
         
       
         

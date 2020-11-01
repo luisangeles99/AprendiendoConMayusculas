@@ -19,6 +19,7 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
     var myPList : NSDictionary!
     @IBOutlet weak var tableView: UITableView!
     var arrEjemplos : NSArray!
+    var categoria: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +28,7 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
         
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
-        let cat = myPList["Mayúsculas"] as! NSDictionary
+        let cat = myPList[categoria!] as! NSDictionary
         //print(tema)
         let norma = cat[tema!] as! NSDictionary
         arrEjemplos = norma["Ejemplos"] as? NSArray
