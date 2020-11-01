@@ -15,8 +15,8 @@ class PuntajeViewController: UIViewController {
     var correcto : Bool!
     override func viewDidLoad() {
         super.viewDidLoad()
-        var puntos = defaults.integer(forKey: "puntos")
-        lbPuntos.text = String(defaults.integer(forKey: "puntos"))
+        let puntos = defaults.integer(forKey: "puntos")
+        lbPuntos.text = String(puntos)
         if (correcto) {
             lbCorrecto.text = "¡Correcto!"
         } else {

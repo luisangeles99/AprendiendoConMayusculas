@@ -11,7 +11,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string> Los nombes propios llevan mayúscula para diferenciarlos de los comunes “son sustantivos o grupos nominales creados específicamente para designar y referirse a seres únicos, ya sean animados o inanimados: personas, animales, lugares geográficos, instituciones, obras de creación, acontecimientos, etc.” (RAE, 2010)</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -143,7 +143,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Se escriben enteramente en mayúscula las siglas y algunos acrónimos: ISBN, OTI, ONG. Cuando los acrónimos son nombres propios y tienen más de cuatro letras, solo se escribe en mayúscula la inicial.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -162,7 +162,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Los sustantivos y adjetivos que forman el nombre de disciplinas científicas, cuando nos referimos a ellas como materias de estudio, y especialmente en contextos académicos (nombres de asignaturas, cátedras, facultades, etc.) o curriculares</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -181,7 +181,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se enceuntran en una abrevación, caso contrario se escriben minúscula. Únicamente cuando la fórmula de tratamiento funcione como nombre propio.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -200,7 +200,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Las unidades de medida se escriben normalmente con minúscula (g, dm, ha), salvo los de aquellas unidades que tienen su origen en nombres propios de persona, que se escriben con mayúscula: N por newton (de Isaac Newton), W por vatio (de Jacobo Watt)</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -219,7 +219,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Los de los elementos químicos se escriben con una sola letra mayúscula: C, O; o, si están constituidos por dos letras, con una combinación de mayúscula y minúscula: Ag, Fe.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -238,7 +238,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>FALTA EXPLICACIÓN</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -257,7 +257,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>La mayúscula diacrítica sirve para diferenciar un significado de nombre propio de otro de nombre común, permite distinguir entre aceptaciones distintas de una palabra.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>

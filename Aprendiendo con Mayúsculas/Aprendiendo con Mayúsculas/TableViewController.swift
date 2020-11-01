@@ -37,8 +37,10 @@ class TableViewController: UITableViewController {
         
         let minusTitles = infoPlist["Minúsculas"] as! NSDictionary
         temasTitles[0] = mayusTitles.allKeys as? [String]
-        temasTitles[0] = temasTitles[0]!.sorted(by: { s1, s2 in return s1 < s2 })
         temasTitles[1] = minusTitles.allKeys as? [String]
+        
+        //Ordenar el array por orden alfabético
+        temasTitles[0] = temasTitles[0]!.sorted(by: { s1, s2 in return s1 < s2 })
         temasTitles[1] = temasTitles[1]!.sorted(by: { s1, s2 in return s1 < s2 })
         
         
@@ -134,7 +136,7 @@ class TableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var destination = segue.destination as! ViewController
+        let destination = segue.destination as! ViewController
         let indice = tableView.indexPathForSelectedRow!
         destination.minmay = headerTitles[indice.section]
         destination.tema = temasTitles[indice.section]![indice.row]

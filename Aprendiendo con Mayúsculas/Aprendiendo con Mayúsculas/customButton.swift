@@ -25,7 +25,13 @@ class CustomButton: UIButton {
     func setupButton() {
         setShadow()
         setTitleColor(.white, for: .normal)
-        backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
+        if titleLabel?.text == "Avanzado"{
+            backgroundColor = UIColor.red.withAlphaComponent(0.5)
+        }else if titleLabel?.text == "Básico"{
+            backgroundColor = #colorLiteral(red: 0.5607843137, green: 0.9137254902, blue: 0.7607843137, alpha: 1)
+        }else{
+           backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
+        }
 
         //titleLabel?.font     = UIFont(name: "AvenirNext-DemiBold", size: 18)
         layer.cornerRadius   = 25
