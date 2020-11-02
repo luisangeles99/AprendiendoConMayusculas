@@ -10,6 +10,8 @@ import UIKit
 
 class NormaController: UIViewController {
     
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var viewInterna: UIView!
     @IBOutlet weak var media1img: UIImageView!
     @IBOutlet weak var myTitle: UILabel!
     @IBOutlet weak var explicacion: UILabel!
@@ -20,6 +22,9 @@ class NormaController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.contentSize = viewInterna.frame.size
+        
         title = tema
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
