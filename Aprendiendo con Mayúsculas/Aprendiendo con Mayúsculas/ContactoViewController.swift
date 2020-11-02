@@ -10,15 +10,39 @@ import UIKit
 
 class ContactoViewController: UIViewController {
 
+    @IBOutlet weak var btContacto1: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Contacto"
         
+        
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onClickContact1(_ sender: UIButton) {
+        if let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdg6lvRLUjIKmc_73yfIr0REEs6zzDQGCSS1JSHnzc1wRuwXA/viewform") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func onClickSocialFB(_ sender: UIButton) {
+        if let url = URL(string: "https://www.facebook.com/cescrituraTEC/") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func onClickSocialTw(_ sender: UIButton) {
+        if let url = URL(string: "https://twitter.com/cescrituratec") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    @IBAction func onClickSocialIG(_ sender: UIButton) {
+        if let url = URL(string: "https://www.instagram.com/cescrituraTEC/") {
+            UIApplication.shared.open(url)
+        }
+    }
     /*
     // MARK: - Navigation
 
