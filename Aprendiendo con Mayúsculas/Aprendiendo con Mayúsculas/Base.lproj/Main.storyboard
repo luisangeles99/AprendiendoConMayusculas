@@ -130,26 +130,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJo-YK-pbl">
-                                <rect key="frame" x="20" y="224" width="374" height="297"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L73-ca-wvG">
-                                <rect key="frame" x="20" y="564" width="374" height="239"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufe-Sz-8KP">
-                                <rect key="frame" x="56" y="161" width="302" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLT-Go-KaK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcx-8R-kgX">
+                                        <rect key="frame" x="0.0" y="-0.5" width="414" height="1095"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJo-YK-pbl">
+                                                <rect key="frame" x="20" y="159" width="374" height="297"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L73-ca-wvG">
+                                                <rect key="frame" x="20" y="495" width="374" height="239"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufe-Sz-8KP">
+                                                <rect key="frame" x="56" y="56" width="302" height="57"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1095" id="H25-Wu-en3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Bcx-8R-kgX" firstAttribute="leading" secondItem="cLT-Go-KaK" secondAttribute="leading" id="B1v-um-DWw"/>
+                                    <constraint firstItem="Bcx-8R-kgX" firstAttribute="top" secondItem="cLT-Go-KaK" secondAttribute="top" constant="-0.5" id="Kk2-Jf-jkk"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bcx-8R-kgX" secondAttribute="bottom" constant="-16" id="VtJ-zF-vwj"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bcx-8R-kgX" secondAttribute="trailing" id="gNd-uZ-Z6W"/>
+                                    <constraint firstItem="Bcx-8R-kgX" firstAttribute="width" secondItem="cLT-Go-KaK" secondAttribute="width" id="klK-7i-ot2"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cLT-Go-KaK" firstAttribute="top" secondItem="lTz-ik-fkb" secondAttribute="top" id="6wx-Mh-3g6"/>
+                            <constraint firstItem="cLT-Go-KaK" firstAttribute="trailing" secondItem="RT2-Dv-DEe" secondAttribute="trailing" id="I6b-Mr-gNh"/>
+                            <constraint firstAttribute="bottom" secondItem="cLT-Go-KaK" secondAttribute="bottom" id="La0-Ef-la5"/>
+                            <constraint firstItem="cLT-Go-KaK" firstAttribute="leading" secondItem="RT2-Dv-DEe" secondAttribute="leading" id="hsA-Yj-7GO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RT2-Dv-DEe"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Kn-RP-dRp"/>
@@ -157,11 +184,13 @@
                         <outlet property="explicacion" destination="eJo-YK-pbl" id="nds-Dx-glu"/>
                         <outlet property="media1img" destination="L73-ca-wvG" id="bt8-fk-8O8"/>
                         <outlet property="myTitle" destination="Ufe-Sz-8KP" id="SQ9-gI-mAE"/>
+                        <outlet property="scrollView" destination="cLT-Go-KaK" id="agG-qi-amW"/>
+                        <outlet property="viewInterna" destination="Bcx-8R-kgX" id="kki-Sf-84g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m8L-By-AF9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2624.6376811594205" y="-530.35714285714289"/>
+            <point key="canvasLocation" x="2689.8550724637685" y="-858.48214285714278"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DuP-hz-mHz">
@@ -245,7 +274,7 @@
                 <navigationController id="2EK-5D-vzV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Inicio" image="house.fill" catalog="system" selectedImage="house.fill" id="qv8-Ca-oF9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Yve-MV-7QU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -627,7 +656,7 @@
                 <navigationController id="Hob-g5-fDc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Ajustes" image="hammer.fill" catalog="system" selectedImage="hammer.fill" id="DST-G7-BTE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7ri-BQ-0KY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
