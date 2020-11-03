@@ -192,6 +192,29 @@
             </objects>
             <point key="canvasLocation" x="2689.8550724637685" y="-858.48214285714278"/>
         </scene>
+        <!--Trivia-->
+        <scene sceneID="xck-F6-Guf">
+            <objects>
+                <viewController id="fvO-tX-MYG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ucP-7f-RFN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-zK-AEh">
+                                <rect key="frame" x="183" y="690" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="JUGAR"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="EGx-EJ-FxO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trivia" image="person.3" catalog="system" id="vhq-5k-KlH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZx-NT-U6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-723" y="-858"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DuP-hz-mHz">
             <objects>
@@ -204,8 +227,9 @@
                     <connections>
                         <segue destination="2EK-5D-vzV" kind="relationship" relationship="viewControllers" id="TYF-hA-cWi"/>
                         <segue destination="XDL-Kh-Io7" kind="relationship" relationship="viewControllers" id="OyU-0h-Da1"/>
-                        <segue destination="pun-Gq-Y5H" kind="relationship" relationship="viewControllers" id="KKD-nZ-GMQ"/>
-                        <segue destination="Hob-g5-fDc" kind="relationship" relationship="viewControllers" id="ydI-cm-1GD"/>
+                        <segue destination="fvO-tX-MYG" kind="relationship" relationship="viewControllers" id="n2k-bx-g62"/>
+                        <segue destination="pun-Gq-Y5H" kind="relationship" relationship="viewControllers" id="Vtz-Vl-5QB"/>
+                        <segue destination="Hob-g5-fDc" kind="relationship" relationship="viewControllers" id="POs-Pv-ZB2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBh-uV-sjy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -236,10 +260,10 @@
                                             <rect key="frame" x="365" y="37" width="36" height="40"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnn-2V-8OI">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnn-2V-8OI">
                                             <rect key="frame" x="119" y="34" width="230" height="64"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="19"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -274,7 +298,7 @@
                 <navigationController id="2EK-5D-vzV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Inicio" image="house.fill" catalog="system" selectedImage="house.fill" id="qv8-Ca-oF9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Yve-MV-7QU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -656,7 +680,7 @@
                 <navigationController id="Hob-g5-fDc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Ajustes" image="hammer.fill" catalog="system" selectedImage="hammer.fill" id="DST-G7-BTE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7ri-BQ-0KY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -677,6 +701,7 @@
         <image name="hammer.fill" catalog="system" width="64" height="56"/>
         <image name="house.fill" catalog="system" width="64" height="52"/>
         <image name="pencil" catalog="system" width="64" height="56"/>
+        <image name="person.3" catalog="system" width="72" height="35"/>
         <image name="phone.fill" catalog="system" width="64" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>

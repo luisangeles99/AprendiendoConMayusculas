@@ -28,9 +28,15 @@
 					<string>Es un nombre propio.</string>
 				</dict>
 			</array>
+			<key>Imagen</key>
+			<string>Aa</string>
+			<key>completado</key>
+			<false/>
 		</dict>
 		<key>Marcas</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -50,6 +56,8 @@
 		</dict>
 		<key>Publicaciones periódicas</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -69,6 +77,8 @@
 		</dict>
 		<key>Títulos de publicaciones</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -100,6 +110,8 @@
 		</dict>
 		<key>Días festivos</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -119,6 +131,8 @@
 		</dict>
 		<key>Nombres de organismos públicos y privados</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -138,6 +152,8 @@
 		</dict>
 		<key>Abreviaturas, siglas y acrónimos</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -157,6 +173,8 @@
 		</dict>
 		<key>Nombres de disciplinas científicas y materias escolares</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -176,6 +194,8 @@
 		</dict>
 		<key>Fórmulas de tratamiento</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -195,6 +215,8 @@
 		</dict>
 		<key>Unidades de medición</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -214,6 +236,8 @@
 		</dict>
 		<key>Símbolos químicos</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -233,6 +257,8 @@
 		</dict>
 		<key>Nombres científicos</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -252,6 +278,8 @@
 		</dict>
 		<key>Usos diacríticos</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -274,6 +302,8 @@
 	<dict>
 		<key>Nombres comunes</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -293,6 +323,8 @@
 		</dict>
 		<key>Gentilicios</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -312,6 +344,8 @@
 		</dict>
 		<key>Fechas y estaciones</key>
 		<dict>
+			<key>Imagen</key>
+			<string>Aa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
