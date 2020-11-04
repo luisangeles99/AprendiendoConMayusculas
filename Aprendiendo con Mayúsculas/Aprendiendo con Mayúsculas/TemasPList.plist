@@ -29,14 +29,14 @@
 				</dict>
 			</array>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>barack</string>
 			<key>completado</key>
 			<false/>
 		</dict>
 		<key>Marcas</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>nikeLogo</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -57,7 +57,7 @@
 		<key>Publicaciones periódicas</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>nyTimes</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -78,7 +78,7 @@
 		<key>Títulos de publicaciones</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>libros</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -111,7 +111,7 @@
 		<key>Días festivos</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>ofrenda</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -132,7 +132,7 @@
 		<key>Nombres de organismos públicos y privados</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>segob</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -153,7 +153,7 @@
 		<key>Abreviaturas, siglas y acrónimos</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>ONU</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -174,7 +174,7 @@
 		<key>Nombres de disciplinas científicas y materias escolares</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>materias</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -195,13 +195,13 @@
 		<key>Fórmulas de tratamiento</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>papa</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se enceuntran en una abrevación, caso contrario se escriben minúscula. Únicamente cuando la fórmula de tratamiento funcione como nombre propio.</string>
+				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se encuentran en una abrevación, caso contrario se escriben minúscula. Mayúscula únicamente cuando la fórmula de tratamiento funcione como nombre propio, por ejemplo, el Papa visitó México.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -216,7 +216,7 @@
 		<key>Unidades de medición</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>newton</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -237,7 +237,7 @@
 		<key>Símbolos químicos</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>elementos</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -258,7 +258,7 @@
 		<key>Nombres científicos</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>leon</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -279,7 +279,7 @@
 		<key>Usos diacríticos</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>universidad</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -303,7 +303,7 @@
 		<key>Nombres comunes</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>lapiz</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -324,7 +324,7 @@
 		<key>Gentilicios</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>mex</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
@@ -345,7 +345,7 @@
 		<key>Fechas y estaciones</key>
 		<dict>
 			<key>Imagen</key>
-			<string>Aa</string>
+			<string>invierno</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>

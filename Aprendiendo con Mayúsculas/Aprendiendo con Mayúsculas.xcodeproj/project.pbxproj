@@ -30,6 +30,7 @@
 		8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E758253623C500B8A4F1 /* ContactoViewController.swift */; };
 		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
+		88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC884A2551FBE60029D2DE /* TriviaViewController.swift */; };
 		88E630052539FE5E00F13608 /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E630042539FE5E00F13608 /* Tema.swift */; };
 		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		8819E758253623C500B8A4F1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
+		88BC884A2551FBE60029D2DE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		88E630042539FE5E00F13608 /* Tema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
 		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
+				88BC884A2551FBE60029D2DE /* TriviaViewController.swift */,
 				BE210F562537A78900A30341 /* PuntajeViewController.swift */,
 				4DB518F625379AE000C79229 /* TrueFalseViewController.swift */,
 				8819E754253623B300B8A4F1 /* ConfigViewController.swift */,
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
+				88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */,
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
 				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
