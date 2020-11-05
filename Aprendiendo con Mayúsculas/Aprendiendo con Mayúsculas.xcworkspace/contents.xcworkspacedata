@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Aprendiendo con Mayúsculas.xcodeproj">
+      location = "group:Aprendiendo con May&#xfa;sculas.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

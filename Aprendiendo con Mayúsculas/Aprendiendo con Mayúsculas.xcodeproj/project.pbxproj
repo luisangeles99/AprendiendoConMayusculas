@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D0AA7C42550B3EA008A8A71 /* NSAttributedStringKeyCustomAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AA7C22550B3EA008A8A71 /* NSAttributedStringKeyCustomAttribute.swift */; };
-		4D0AA7C52550B3EA008A8A71 /* ViewControllerTapExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0AA7C32550B3EA008A8A71 /* ViewControllerTapExercise.swift */; };
 		4D1E2773253CFA530001DC29 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E2772253CFA530001DC29 /* customButton.swift */; };
 		4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E277A253CFC870001DC29 /* customButtonVF.swift */; };
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
@@ -35,6 +33,8 @@
 		88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC884A2551FBE60029D2DE /* TriviaViewController.swift */; };
 		88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */; };
 		88C63A0D2553B904006DB84C /* trivia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63A0C2553B904006DB84C /* trivia.plist */; };
+		88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */; };
+		88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */; };
 		88E630052539FE5E00F13608 /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E630042539FE5E00F13608 /* Tema.swift */; };
 		950757DECB1800970D44E82E /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */; };
 		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
@@ -59,8 +59,6 @@
 
 /* Begin PBXFileReference section */
 		1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
-		4D0AA7C22550B3EA008A8A71 /* NSAttributedStringKeyCustomAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSAttributedStringKeyCustomAttribute.swift; path = ../../../../Desktop/NSAttributedStringKeyCustomAttribute.swift; sourceTree = "<group>"; };
-		4D0AA7C32550B3EA008A8A71 /* ViewControllerTapExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerTapExercise.swift; path = ../../../../Desktop/ViewControllerTapExercise.swift; sourceTree = "<group>"; };
 		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
@@ -94,6 +92,8 @@
 		88BC884A2551FBE60029D2DE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuizViewController.swift; sourceTree = "<group>"; };
 		88C63A0C2553B904006DB84C /* trivia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = trivia.plist; sourceTree = "<group>"; };
+		88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTapExercise.swift; sourceTree = "<group>"; };
+		88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringKeyCustomAttribute.swift; sourceTree = "<group>"; };
 		88E630042539FE5E00F13608 /* Tema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
 		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
 		DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,15 +175,15 @@
 				8819E71A2535317F00B8A4F1 /* AppDelegate.swift */,
 				4D1E277A253CFC870001DC29 /* customButtonVF.swift */,
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
+				88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
 				88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */,
 				88BC884A2551FBE60029D2DE /* TriviaViewController.swift */,
-				4D0AA7C22550B3EA008A8A71 /* NSAttributedStringKeyCustomAttribute.swift */,
-				4D0AA7C32550B3EA008A8A71 /* ViewControllerTapExercise.swift */,
 				BE210F562537A78900A30341 /* PuntajeViewController.swift */,
 				4DB518F625379AE000C79229 /* TrueFalseViewController.swift */,
 				8819E754253623B300B8A4F1 /* ConfigViewController.swift */,
+				88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */,
 				8819E756253623BD00B8A4F1 /* RecursosViewController.swift */,
 				8819E758253623C500B8A4F1 /* ContactoViewController.swift */,
 				8819E7522536211C00B8A4F1 /* BasicoVFViewController.swift */,
@@ -380,13 +380,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
+				88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */,
 				88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */,
-				4D0AA7C42550B3EA008A8A71 /* NSAttributedStringKeyCustomAttribute.swift in Sources */,
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
 				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
 				4D1E2773253CFA530001DC29 /* customButton.swift in Sources */,
-				4D0AA7C52550B3EA008A8A71 /* ViewControllerTapExercise.swift in Sources */,
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */,
 				8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */,
@@ -395,6 +394,7 @@
 				BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */,
 				8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */,
 				8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */,
+				88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */,
 				8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */,
 				8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */,
 				4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */,
