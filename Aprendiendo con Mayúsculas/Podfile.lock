@@ -1,0 +1,16 @@
+PODS:
+  - SimpleRoulette (0.2.0)
+
+DEPENDENCIES:
+  - SimpleRoulette (~> 0.2)
+
+SPEC REPOS:
+  trunk:
+    - SimpleRoulette
+
+SPEC CHECKSUMS:
+  SimpleRoulette: 1fbeee278ab19c2796afdb14cc4ab8b9a5d59032
+
+PODFILE CHECKSUM: 4c7e700cbdc177f7cc2f99bf976bf0fdd2fb3765
+
+COCOAPODS: 1.10.0

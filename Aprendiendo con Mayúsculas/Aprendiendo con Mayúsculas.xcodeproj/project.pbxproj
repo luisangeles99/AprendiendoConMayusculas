@@ -31,7 +31,10 @@
 		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
 		88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC884A2551FBE60029D2DE /* TriviaViewController.swift */; };
+		88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */; };
+		88C63A0D2553B904006DB84C /* trivia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63A0C2553B904006DB84C /* trivia.plist */; };
 		88E630052539FE5E00F13608 /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E630042539FE5E00F13608 /* Tema.swift */; };
+		950757DECB1800970D44E82E /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */; };
 		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,11 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
+		7A7B0AF375C3F679805EE437 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.release.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.release.xcconfig"; sourceTree = "<group>"; };
 		8819E7172535317F00B8A4F1 /* Aprendiendo con Mayúsculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aprendiendo con Mayúsculas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8819E71A2535317F00B8A4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +88,11 @@
 		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
 		88BC884A2551FBE60029D2DE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuizViewController.swift; sourceTree = "<group>"; };
+		88C63A0C2553B904006DB84C /* trivia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = trivia.plist; sourceTree = "<group>"; };
 		88E630042539FE5E00F13608 /* Tema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
 		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
+		DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950757DECB1800970D44E82E /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39CF13D62FFD1E81626D7074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8F9BAA38638EAE3C72D8C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */,
+				7A7B0AF375C3F679805EE437 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8819E70E2535317F00B8A4F1 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +145,8 @@
 				8819E7302535318100B8A4F1 /* Aprendiendo con MayúsculasTests */,
 				8819E73B2535318100B8A4F1 /* Aprendiendo con MayúsculasUITests */,
 				8819E7182535317F00B8A4F1 /* Products */,
+				5A8F9BAA38638EAE3C72D8C4 /* Pods */,
+				39CF13D62FFD1E81626D7074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,12 +166,14 @@
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				4DB518F1253798D600C79229 /* Property List.plist */,
+				88C63A0C2553B904006DB84C /* trivia.plist */,
 				4DB518FB2537AEDC00C79229 /* TemasPList.plist */,
 				8819E71A2535317F00B8A4F1 /* AppDelegate.swift */,
 				4D1E277A253CFC870001DC29 /* customButtonVF.swift */,
 				8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
+				88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */,
 				88BC884A2551FBE60029D2DE /* TriviaViewController.swift */,
 				BE210F562537A78900A30341 /* PuntajeViewController.swift */,
 				4DB518F625379AE000C79229 /* TrueFalseViewController.swift */,
@@ -189,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8819E7412535318100B8A4F1 /* Build configuration list for PBXNativeTarget "Aprendiendo con Mayúsculas" */;
 			buildPhases = (
+				93EC1ED9B30FA271CA68A32E /* [CP] Check Pods Manifest.lock */,
 				8819E7132535317F00B8A4F1 /* Sources */,
 				8819E7142535317F00B8A4F1 /* Frameworks */,
 				8819E7152535317F00B8A4F1 /* Resources */,
@@ -287,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8819E7272535318000B8A4F1 /* LaunchScreen.storyboard in Resources */,
+				88C63A0D2553B904006DB84C /* trivia.plist in Resources */,
 				8819E75D2536C30800B8A4F1 /* mayus.json in Resources */,
 				8819E7242535318000B8A4F1 /* Assets.xcassets in Resources */,
 				4DB518F2253798D600C79229 /* Property List.plist in Resources */,
@@ -311,6 +343,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93EC1ED9B30FA271CA68A32E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aprendiendo con Mayúsculas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8819E7132535317F00B8A4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -323,6 +380,7 @@
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
 				4D1E2773253CFA530001DC29 /* customButton.swift in Sources */,
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
+				88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */,
 				8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */,
 				4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */,
 				8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */,
@@ -504,6 +562,7 @@
 		};
 		8819E7422535318100B8A4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +580,7 @@
 		};
 		8819E7432535318100B8A4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7B0AF375C3F679805EE437 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+module Pods_Aprendiendo_con_Mayu_sculas {
+  umbrella header "Pods-Aprendiendo con Mayúsculas-umbrella.h"
+
+  export *
+  module * { export * }
+}

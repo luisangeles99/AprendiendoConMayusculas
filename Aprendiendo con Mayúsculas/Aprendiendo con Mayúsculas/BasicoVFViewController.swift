@@ -26,7 +26,7 @@ class BasicoVFViewController: UIViewController {
         let  tipo = tema["Basico"] as! NSDictionary
         let problemas = tipo["verdaderoFalso"] as! NSMutableArray
         problemasDisp = problemas
-        var x = Int.random(in: 0..<problemas.count)
+        let x = Int.random(in: 0..<problemas.count)
         problema = problemas[x] as? NSDictionary
         txtProblema.text = problema["Problema"] as? String
         
@@ -34,9 +34,9 @@ class BasicoVFViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        var x = Int.random(in: 0..<problemasDisp.count)
-        problema = problemasDisp[x] as! NSDictionary
-        txtProblema.text = problema["Problema"] as! String
+        let x = Int.random(in: 0..<problemasDisp.count)
+        problema = problemasDisp[x] as? NSDictionary
+        txtProblema.text = problema["Problema"] as? String
     }
     
     @IBAction func falseBtn(_ sender: UIButton) {
@@ -55,7 +55,7 @@ class BasicoVFViewController: UIViewController {
         let puntajeView = segue.destination as! PuntajeViewController
         let boton = sender as! UIButton
         if(boton.restorationIdentifier == "btTrue"){
-            print(problema)
+            //print(problema)
             if  true == (problema["Respuesta"] as! Bool){
                 print("correcto")
                 bCorrecto = true
@@ -66,7 +66,7 @@ class BasicoVFViewController: UIViewController {
                 bCorrecto = false
             }
         } else {
-            print(problema)
+            //print(problema)
             if  false == (problema["Respuesta"] as! Bool){
                 print("correcto")
                 bCorrecto = true
