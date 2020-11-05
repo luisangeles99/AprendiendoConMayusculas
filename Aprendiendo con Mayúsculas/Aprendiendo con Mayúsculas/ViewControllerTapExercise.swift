@@ -5,6 +5,7 @@
 //  Created by user180585 on 11/1/20.
 //  Copyright © 2020 Luis Alberto Angeles Morales. All rights reserved.
 //
+
 import UIKit
 class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
 
@@ -49,7 +50,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             indice += 1
         }
         print(firstIndex)
-        
+
     }
 
     @objc func myMethodToHandleTap(_ sender: UITapGestureRecognizer) {
@@ -77,7 +78,9 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             let myRange = NSRange(location: characterIndex, length: 1)
             let substring = (myTextView.attributedText.string as NSString).substring(with: myRange)
             print("character at index: \(substring)")
+
             if (9...14    ).contains(characterIndex){
+
                 let alert = UIAlertController(title: "Alert", message: "Correcto", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
