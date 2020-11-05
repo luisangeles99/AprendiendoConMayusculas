@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Aprendiendo_con_Mayu_sculas
+//@testable import Aprendiendo_con_Mayu_sculas
 
 class Aprendiendo_con_Mayu_sculasTests: XCTestCase {
 
