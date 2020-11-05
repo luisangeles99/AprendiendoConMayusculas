@@ -57,7 +57,7 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celda") as! customCell
         let unEjemplo = arrEjemplos[indexPath.row] as! NSDictionary
-        celda.myLb.text = unEjemplo["Ejemplo"] as! String
+        celda.myLb.text = unEjemplo["Ejemplo"] as? String
         celda.myBtn.tag = indexPath.row
         return celda
     }

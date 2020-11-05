@@ -50,7 +50,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             indice += 1
         }
         print(firstIndex)
-        ns		
+
     }
 
     @objc func myMethodToHandleTap(_ sender: UITapGestureRecognizer) {
@@ -78,7 +78,9 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             let myRange = NSRange(location: characterIndex, length: 1)
             let substring = (myTextView.attributedText.string as NSString).substring(with: myRange)
             print("character at index: \(substring)")
-            if (9...14	).contains(characterIndex){
+
+            if (9...14    ).contains(characterIndex){
+
                 let alert = UIAlertController(title: "Alert", message: "Correcto", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)

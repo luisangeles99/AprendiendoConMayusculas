@@ -21,10 +21,14 @@ class TableViewController: UITableViewController {
     
     @IBOutlet weak var navBarAppearence: UINavigationItem!
     
+    
     var infoPlist : NSDictionary!
     var numOfRows = [13,3]
     var headerTitles : [String]!
     var temasTitles : [[String]?] = [[],[]]
+    var mayusTitles : NSDictionary!
+    var minusTitles : NSDictionary!
+    var imgTema : NSDictionary!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,15 +37,15 @@ class TableViewController: UITableViewController {
         title = "Inicio"
         
         headerTitles = infoPlist.allKeys as? [String]
-        let mayusTitles = infoPlist["Mayúsculas"] as! NSDictionary
-        
-        let minusTitles = infoPlist["Minúsculas"] as! NSDictionary
+        mayusTitles = infoPlist["Mayúsculas"] as? NSDictionary
+        minusTitles = infoPlist["Minúsculas"] as? NSDictionary
         temasTitles[0] = mayusTitles.allKeys as? [String]
         temasTitles[1] = minusTitles.allKeys as? [String]
         
         //Ordenar el array por orden alfabético
         temasTitles[0] = temasTitles[0]!.sorted(by: { s1, s2 in return s1 < s2 })
         temasTitles[1] = temasTitles[1]!.sorted(by: { s1, s2 in return s1 < s2 })
+        
         
         
       
@@ -78,8 +82,20 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! customTableViewCell
 
         cell.nombreTema.text = temasTitles[indexPath.section]![indexPath.row]
-        cell.imgTema.image = UIImage(named: "Aa")
+        
+        if indexPath.section == 0{
+            imgTema = mayusTitles[temasTitles[indexPath.section]![indexPath.row]] as? NSDictionary
+            let img = imgTema["Imagen"] as? String
+            cell.imgTema.image = UIImage(named: img!)
+        }else{
+            imgTema = minusTitles[temasTitles[indexPath.section]![indexPath.row]] as? NSDictionary
+            let img = imgTema["Imagen"] as? String
+            cell.imgTema.image = UIImage(named: img!)
+        }
+        
+        
         cell.insignia.image = UIImage(named: "medalla")
+        cell.insignia.isHidden = true
 
         return cell
     }

@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     var minmay : String!
     var tema : String!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
