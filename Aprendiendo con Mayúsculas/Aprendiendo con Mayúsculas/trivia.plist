@@ -2,10 +2,613 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<dict/>
-	<dict/>
-	<dict/>
-	<dict/>
-	<dict/>
+	<array>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Oraciones</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Párrafos</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Títulos</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Nombres</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Sorpresa la cual es muy larga y que por tanto no debería caber en una sola línea del label.</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+	</array>
 </array>
 </plist>

@@ -15,6 +15,9 @@ class TriviaViewController: UIViewController {
 
     @IBOutlet var rouletteView: RouletteView!
     var spin : Bool = false
+    //var nombresTemas : [String] = ["Oraciones", "Párrafos", "Títulos", "Nombres", "Sorpresa"]
+    var indice : Int!
+    var tema : String!
     
     override func viewWillAppear(_ animated: Bool) {
         spin = false
@@ -44,7 +47,7 @@ class TriviaViewController: UIViewController {
     //MARK: - Métodos De Trivia
     
     func playRoulette() {
-        let valor = Double.random(in: 2...6)
+        let valor = Double.random(in: 1...7)
         print(valor)
         rouletteView.start()
         DispatchQueue.main.asyncAfter(deadline: .now() + valor) {
@@ -77,6 +80,9 @@ class TriviaViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         
+        let view = segue.destination as! TriviaQuizViewController
+        view.tema = tema
+        view.indice = indice
     
         
         
@@ -92,6 +98,10 @@ class TriviaViewController: UIViewController {
 
 extension TriviaViewController: RouletteViewDelegate {
     func rouletteView(_ rouletteView: RouletteView, didStopAt part: RoulettePartType) {
+        
+        indice = part.index
+        tema = part.name
+        
         /*
         let alert = UIAlertController(title: "Elegido", message: part.name, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Valor", style: .default, handler: nil))
