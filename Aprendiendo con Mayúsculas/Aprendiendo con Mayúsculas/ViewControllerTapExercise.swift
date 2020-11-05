@@ -11,16 +11,14 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
 
 
     @IBOutlet weak var textView: UITextView!
-    
-    var correctString = NSMutableAttributedString(string: "Me llamo Moisés.")
-    var palabraCorrrecta = "Moisés"
+    let indicesCorrectos = [9,54]
     var myString : NSMutableAttributedString!;
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Create an attributed string
-        myString = NSMutableAttributedString(string: "Me llamo moisés.")
+        myString = NSMutableAttributedString(string: "Me llamo moisés y estoy armando una casa con mi amigo armando.")
 
         // Set an attribute on part of the string
         let myRange = NSRange(location: 0, length: 5) // range of "Swift"
@@ -36,10 +34,9 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         textView.addGestureRecognizer(tap)
     }
     
-    func getPalabra(indiceTap : Int){
+    func getPalabra(indiceTap : Int) -> Int{
         var indice = 0
         var firstIndex = 0
-        let palabra = "Moisés"
         for letter in myString.string {
             if(letter == " "){
                 firstIndex = indice
@@ -49,8 +46,16 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             }
             indice += 1
         }
-        print(firstIndex)
+        return firstIndex + 1
 
+    }
+    
+    func myReplace(myString: String, _ index: Int, _ newChar: Character) -> String {
+        var chars = Array(myString)     // gets an array of characters
+        chars[index] = newChar
+        let modifiedString = String(chars)
+        print(modifiedString)
+        return modifiedString
     }
 
     @objc func myMethodToHandleTap(_ sender: UITapGestureRecognizer) {
@@ -71,7 +76,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
 
             // print the character index
             print("character index: \(characterIndex)")
-            getPalabra(indiceTap: characterIndex)
+            let indexTappedWord = getPalabra(indiceTap: characterIndex)
             
 
             // print the character at the index
@@ -79,13 +84,18 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             let substring = (myTextView.attributedText.string as NSString).substring(with: myRange)
             print("character at index: \(substring)")
 
-            if (9...14    ).contains(characterIndex){
-
+            if indicesCorrectos.contains(indexTappedWord){
                 let alert = UIAlertController(title: "Alert", message: "Correcto", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 print("CORRECTO")
-                textView.attributedText = correctString
+                //textView.attributedText = correctString
+                let auxRange = NSRange(location: indexTappedWord, length: 1)
+                let firstChar = (myTextView.attributedText.string as NSString).substring(with: auxRange)
+                let characterUpper = Character(String(firstChar).uppercased())
+                let newText = myReplace(myString: textView.attributedText.string, indexTappedWord, characterUpper)
+                let myNewAttributedText = NSMutableAttributedString(string: newText)
+                textView.attributedText = myNewAttributedText
                 textView.font = UIFont(name: textView.font!.fontName, size: 25)
             }
             // check if the tap location has a certain attribute
