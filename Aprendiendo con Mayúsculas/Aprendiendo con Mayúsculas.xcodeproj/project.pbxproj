@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
 		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
+		50B4A728912A447952245F31 /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C953555CC39060F51F7356CC /* libPods-Aprendiendo con Mayúsculas.a */; };
 		8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71A2535317F00B8A4F1 /* AppDelegate.swift */; };
 		8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */; };
 		8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71E2535317F00B8A4F1 /* ViewController.swift */; };
@@ -36,7 +37,6 @@
 		88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */; };
 		88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */; };
 		88E630052539FE5E00F13608 /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E630042539FE5E00F13608 /* Tema.swift */; };
-		950757DECB1800970D44E82E /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */; };
 		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,13 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
-		7A7B0AF375C3F679805EE437 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.release.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.release.xcconfig"; sourceTree = "<group>"; };
+		64C2479358F45350494B9E7F /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
 		8819E7172535317F00B8A4F1 /* Aprendiendo con Mayúsculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aprendiendo con Mayúsculas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8819E71A2535317F00B8A4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +95,8 @@
 		88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringKeyCustomAttribute.swift; sourceTree = "<group>"; };
 		88E630042539FE5E00F13608 /* Tema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
 		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
-		DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953555CC39060F51F7356CC /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFD7D4A495F7DB468B3C006 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.release.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950757DECB1800970D44E82E /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */,
+				50B4A728912A447952245F31 /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,19 +125,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39CF13D62FFD1E81626D7074 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DCB97BFD19DC9EB105A88CC6 /* libPods-Aprendiendo con Mayúsculas.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5A8F9BAA38638EAE3C72D8C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */,
-				7A7B0AF375C3F679805EE437 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */,
+				64C2479358F45350494B9E7F /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */,
+				DCFD7D4A495F7DB468B3C006 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -150,7 +142,7 @@
 				8819E73B2535318100B8A4F1 /* Aprendiendo con MayúsculasUITests */,
 				8819E7182535317F00B8A4F1 /* Products */,
 				5A8F9BAA38638EAE3C72D8C4 /* Pods */,
-				39CF13D62FFD1E81626D7074 /* Frameworks */,
+				A225528FB664FEE205939722 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +210,14 @@
 			path = "Aprendiendo con MayúsculasUITests";
 			sourceTree = "<group>";
 		};
+		A225528FB664FEE205939722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C953555CC39060F51F7356CC /* libPods-Aprendiendo con Mayúsculas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,7 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8819E7412535318100B8A4F1 /* Build configuration list for PBXNativeTarget "Aprendiendo con Mayúsculas" */;
 			buildPhases = (
-				93EC1ED9B30FA271CA68A32E /* [CP] Check Pods Manifest.lock */,
+				FA8E43940677B44FB38C9054 /* [CP] Check Pods Manifest.lock */,
 				8819E7132535317F00B8A4F1 /* Sources */,
 				8819E7142535317F00B8A4F1 /* Frameworks */,
 				8819E7152535317F00B8A4F1 /* Resources */,
@@ -298,7 +298,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */;
+			buildConfigurationList = 8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -350,7 +350,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		93EC1ED9B30FA271CA68A32E /* [CP] Check Pods Manifest.lock */ = {
+		FA8E43940677B44FB38C9054 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,7 +570,7 @@
 		};
 		8819E7422535318100B8A4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */;
+			baseConfigurationReference = 64C2479358F45350494B9E7F /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,7 +588,7 @@
 		};
 		8819E7432535318100B8A4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A7B0AF375C3F679805EE437 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */;
+			baseConfigurationReference = DCFD7D4A495F7DB468B3C006 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -687,7 +687,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */ = {
+		8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8819E73F2535318100B8A4F1 /* Debug */,
