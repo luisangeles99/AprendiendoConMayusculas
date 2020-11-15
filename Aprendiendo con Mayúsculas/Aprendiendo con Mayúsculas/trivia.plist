@@ -509,7 +509,30 @@
 				</array>
 				<array>
 					<string>Respuesta 3</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
 					<true/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Sorpresa 2</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<false/>
 				</array>
 				<array>
 					<string>Respuesta 4</string>
@@ -519,7 +542,30 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Ejemplo de Pregunta Sorpresa 3</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Ejemplo de Pregunta Sorpresa 4</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -542,53 +588,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Ejemplo de Pregunta Sorpresa 5</string>
 			<key>Respuestas</key>
 			<array>
 				<array>

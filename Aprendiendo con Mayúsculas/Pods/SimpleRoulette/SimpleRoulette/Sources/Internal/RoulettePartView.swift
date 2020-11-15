@@ -11,7 +11,7 @@ import UIKit
 
 class RoulettePartView: UIView {
     
-    let part: RoulettePartType
+    var part: RoulettePartType
     private weak var shapeLayer: RoulettePartShapeLayer?
     private weak var textLayer: RoulettePartTextLayer?
     

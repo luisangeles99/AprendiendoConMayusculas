@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,6 +36,7 @@
 		88C63A0D2553B904006DB84C /* trivia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63A0C2553B904006DB84C /* trivia.plist */; };
 		88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */; };
 		88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */; };
+		88C63A192554ABA0006DB84C /* NormaImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A182554ABA0006DB84C /* NormaImageViewController.swift */; };
 		88E630052539FE5E00F13608 /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E630042539FE5E00F13608 /* Tema.swift */; };
 		BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE210F562537A78900A30341 /* PuntajeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 		88C63A0C2553B904006DB84C /* trivia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = trivia.plist; sourceTree = "<group>"; };
 		88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTapExercise.swift; sourceTree = "<group>"; };
 		88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringKeyCustomAttribute.swift; sourceTree = "<group>"; };
+		88C63A182554ABA0006DB84C /* NormaImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormaImageViewController.swift; sourceTree = "<group>"; };
 		88E630042539FE5E00F13608 /* Tema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
 		BE210F562537A78900A30341 /* PuntajeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntajeViewController.swift; sourceTree = "<group>"; };
 		C953555CC39060F51F7356CC /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				88C63A142553D34D006DB84C /* ViewControllerTapExercise.swift */,
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
+				88C63A182554ABA0006DB84C /* NormaImageViewController.swift */,
 				88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */,
 				88BC884A2551FBE60029D2DE /* TriviaViewController.swift */,
 				BE210F562537A78900A30341 /* PuntajeViewController.swift */,
@@ -298,7 +301,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */;
+			buildConfigurationList = 8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -385,6 +388,7 @@
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
 				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
+				88C63A192554ABA0006DB84C /* NormaImageViewController.swift in Sources */,
 				4D1E2773253CFA530001DC29 /* customButton.swift in Sources */,
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */,
@@ -687,7 +691,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */ = {
+		8819E7122535317F00B8A4F1 /* Build configuration list for PBXProject "Aprendiendo con Mayúsculas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8819E73F2535318100B8A4F1 /* Debug */,

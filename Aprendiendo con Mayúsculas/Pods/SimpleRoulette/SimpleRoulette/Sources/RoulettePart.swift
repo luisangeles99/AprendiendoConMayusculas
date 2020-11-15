@@ -17,7 +17,7 @@ public protocol RoulettePartType {
     var startRadianAngle: Double { get }
     /// From [0, 2pi)
     var endRadianAngle: Double { get }
-    var fillColor: UIColor { get }
+    var fillColor: UIColor { get set }
     var strokeColor: UIColor { get }
 }
 
@@ -39,8 +39,8 @@ public enum Roulette {
             huge: Kind,
             delegate: RoulettePartHugeDelegate?,
             index: Int,
-            fillColor: UIColor = .secondarySystemBackground,
-            strokeColor: UIColor = .systemGray4
+            fillColor: UIColor = .lightGray,
+            strokeColor: UIColor = .systemBlue
         ) {
             self.name = name
             self.huge = huge

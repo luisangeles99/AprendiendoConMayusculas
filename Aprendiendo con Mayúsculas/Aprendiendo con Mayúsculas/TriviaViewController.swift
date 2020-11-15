@@ -101,6 +101,7 @@ extension TriviaViewController: RouletteViewDelegate {
         
         indice = part.index
         tema = part.name
+        //part.fillColor = .systemTeal
         
         /*
         let alert = UIAlertController(title: "Elegido", message: part.name, preferredStyle: .alert)
