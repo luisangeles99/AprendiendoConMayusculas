@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D1E2773253CFA530001DC29 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E2772253CFA530001DC29 /* customButton.swift */; };
 		4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E277A253CFC870001DC29 /* customButtonVF.swift */; };
+		4DB4AC6B2561CFF5009508CB /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */; };
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
 		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
@@ -61,6 +62,7 @@
 		1BA5FAD515ACA68EE34ED858 /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
+		4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationManager.swift; path = "../../../../Downloads/LocalAndPushNotifications-master/LocalAndPushNotifications/LocalNotificationManager.swift"; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
+				4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				4DB518F1253798D600C79229 /* Property List.plist */,
 				88C63A0C2553B904006DB84C /* trivia.plist */,
@@ -379,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB4AC6B2561CFF5009508CB /* LocalNotificationManager.swift in Sources */,
 				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
 				88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */,
 				88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */,

@@ -10,6 +10,8 @@ import UIKit
 
 class ConfigViewController: UIViewController {
 
+    @IBOutlet weak var btnTogleNot: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,7 +21,15 @@ class ConfigViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func handleNotificationTogle(_ sender: UISwitch) {
+        if btnTogleNot.isOn{
+            LocalNotificationManager.setNotification(5, of: .seconds, repeats: true, title: "Hello", body: "local", userInfo: ["aps" : ["hello" : "world"]])
+        }else{
+            LocalNotificationManager.cancel()
+        }
+        
+    }
+    
     /*
     // MARK: - Navigation
 
