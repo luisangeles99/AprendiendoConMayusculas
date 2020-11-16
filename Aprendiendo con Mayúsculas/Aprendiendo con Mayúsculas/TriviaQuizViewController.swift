@@ -36,7 +36,8 @@ class TriviaQuizViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
-        
+        tituloLabel.text = tema
+        tituloLabel.font = tituloLabel.font.withSize(40)
         
     }
     
@@ -44,8 +45,7 @@ class TriviaQuizViewController: UIViewController {
         super.viewDidLoad()
         
         //Label Título
-        tituloLabel.text = tema
-        tituloLabel.font.withSize(20)
+        
         
         
         

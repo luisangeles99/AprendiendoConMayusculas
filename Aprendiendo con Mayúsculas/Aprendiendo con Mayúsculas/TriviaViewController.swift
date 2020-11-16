@@ -27,7 +27,8 @@ class TriviaViewController: UIViewController {
         super.viewDidLoad()
         
         title = "Trivia"
-        
+        self.navigationController?.navigationBar.isHidden = false
+
         rouletteView.delegate = self
         rouletteView.configure(parts: [
             Roulette.HugePart(name: "Oraciones", huge: .normal, delegate: rouletteView, index: 0),

@@ -35,7 +35,7 @@ class ConfigViewController: UIViewController {
     
     @IBAction func onChangeBlue(_ sender: UIButton) {
         defaults.set("blue", forKey: "color")
-        UINavigationBar.appearance().backgroundColor = UIColor.blue
+        UINavigationBar.appearance().backgroundColor = UIColor.link
     }
     @IBAction func onChangePurple(_ sender: UIButton) {
         defaults.set("purple", forKey: "color")

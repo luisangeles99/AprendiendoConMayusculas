@@ -82,7 +82,7 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! customTableViewCell
 
         cell.nombreTema.text = temasTitles[indexPath.section]![indexPath.row]
-        
+        cell.nombreTema.font = cell.nombreTema.font.withSize(22)
         if indexPath.section == 0{
             imgTema = mayusTitles[temasTitles[indexPath.section]![indexPath.row]] as? NSDictionary
             let img = imgTema["Imagen"] as? String
