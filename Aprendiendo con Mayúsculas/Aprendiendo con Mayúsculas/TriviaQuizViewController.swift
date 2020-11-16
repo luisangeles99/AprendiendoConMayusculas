@@ -98,13 +98,21 @@ class TriviaQuizViewController: UIViewController {
             print("Error")
         }
         sender.backgroundColor = UIColor.white
+        for i in 1...botones.count{
+            botones[i-1].isUserInteractionEnabled = false
+        }
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.checkAnswer(index: sender.tag-1, btn: sender)
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             sender.backgroundColor = color
+            
             self.loadNextQuestion()
+            for i in 1...self.botones.count{
+                self.botones[i-1].isUserInteractionEnabled = true
+            }
         }
+        
         
     }
     

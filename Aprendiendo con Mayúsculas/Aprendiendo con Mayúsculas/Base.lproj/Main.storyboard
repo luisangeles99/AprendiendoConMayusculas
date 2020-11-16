@@ -260,10 +260,10 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="skb-Sw-yh1" customClass="RouletteView" customModule="SimpleRoulette">
                                 <rect key="frame" x="20" y="213" width="374" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86152654503361448" green="1" blue="0.94387657250141532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.89433635258504018" green="1" blue="0.95609617200599506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EGx-EJ-FxO"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Trivia" image="person.3" catalog="system" id="vhq-5k-KlH"/>
