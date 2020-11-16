@@ -34,6 +34,7 @@ class NormaController: UIViewController {
         norma = norma["Teoría"] as! NSDictionary
         explicacion.text = norma["Explicación"] as? String
         myTitle.text = tema
+        myTitle.font = myTitle.font.withSize(30)
         media1img.image = UIImage(named: "infografia_ej")
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))

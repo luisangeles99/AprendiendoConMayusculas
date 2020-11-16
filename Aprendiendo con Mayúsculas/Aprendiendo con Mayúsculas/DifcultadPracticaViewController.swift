@@ -13,6 +13,8 @@ class DifcultadPracticaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Dificultad"
+        
         // Do any additional setup after loading the view.
     }
     

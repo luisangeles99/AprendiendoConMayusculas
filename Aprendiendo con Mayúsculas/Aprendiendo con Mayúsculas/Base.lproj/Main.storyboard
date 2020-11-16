@@ -155,20 +155,20 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcx-8R-kgX">
                                         <rect key="frame" x="0.0" y="-0.5" width="414" height="1095"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJo-YK-pbl">
-                                                <rect key="frame" x="20" y="159" width="374" height="297"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJo-YK-pbl">
+                                                <rect key="frame" x="20" y="100" width="374" height="25"/>
                                                 <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L73-ca-wvG">
-                                                <rect key="frame" x="20" y="495" width="374" height="239"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L73-ca-wvG">
+                                                <rect key="frame" x="20" y="155" width="374" height="239"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="239" id="LLR-cv-8DT"/>
+                                                </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufe-Sz-8KP">
-                                                <rect key="frame" x="56" y="56" width="302" height="57"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufe-Sz-8KP">
+                                                <rect key="frame" x="50" y="35" width="314" height="25"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -176,7 +176,16 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
+                                            <constraint firstItem="Ufe-Sz-8KP" firstAttribute="top" secondItem="Bcx-8R-kgX" secondAttribute="top" constant="35" id="0lm-FE-bwx"/>
+                                            <constraint firstItem="L73-ca-wvG" firstAttribute="top" secondItem="eJo-YK-pbl" secondAttribute="bottom" constant="30" id="8cd-dn-DLT"/>
+                                            <constraint firstItem="Ufe-Sz-8KP" firstAttribute="leading" secondItem="Bcx-8R-kgX" secondAttribute="leading" constant="50" id="A8Z-vV-T4j"/>
                                             <constraint firstAttribute="height" constant="1095" id="H25-Wu-en3"/>
+                                            <constraint firstAttribute="trailing" secondItem="eJo-YK-pbl" secondAttribute="trailing" constant="20" id="KXF-YP-Npm"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ufe-Sz-8KP" secondAttribute="trailing" constant="50" id="Wyu-9V-jUl"/>
+                                            <constraint firstItem="eJo-YK-pbl" firstAttribute="top" secondItem="Ufe-Sz-8KP" secondAttribute="bottom" constant="40" id="bwE-pJ-cXS"/>
+                                            <constraint firstAttribute="trailing" secondItem="L73-ca-wvG" secondAttribute="trailing" constant="20" id="cai-EU-Gdx"/>
+                                            <constraint firstItem="eJo-YK-pbl" firstAttribute="leading" secondItem="Bcx-8R-kgX" secondAttribute="leading" constant="20" id="dtc-q2-rUS"/>
+                                            <constraint firstItem="L73-ca-wvG" firstAttribute="leading" secondItem="Bcx-8R-kgX" secondAttribute="leading" constant="20" id="kDy-St-TN5"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -268,7 +277,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-zK-AEh">
-                                <rect key="frame" x="163.5" y="716" width="87" height="45"/>
+                                <rect key="frame" x="163.5" y="736" width="87" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="JUGAR"/>
                                 <connections>
@@ -276,7 +285,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skb-Sw-yh1" customClass="RouletteView" customModule="SimpleRoulette">
-                                <rect key="frame" x="20" y="220" width="374" height="456"/>
+                                <rect key="frame" x="20" y="200" width="374" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -287,7 +296,7 @@
                             <constraint firstItem="skb-Sw-yh1" firstAttribute="leading" secondItem="EGx-EJ-FxO" secondAttribute="leading" constant="20" id="87v-eS-JoG"/>
                             <constraint firstItem="skb-Sw-yh1" firstAttribute="centerY" secondItem="ucP-7f-RFN" secondAttribute="centerY" id="ZeL-rt-C2l"/>
                             <constraint firstItem="RC3-zK-AEh" firstAttribute="centerX" secondItem="ucP-7f-RFN" secondAttribute="centerX" id="hqs-C5-3pl"/>
-                            <constraint firstItem="skb-Sw-yh1" firstAttribute="top" secondItem="EGx-EJ-FxO" secondAttribute="top" constant="80" id="mgT-RT-gDL"/>
+                            <constraint firstItem="skb-Sw-yh1" firstAttribute="top" secondItem="EGx-EJ-FxO" secondAttribute="top" constant="60" id="mgT-RT-gDL"/>
                             <constraint firstItem="EGx-EJ-FxO" firstAttribute="trailing" secondItem="skb-Sw-yh1" secondAttribute="trailing" constant="20" id="tf1-dc-XCd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EGx-EJ-FxO"/>
@@ -312,35 +321,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="107" translatesAutoresizingMaskIntoConstraints="NO" id="chY-Lp-0Le">
-                                <rect key="frame" x="31" y="221" width="352" height="591"/>
+                                <rect key="frame" x="31" y="181" width="352" height="631"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6La-bV-G00">
-                                        <rect key="frame" x="0.0" y="0.0" width="352" height="242"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="262"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tsO-9V-c7t">
-                                        <rect key="frame" x="0.0" y="349" width="352" height="242"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tsO-9V-c7t">
+                                        <rect key="frame" x="0.0" y="369" width="352" height="262"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BY5-0f-r1t">
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BY5-0f-r1t">
                                                 <rect key="frame" x="0.0" y="0.0" width="352" height="121"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-2a-dVi">
-                                                        <rect key="frame" x="0.0" y="0.0" width="176" height="121"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-2a-dVi" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="166" height="121"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="121" id="lCL-w3-rbL"/>
                                                         </constraints>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnAnswerWithSender:" destination="uQx-rl-pOu" eventType="touchUpInside" id="6eR-kV-hWP"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDP-Sn-1Bj">
-                                                        <rect key="frame" x="176" y="0.0" width="176" height="121"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lDP-Sn-1Bj" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                                        <rect key="frame" x="186" y="0.0" width="166" height="121"/>
                                                         <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnAnswerWithSender:" destination="uQx-rl-pOu" eventType="touchUpInside" id="C9h-0B-a5j"/>
                                                         </connections>
@@ -350,21 +363,25 @@
                                                     <constraint firstItem="zZc-2a-dVi" firstAttribute="width" secondItem="lDP-Sn-1Bj" secondAttribute="width" id="7Pp-d1-RLg"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UQ8-6s-yDJ">
-                                                <rect key="frame" x="0.0" y="121" width="352" height="121"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UQ8-6s-yDJ">
+                                                <rect key="frame" x="0.0" y="141" width="352" height="121"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-Xr-f3I">
-                                                        <rect key="frame" x="0.0" y="0.0" width="176" height="121"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-Xr-f3I" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="166" height="121"/>
                                                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="ESTE SERIA UN TITULO MUY MUY LARGO">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnAnswerWithSender:" destination="uQx-rl-pOu" eventType="touchUpInside" id="5IY-kf-TjG"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT6-3Y-of7">
-                                                        <rect key="frame" x="176" y="0.0" width="176" height="121"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nT6-3Y-of7" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                                        <rect key="frame" x="186" y="0.0" width="166" height="121"/>
                                                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="ESTE SERIA UN TITULO MUY MUY LARGO">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnAnswerWithSender:" destination="uQx-rl-pOu" eventType="touchUpInside" id="S3e-Id-qvv"/>
                                                         </connections>
@@ -566,9 +583,6 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="14" minValue="10" maxValue="24" translatesAutoresizingMaskIntoConstraints="NO" id="4Pe-nd-Cru">
                                 <rect key="frame" x="98" y="274" width="219" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="onChangeFont:" destination="AO5-ax-dbL" eventType="valueChanged" id="NIM-AJ-ao1"/>
-                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tamaño de Letra" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBz-SB-2W5">
                                 <rect key="frame" x="20" y="181" width="142" height="85"/>
@@ -643,41 +657,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oe-AP-VjC">
-                                <rect key="frame" x="39" y="311" width="336" height="168"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" backgroundImage="btContactoImage1"/>
-                                <connections>
-                                    <action selector="onClickContact1:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="DHl-3i-obS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa7-33-eHp">
-                                <rect key="frame" x="167" y="505" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="tw"/>
-                                <connections>
-                                    <action selector="onClickSocialTw:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="6YQ-7Y-z2e"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-6j-W6L">
-                                <rect key="frame" x="87" y="505" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="fb"/>
-                                <connections>
-                                    <action selector="onClickSocialFB:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="h4S-GO-F7b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-qo-Hyt">
-                                <rect key="frame" x="247" y="505" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="ig"/>
-                                <connections>
-                                    <action selector="onClickSocialIG:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="hvb-TC-VBq"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ACg-La-g1o">
+                                <rect key="frame" x="30" y="220" width="354" height="426"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oe-AP-VjC">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="304.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="btContactoImage1"/>
+                                        <connections>
+                                            <action selector="onClickContact1:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="DHl-3i-obS"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="QY0-C1-a2p">
+                                        <rect key="frame" x="0.0" y="304.5" width="354" height="121.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-qo-Hyt">
+                                                <rect key="frame" x="0.0" y="0.0" width="108" height="121.5"/>
+                                                <state key="normal" backgroundImage="ig"/>
+                                                <connections>
+                                                    <action selector="onClickSocialIG:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="hvb-TC-VBq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-6j-W6L">
+                                                <rect key="frame" x="123" y="0.0" width="108" height="121.5"/>
+                                                <state key="normal" backgroundImage="fb"/>
+                                                <connections>
+                                                    <action selector="onClickSocialFB:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="h4S-GO-F7b"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa7-33-eHp">
+                                                <rect key="frame" x="246" y="0.0" width="108" height="121.5"/>
+                                                <state key="normal" backgroundImage="tw"/>
+                                                <connections>
+                                                    <action selector="onClickSocialTw:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="6YQ-7Y-z2e"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QY0-C1-a2p" firstAttribute="height" secondItem="0oe-AP-VjC" secondAttribute="height" multiplier="0.4" id="X7p-kj-Cfz"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ACg-La-g1o" firstAttribute="top" secondItem="w3h-As-6ev" secondAttribute="top" constant="80" id="c0N-cP-lUQ"/>
+                            <constraint firstAttribute="trailing" secondItem="ACg-La-g1o" secondAttribute="trailing" constant="30" id="f16-d3-sM3"/>
+                            <constraint firstItem="ACg-La-g1o" firstAttribute="leading" secondItem="w3h-As-6ev" secondAttribute="leading" constant="30" id="rl0-pD-no3"/>
+                            <constraint firstAttribute="bottom" secondItem="ACg-La-g1o" secondAttribute="bottom" constant="250" id="xnN-gf-Hsu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="w3h-As-6ev"/>
                     </view>
                     <navigationItem key="navigationItem" title="Contacto" id="z0Z-uR-6CT"/>
@@ -736,32 +765,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dificultad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25I-K6-goQ">
-                                <rect key="frame" x="171" y="200" width="73" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qs-6K-98j" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                <rect key="frame" x="71" y="336" width="273" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.5607843137254902" green="0.9137254901960784" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Básico"/>
-                                <connections>
-                                    <segue destination="Zyn-wQ-vUP" kind="show" id="32q-Th-IXl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-he-kco" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                <rect key="frame" x="72" y="567" width="273" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Avanzado"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="tz8-Tb-Gfv">
+                                <rect key="frame" x="40" y="270" width="334" height="432"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qs-6K-98j" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="178.5"/>
+                                        <color key="backgroundColor" red="0.5607843137254902" green="0.9137254901960784" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Básico"/>
+                                        <connections>
+                                            <segue destination="Zyn-wQ-vUP" kind="show" id="32q-Th-IXl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tv-he-kco" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="253.5" width="334" height="178.5"/>
+                                        <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Avanzado"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7Tv-he-kco" firstAttribute="height" secondItem="8Qs-6K-98j" secondAttribute="height" id="FYb-k4-a4T"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4eS-po-ZOv" firstAttribute="bottom" secondItem="tz8-Tb-Gfv" secondAttribute="bottom" constant="160" id="8I4-20-aod"/>
+                            <constraint firstItem="tz8-Tb-Gfv" firstAttribute="top" secondItem="4eS-po-ZOv" secondAttribute="top" constant="130" id="90v-9e-uii"/>
+                            <constraint firstItem="tz8-Tb-Gfv" firstAttribute="centerX" secondItem="z7v-DD-aWT" secondAttribute="centerX" id="d7j-UL-bDc"/>
+                            <constraint firstItem="tz8-Tb-Gfv" firstAttribute="leading" secondItem="4eS-po-ZOv" secondAttribute="leading" constant="40" id="eZs-Sy-BhG"/>
+                            <constraint firstItem="4eS-po-ZOv" firstAttribute="trailing" secondItem="tz8-Tb-Gfv" secondAttribute="trailing" constant="40" id="zun-1J-iL6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4eS-po-ZOv"/>
                     </view>
                     <navigationItem key="navigationItem" id="9UA-2v-CfU"/>
@@ -778,20 +813,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-aB-KS0" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                <rect key="frame" x="109" y="252" width="197" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Verdadero Falso"/>
-                                <connections>
-                                    <segue destination="1xl-7K-TgQ" kind="show" id="hBz-Uw-0nI"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAW-L1-yga" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                <rect key="frame" x="109" y="452" width="197" height="87"/>
+                                <rect key="frame" x="83" y="450" width="249" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Selecciona palabra"/>
                                 <connections>
                                     <segue destination="LkD-N1-0Ry" kind="show" id="Psf-Du-Biy"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-iM-7BQ">
+                                <rect key="frame" x="189" y="248" width="110" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-aB-KS0" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                <rect key="frame" x="83" y="248" width="249" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Verdadero Falso"/>
+                                <connections>
+                                    <segue destination="1xl-7K-TgQ" kind="show" id="hBz-Uw-0nI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -938,7 +979,7 @@
                 <navigationController id="XDL-Kh-Io7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Recursos" image="pencil" catalog="system" selectedImage="pencil" id="ZKz-mb-tLy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="npL-NQ-tJ3">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>

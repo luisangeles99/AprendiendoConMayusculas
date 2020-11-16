@@ -58,7 +58,10 @@ class TriviaQuizViewController: UIViewController {
         //Tags botones
         for i in 1...botones.count{
             botones[i-1].tag = i
+            
         }
+        
+        
         
         //Get info
         obtenerInfo()
@@ -97,7 +100,9 @@ class TriviaQuizViewController: UIViewController {
         default:
             print("Error")
         }
+        sender.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
         sender.backgroundColor = UIColor.white
+        sender.setTitleColor(.black, for: .normal)
         for i in 1...botones.count{
             botones[i-1].isUserInteractionEnabled = false
         }
@@ -106,7 +111,8 @@ class TriviaQuizViewController: UIViewController {
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             sender.backgroundColor = color
-            
+            sender.transform = CGAffineTransform(scaleX: 1, y: 1)
+            sender.setTitleColor(.white, for: .normal)
             self.loadNextQuestion()
             for i in 1...self.botones.count{
                 self.botones[i-1].isUserInteractionEnabled = true

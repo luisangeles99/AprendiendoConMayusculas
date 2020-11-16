@@ -22,15 +22,8 @@ class ConfigViewController: UIViewController {
     }
     
 
-    @IBAction func onChangeSize(_ sender: UISlider) {
-        let UILabelAppeareance = UILabel.appearance()
-            UILabelAppeareance.font = UIFont(name: "systemFont", size: 30)
-    }
-    @IBAction func onChangeFont(_ sender: UISlider) {
-        let UILabelAppeareance = UILabel.appearance()
-        UILabelAppeareance.font = UIFont(name: "systemFont", size: CGFloat(sender.value))
-        defaults.set(sender.value, forKey: "fontSize")
-    }
+    
+    
     
     
     @IBAction func onChangeBlue(_ sender: UIButton) {
@@ -39,12 +32,12 @@ class ConfigViewController: UIViewController {
     }
     @IBAction func onChangePurple(_ sender: UIButton) {
         defaults.set("purple", forKey: "color")
-        UINavigationBar.appearance().backgroundColor = UIColor.purple
+        UINavigationBar.appearance().backgroundColor = UIColor.systemIndigo
     }
     
     @IBAction func onChangeGreen(_ sender: UIButton) {
         defaults.set("black", forKey: "color")
-        UINavigationBar.appearance().backgroundColor = UIColor.black
+        UINavigationBar.appearance().backgroundColor = UIColor.label
     }
     /*
     // MARK: - Navigation

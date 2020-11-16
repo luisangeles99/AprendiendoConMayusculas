@@ -21,13 +21,14 @@ class TriviaViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         spin = false
+        self.navigationController?.navigationBar.isHidden = false
+
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Trivia"
-        self.navigationController?.navigationBar.isHidden = false
 
         rouletteView.delegate = self
         rouletteView.configure(parts: [
@@ -57,7 +58,6 @@ class TriviaViewController: UIViewController {
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + valor + 1.5) {
-            
             self.performSegue(withIdentifier: "playSegue", sender: nil)
         }
         
@@ -67,8 +67,6 @@ class TriviaViewController: UIViewController {
     
     @IBAction func spinRoulette(_ sender: Any) {
         playRoulette()
-        
-        
     }
     
     

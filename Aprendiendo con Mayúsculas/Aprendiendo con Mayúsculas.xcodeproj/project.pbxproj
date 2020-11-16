@@ -31,6 +31,7 @@
 		8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E758253623C500B8A4F1 /* ContactoViewController.swift */; };
 		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
+		887EA055256251F600644E0C /* answerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EA054256251F600644E0C /* answerButton.swift */; };
 		88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC884A2551FBE60029D2DE /* TriviaViewController.swift */; };
 		88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */; };
 		88C63A0D2553B904006DB84C /* trivia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63A0C2553B904006DB84C /* trivia.plist */; };
@@ -89,6 +90,7 @@
 		8819E758253623C500B8A4F1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
 		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
+		887EA054256251F600644E0C /* answerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerButton.swift; sourceTree = "<group>"; };
 		88BC884A2551FBE60029D2DE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuizViewController.swift; sourceTree = "<group>"; };
 		88C63A0C2553B904006DB84C /* trivia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = trivia.plist; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
+				887EA054256251F600644E0C /* answerButton.swift */,
 				4DB518F1253798D600C79229 /* Property List.plist */,
 				88C63A0C2553B904006DB84C /* trivia.plist */,
 				4DB518FB2537AEDC00C79229 /* TemasPList.plist */,
@@ -398,6 +401,7 @@
 				BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */,
 				8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */,
 				8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */,
+				887EA055256251F600644E0C /* answerButton.swift in Sources */,
 				88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */,
 				8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */,
 				8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */,
