@@ -10,13 +10,23 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    var defaults = UserDefaults.standard
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         UITabBar.appearance().backgroundColor = .darkGray
         UITabBar.appearance().tintColor = UIColor(red: 20/255, green: 20/255, blue: 200/255, alpha: 1)
+        let UILabelAppeareance = UILabel.appearance()
+        UILabelAppeareance.font = UIFont(name: "systemFont", size: CGFloat(defaults.float(forKey: "fontSize")))
+        if (defaults.string(forKey: "color") == "purple"){
+            UINavigationBar.appearance().backgroundColor = UIColor.purple
+        } else if (defaults.string(forKey: "color") == "black") {
+            UINavigationBar.appearance().backgroundColor = UIColor.black
+        } else {
+            UINavigationBar.appearance().backgroundColor = UIColor.blue
+        }
+        
         
         return true
     }
