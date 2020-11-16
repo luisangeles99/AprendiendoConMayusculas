@@ -633,7 +633,9 @@
                                         <rect key="frame" x="123" y="258" width="171" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
-                                            <string key="title">Real Academia Española Real Academia EspañolaReal Academia Española</string>
+                                            <string key="title">Real Academia Española 
+Real Academia Española
+Real Academia Española</string>
                                         </state>
                                         <connections>
                                             <action selector="clickLink2:" destination="vV3-ts-XWE" eventType="touchUpInside" id="um6-U9-mDs"/>
