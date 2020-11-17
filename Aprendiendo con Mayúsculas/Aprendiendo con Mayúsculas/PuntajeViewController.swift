@@ -26,6 +26,9 @@ class PuntajeViewController: UIViewController {
     let defaults = UserDefaults.standard
     var correcto : Bool!
     override func viewDidLoad() {
+        
+        title = "Puntuación"
+        
         super.viewDidLoad()
         let puntos = defaults.integer(forKey: "puntos")
         lbPuntos.text = String(puntos)
