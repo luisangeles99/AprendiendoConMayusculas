@@ -10,7 +10,6 @@
 		4D1E2773253CFA530001DC29 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E2772253CFA530001DC29 /* customButton.swift */; };
 		4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E277A253CFC870001DC29 /* customButtonVF.swift */; };
 		4D710146256316CF00CC2AAB /* PickerExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D710145256316CF00CC2AAB /* PickerExerciseViewController.swift */; };
-		4DB4AC6B2561CFF5009508CB /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */; };
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
 		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
@@ -35,6 +34,7 @@
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
 		887EA055256251F600644E0C /* answerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EA054256251F600644E0C /* answerButton.swift */; };
 		887EA0572563041D00644E0C /* triviaResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EA0562563041D00644E0C /* triviaResultadosViewController.swift */; };
+		887EA0592563A3A100644E0C /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EA0582563A3A100644E0C /* LocalNotificationManager.swift */; };
 		88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC884A2551FBE60029D2DE /* TriviaViewController.swift */; };
 		88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */; };
 		88C63A0D2553B904006DB84C /* trivia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63A0C2553B904006DB84C /* trivia.plist */; };
@@ -66,7 +66,6 @@
 		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
 		4D710145256316CF00CC2AAB /* PickerExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExerciseViewController.swift; sourceTree = "<group>"; };
-		4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationManager.swift; path = "../../../../Downloads/LocalAndPushNotifications-master/LocalAndPushNotifications/LocalNotificationManager.swift"; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
 		887EA054256251F600644E0C /* answerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerButton.swift; sourceTree = "<group>"; };
 		887EA0562563041D00644E0C /* triviaResultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = triviaResultadosViewController.swift; path = ../triviaResultadosViewController.swift; sourceTree = "<group>"; };
+		887EA0582563A3A100644E0C /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalNotificationManager.swift; path = ../LocalNotificationManager.swift; sourceTree = "<group>"; };
 		88BC884A2551FBE60029D2DE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuizViewController.swift; sourceTree = "<group>"; };
 		88C63A0C2553B904006DB84C /* trivia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = trivia.plist; sourceTree = "<group>"; };
@@ -170,10 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
-				4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				887EA054256251F600644E0C /* answerButton.swift */,
 				887EA0562563041D00644E0C /* triviaResultadosViewController.swift */,
+				887EA0582563A3A100644E0C /* LocalNotificationManager.swift */,
 				4DB518F1253798D600C79229 /* Property List.plist */,
 				88C63A0C2553B904006DB84C /* trivia.plist */,
 				4DB518FB2537AEDC00C79229 /* TemasPList.plist */,
@@ -394,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB4AC6B2561CFF5009508CB /* LocalNotificationManager.swift in Sources */,
 				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
 				88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */,
 				88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */,
@@ -411,6 +410,7 @@
 				8819E759253623C500B8A4F1 /* ContactoViewController.swift in Sources */,
 				BE210F572537A78900A30341 /* PuntajeViewController.swift in Sources */,
 				8819E74F2535619100B8A4F1 /* EjemploViewController.swift in Sources */,
+				887EA0592563A3A100644E0C /* LocalNotificationManager.swift in Sources */,
 				8819E757253623BD00B8A4F1 /* RecursosViewController.swift in Sources */,
 				887EA055256251F600644E0C /* answerButton.swift in Sources */,
 				88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */,

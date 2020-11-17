@@ -75,7 +75,9 @@ extension AppDelegate {
                     print("launchedBefore")
                     
                 }else{
-                    LocalNotificationManager.setNotification(60, of: .seconds, repeats: true, title: "Sabías qué...", body: "Los nombres propios empiezan con mayúsculas", userInfo: ["aps" : ["hello" : "world"]])
+                    let arrNoti = ["En el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas", "Puedes practica tu uso de mayúsculas con minijuegos", "Las obras literarias solo llevan mayúscula en la primer palabra"]
+                    let rand = Int.random(in: 0...3)
+                    LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
                     print("not launched before")
                     defaults.setValue(true, forKey: "launchedBefore")
                 }

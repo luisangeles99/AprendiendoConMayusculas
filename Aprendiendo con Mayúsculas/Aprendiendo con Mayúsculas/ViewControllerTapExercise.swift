@@ -172,7 +172,8 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     }
     override var shouldAutorotate: Bool {
         return false
-
+    }
+    
     let defaults = UserDefaults.standard
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

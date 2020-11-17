@@ -31,6 +31,12 @@ class NormaImageViewController: UIViewController, UIScrollViewDelegate {
         return self.imagen
     }
     
+    
+    @IBAction func shareBtn(_ sender: Any) {
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 

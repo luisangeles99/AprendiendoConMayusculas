@@ -20,7 +20,7 @@ class ConfigViewController: UIViewController {
     @IBOutlet weak var btnTogleNot: UISwitch!
 
     @IBOutlet weak var slFontSize: UISlider!
-    var arrNoti = ["en el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas"]
+    let arrNoti = ["En el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas", "Puedes practica tu uso de mayúsculas con minijuegos", "Las obras literarias solo llevan mayúscula en la primer palabra"]
     var defaults = UserDefaults.standard
     
     override func viewDidLoad() {
@@ -36,7 +36,8 @@ class ConfigViewController: UIViewController {
 
     @IBAction func handleNotificationTogle(_ sender: UISwitch) {
         if btnTogleNot.isOn{
-            LocalNotificationManager.setNotification(60, of: .seconds, repeats: true, title: "Sabías qué...", body: arrNoti[1], userInfo: ["aps" : ["hello" : "world"]])
+            let rand = Int.random(in: 0...3)
+            LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
         }else{
             LocalNotificationManager.cancel()
         }
