@@ -43,11 +43,23 @@
 		<dict/>
 		<key>Basico</key>
 		<dict>
+			<key>tapExercise</key>
+			<array>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>54</integer>
+						<integer>9</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>Me llamo moisés y estoy armando una casa con mi amigo armando.</string>
+				</dict>
+			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Me llamo Moisés</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -55,15 +67,15 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
+					<string>Me llamo moisés</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Estoy armando una bicicleta con armando</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>

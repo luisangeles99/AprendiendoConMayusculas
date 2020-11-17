@@ -7,8 +7,20 @@
 //
 
 import UIKit
+import Social
 
 class PuntajeViewController: UIViewController {
+    let image: UIImage = UIImage(named: "btContactoImage1")!
+
+    @IBAction func buttonAction(_ sender: Any)
+    {
+        let activityVC = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        self.present(activityVC, animated: true, completion: nil)
+    }
+    
+    
+    
     @IBOutlet weak var lbPuntos: UILabel!
     @IBOutlet weak var lbCorrecto: UILabel!
     let defaults = UserDefaults.standard

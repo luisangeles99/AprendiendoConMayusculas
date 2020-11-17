@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4D1E2773253CFA530001DC29 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E2772253CFA530001DC29 /* customButton.swift */; };
 		4D1E277B253CFC870001DC29 /* customButtonVF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E277A253CFC870001DC29 /* customButtonVF.swift */; };
+		4D710146256316CF00CC2AAB /* PickerExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D710145256316CF00CC2AAB /* PickerExerciseViewController.swift */; };
+		4DB4AC6B2561CFF5009508CB /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */; };
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
 		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
@@ -63,6 +65,8 @@
 /* Begin PBXFileReference section */
 		4D1E2772253CFA530001DC29 /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 		4D1E277A253CFC870001DC29 /* customButtonVF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButtonVF.swift; sourceTree = "<group>"; };
+		4D710145256316CF00CC2AAB /* PickerExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExerciseViewController.swift; sourceTree = "<group>"; };
+		4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationManager.swift; path = "../../../../Downloads/LocalAndPushNotifications-master/LocalAndPushNotifications/LocalNotificationManager.swift"; sourceTree = "<group>"; };
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
+				4DB4AC6A2561CFF5009508CB /* LocalNotificationManager.swift */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				887EA054256251F600644E0C /* answerButton.swift */,
 				887EA0562563041D00644E0C /* triviaResultadosViewController.swift */,
@@ -179,6 +184,7 @@
 				8819E71E2535317F00B8A4F1 /* ViewController.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
 				88C63A182554ABA0006DB84C /* NormaImageViewController.swift */,
+				4D710145256316CF00CC2AAB /* PickerExerciseViewController.swift */,
 				88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */,
 				88BC884A2551FBE60029D2DE /* TriviaViewController.swift */,
 				BE210F562537A78900A30341 /* PuntajeViewController.swift */,
@@ -388,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB4AC6B2561CFF5009508CB /* LocalNotificationManager.swift in Sources */,
 				8819E74D2535612800B8A4F1 /* NormaController.swift in Sources */,
 				88C63A172553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift in Sources */,
 				88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */,
@@ -395,6 +402,7 @@
 				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
 				8819E7512536210B00B8A4F1 /* DifcultadPracticaViewController.swift in Sources */,
 				88C63A192554ABA0006DB84C /* NormaImageViewController.swift in Sources */,
+				4D710146256316CF00CC2AAB /* PickerExerciseViewController.swift in Sources */,
 				4D1E2773253CFA530001DC29 /* customButton.swift in Sources */,
 				8819E7532536211C00B8A4F1 /* BasicoVFViewController.swift in Sources */,
 				88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */,

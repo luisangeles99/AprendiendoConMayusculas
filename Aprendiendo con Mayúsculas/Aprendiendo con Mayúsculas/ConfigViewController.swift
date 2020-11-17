@@ -9,11 +9,18 @@
 import UIKit
 
 class ConfigViewController: UIViewController {
+
     
     
     @IBOutlet weak var navi: UINavigationItem!
     let bar = UINavigationBarAppearance()
+
+
+   
+    @IBOutlet weak var btnTogleNot: UISwitch!
+
     @IBOutlet weak var slFontSize: UISlider!
+    var arrNoti = ["en el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas"]
     var defaults = UserDefaults.standard
     
     override func viewDidLoad() {
@@ -27,8 +34,17 @@ class ConfigViewController: UIViewController {
     }
     
 
+    @IBAction func handleNotificationTogle(_ sender: UISwitch) {
+        if btnTogleNot.isOn{
+            LocalNotificationManager.setNotification(60, of: .seconds, repeats: true, title: "Sabías qué...", body: arrNoti[1], userInfo: ["aps" : ["hello" : "world"]])
+        }else{
+            LocalNotificationManager.cancel()
+        }
+        
+    }
     
-    
+
+
     
     
     @IBAction func onChangeBlue(_ sender: UIButton) {
