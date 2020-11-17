@@ -33,9 +33,11 @@ class TriviaQuizViewController: UIViewController {
     var btnTitle : String!
     var botones : [UIButton] = []
     var currPregunta = 0
+    var puntaje = 0
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
+       //Label Título
         tituloLabel.text = tema
         tituloLabel.font = tituloLabel.font.withSize(40)
         
@@ -43,12 +45,7 @@ class TriviaQuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Label Título
-        
-        
-        
-        
+      
         //Array Botonoes
         botones.append(respuesta1)
         botones.append(respuesta2)
@@ -60,8 +57,7 @@ class TriviaQuizViewController: UIViewController {
             botones[i-1].tag = i
             
         }
-        
-        
+
         
         //Get info
         obtenerInfo()
@@ -71,12 +67,7 @@ class TriviaQuizViewController: UIViewController {
         
         loadPregunta(curr: currPregunta)
         loadRespuestas()
-        
-        
-        
-        
-        
-        
+   
         // Do any additional setup after loading the view.
     }
     
@@ -113,13 +104,11 @@ class TriviaQuizViewController: UIViewController {
             sender.backgroundColor = color
             sender.transform = CGAffineTransform(scaleX: 1, y: 1)
             sender.setTitleColor(.white, for: .normal)
-            self.loadNextQuestion()
             for i in 1...self.botones.count{
                 self.botones[i-1].isUserInteractionEnabled = true
             }
+            self.loadNextQuestion()
         }
-        
-        
     }
     
     func checkAnswer(index : Int, btn : UIButton){
@@ -127,6 +116,7 @@ class TriviaQuizViewController: UIViewController {
         if (respuestasDetalle[1] as? Bool)! {
             print("Respuesta Correcta")
             btn.backgroundColor = UIColor.green
+            puntaje = puntaje + 1
         }
         else{
             print("Respuesta Incorrecta")
@@ -137,14 +127,18 @@ class TriviaQuizViewController: UIViewController {
     }
     
     func loadNextQuestion(){
-        if currPregunta < 4 {
+        if currPregunta < infoArray.count-1 {
             currPregunta = currPregunta + 1
             loadPregunta(curr: currPregunta)
             loadRespuestas()
         }
         else{
+            for i in 1...self.botones.count{
+                self.botones[i-1].isUserInteractionEnabled = false
+            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                _ = self.navigationController?.popViewController(animated: true)
+                //_ = self.navigationController?.popViewController(animated: true)
+                self.performSegue(withIdentifier: "triviaResults", sender: nil)
 
             }
             
@@ -177,16 +171,25 @@ class TriviaQuizViewController: UIViewController {
     }
     
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        let view = segue.destination as! triviaResultadosViewController
+        view.aciertos = puntaje
+        view.preguntas = infoArray.count
+        
     }
-    */
-
     
+
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
     
 }

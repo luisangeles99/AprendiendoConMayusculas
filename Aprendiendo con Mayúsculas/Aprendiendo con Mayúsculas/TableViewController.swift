@@ -17,7 +17,8 @@ class customTableViewCell: UITableViewCell{
 
 class TableViewController: UITableViewController {
 
-    
+    //user defaults
+    let defaults = UserDefaults.standard
     
     @IBOutlet weak var navBarAppearence: UINavigationItem!
     
@@ -47,7 +48,13 @@ class TableViewController: UITableViewController {
         temasTitles[1] = temasTitles[1]!.sorted(by: { s1, s2 in return s1 < s2 })
         
         
-        
+        if (defaults.string(forKey: "color") == "purple"){
+            navigationController!.navigationBar.tintColor = .systemIndigo
+        } else if (defaults.string(forKey: "color") == "black") {
+            navigationController!.navigationBar.tintColor = .label
+        } else {
+            navigationController!.navigationBar.tintColor = .link
+        }
       
         
         
@@ -158,6 +165,14 @@ class TableViewController: UITableViewController {
         destination.tema = temasTitles[indice.section]![indice.row]
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+    }
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
     
 

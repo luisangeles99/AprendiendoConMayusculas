@@ -32,6 +32,7 @@
 		8819E75B2536C18E00B8A4F1 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E75A2536C18E00B8A4F1 /* LoadData.swift */; };
 		8819E75D2536C30800B8A4F1 /* mayus.json in Resources */ = {isa = PBXBuildFile; fileRef = 8819E75C2536C30800B8A4F1 /* mayus.json */; };
 		887EA055256251F600644E0C /* answerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EA054256251F600644E0C /* answerButton.swift */; };
+		887EA0572563041D00644E0C /* triviaResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887EA0562563041D00644E0C /* triviaResultadosViewController.swift */; };
 		88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BC884A2551FBE60029D2DE /* TriviaViewController.swift */; };
 		88C63A0B2553820C006DB84C /* TriviaQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */; };
 		88C63A0D2553B904006DB84C /* trivia.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88C63A0C2553B904006DB84C /* trivia.plist */; };
@@ -91,6 +92,7 @@
 		8819E75A2536C18E00B8A4F1 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 		8819E75C2536C30800B8A4F1 /* mayus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mayus.json; sourceTree = "<group>"; };
 		887EA054256251F600644E0C /* answerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerButton.swift; sourceTree = "<group>"; };
+		887EA0562563041D00644E0C /* triviaResultadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = triviaResultadosViewController.swift; path = ../triviaResultadosViewController.swift; sourceTree = "<group>"; };
 		88BC884A2551FBE60029D2DE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		88C63A0A2553820C006DB84C /* TriviaQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuizViewController.swift; sourceTree = "<group>"; };
 		88C63A0C2553B904006DB84C /* trivia.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = trivia.plist; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				887EA054256251F600644E0C /* answerButton.swift */,
+				887EA0562563041D00644E0C /* triviaResultadosViewController.swift */,
 				4DB518F1253798D600C79229 /* Property List.plist */,
 				88C63A0C2553B904006DB84C /* trivia.plist */,
 				4DB518FB2537AEDC00C79229 /* TemasPList.plist */,
@@ -404,6 +407,7 @@
 				887EA055256251F600644E0C /* answerButton.swift in Sources */,
 				88C63A152553D34D006DB84C /* ViewControllerTapExercise.swift in Sources */,
 				8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */,
+				887EA0572563041D00644E0C /* triviaResultadosViewController.swift in Sources */,
 				8819E74B25355C2000B8A4F1 /* TableViewController.swift in Sources */,
 				4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */,
 				8819E755253623B300B8A4F1 /* ConfigViewController.swift in Sources */,
@@ -587,10 +591,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "luisangeles.Aprendiendo-con-Mayu-sculas";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.itesmalumnos.Aprendiendoconmayu-sculas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -605,10 +609,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "luisangeles.Aprendiendo-con-Mayu-sculas";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.itesmalumnos.Aprendiendoconmayu-sculas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

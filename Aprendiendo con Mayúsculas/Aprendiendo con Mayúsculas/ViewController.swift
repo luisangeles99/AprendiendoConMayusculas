@@ -31,6 +31,13 @@ class ViewController: UIViewController {
         }
     }
 
-
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
 }
 

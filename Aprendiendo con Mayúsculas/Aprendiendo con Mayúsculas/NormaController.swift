@@ -37,6 +37,8 @@ class NormaController: UIViewController {
         myTitle.font = myTitle.font.withSize(30)
         media1img.image = UIImage(named: "infografia_ej")
         
+    
+        
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         media1img.isUserInteractionEnabled = true
         media1img.addGestureRecognizer(tapGestureRecognizer)
@@ -64,6 +66,14 @@ class NormaController: UIViewController {
         let view = segue.destination as! NormaImageViewController
         view.image = tappedimage
         
+    }
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
     
 

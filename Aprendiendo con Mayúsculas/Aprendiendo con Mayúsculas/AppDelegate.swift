@@ -21,10 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if (defaults.string(forKey: "color") == "purple"){
             UINavigationBar.appearance().backgroundColor = UIColor.systemIndigo
+            UINavigationBar.appearance().tintColor = UIColor.systemIndigo
         } else if (defaults.string(forKey: "color") == "black") {
             UINavigationBar.appearance().backgroundColor = UIColor.label
+            UINavigationBar.appearance().tintColor = UIColor.label
         } else {
             UINavigationBar.appearance().backgroundColor = UIColor.link
+            UINavigationBar.appearance().tintColor = UIColor.link
         }
         
         
