@@ -153,7 +153,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcx-8R-kgX">
-                                        <rect key="frame" x="0.0" y="-0.5" width="414" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="-0.5" width="414" height="427"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJo-YK-pbl">
                                                 <rect key="frame" x="20" y="100" width="374" height="25"/>
@@ -177,7 +177,6 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="Ufe-Sz-8KP" firstAttribute="top" secondItem="Bcx-8R-kgX" secondAttribute="top" constant="35" id="0lm-FE-bwx"/>
-                                            <constraint firstAttribute="height" secondItem="eJo-YK-pbl" secondAttribute="height" multiplier="3.7" id="75d-U7-5jm"/>
                                             <constraint firstItem="L73-ca-wvG" firstAttribute="top" secondItem="eJo-YK-pbl" secondAttribute="bottom" constant="30" id="8cd-dn-DLT"/>
                                             <constraint firstItem="Ufe-Sz-8KP" firstAttribute="leading" secondItem="Bcx-8R-kgX" secondAttribute="leading" constant="50" id="A8Z-vV-T4j"/>
                                             <constraint firstAttribute="trailing" secondItem="eJo-YK-pbl" secondAttribute="trailing" constant="20" id="KXF-YP-Npm"/>
@@ -185,6 +184,7 @@
                                             <constraint firstItem="eJo-YK-pbl" firstAttribute="top" secondItem="Ufe-Sz-8KP" secondAttribute="bottom" constant="40" id="bwE-pJ-cXS"/>
                                             <constraint firstAttribute="trailing" secondItem="L73-ca-wvG" secondAttribute="trailing" constant="20" id="cai-EU-Gdx"/>
                                             <constraint firstItem="eJo-YK-pbl" firstAttribute="leading" secondItem="Bcx-8R-kgX" secondAttribute="leading" constant="20" id="dtc-q2-rUS"/>
+                                            <constraint firstAttribute="bottom" secondItem="L73-ca-wvG" secondAttribute="bottom" constant="33" id="fvw-zi-8po"/>
                                             <constraint firstItem="L73-ca-wvG" firstAttribute="leading" secondItem="Bcx-8R-kgX" secondAttribute="leading" constant="20" id="kDy-St-TN5"/>
                                         </constraints>
                                     </view>
@@ -192,7 +192,7 @@
                                 <constraints>
                                     <constraint firstItem="Bcx-8R-kgX" firstAttribute="leading" secondItem="cLT-Go-KaK" secondAttribute="leading" id="B1v-um-DWw"/>
                                     <constraint firstItem="Bcx-8R-kgX" firstAttribute="top" secondItem="cLT-Go-KaK" secondAttribute="top" constant="-0.5" id="Kk2-Jf-jkk"/>
-                                    <constraint firstAttribute="bottom" secondItem="Bcx-8R-kgX" secondAttribute="bottom" id="TjV-dj-lxQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bcx-8R-kgX" secondAttribute="bottom" id="Rit-BY-jqq"/>
                                     <constraint firstAttribute="trailing" secondItem="Bcx-8R-kgX" secondAttribute="trailing" id="gNd-uZ-Z6W"/>
                                     <constraint firstItem="Bcx-8R-kgX" firstAttribute="width" secondItem="cLT-Go-KaK" secondAttribute="width" id="klK-7i-ot2"/>
                                 </constraints>
@@ -200,10 +200,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="cLT-Go-KaK" firstAttribute="top" secondItem="lTz-ik-fkb" secondAttribute="top" id="6wx-Mh-3g6"/>
                             <constraint firstItem="cLT-Go-KaK" firstAttribute="trailing" secondItem="RT2-Dv-DEe" secondAttribute="trailing" id="I6b-Mr-gNh"/>
-                            <constraint firstAttribute="bottom" secondItem="cLT-Go-KaK" secondAttribute="bottom" id="La0-Ef-la5"/>
+                            <constraint firstAttribute="bottom" secondItem="cLT-Go-KaK" secondAttribute="bottom" id="hfb-du-Jow"/>
                             <constraint firstItem="cLT-Go-KaK" firstAttribute="leading" secondItem="RT2-Dv-DEe" secondAttribute="leading" id="hsA-Yj-7GO"/>
+                            <constraint firstItem="cLT-Go-KaK" firstAttribute="top" secondItem="lTz-ik-fkb" secondAttribute="top" id="tnU-gR-Not"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RT2-Dv-DEe"/>
                     </view>
@@ -259,14 +259,9 @@
                         <viewLayoutGuide key="safeArea" id="r1K-wD-wg1"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="8qs-T9-G5d">
-                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="V4e-iA-S8d">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="saL-nx-Gy9">
-                                <rect key="frame" x="375" y="11" width="19" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="square.and.arrow.up" catalog="system"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.arrow.up" catalog="system" id="xz3-Ee-Imj">
                             <connections>
-                                <action selector="shareBtn:" destination="hbk-kX-wjc" id="bfz-CT-AK0"/>
+                                <action selector="shareBtn:" destination="hbk-kX-wjc" id="il4-YU-XS1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -288,7 +283,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-zK-AEh">
-                                <rect key="frame" x="163.5" y="736" width="87" height="45"/>
+                                <rect key="frame" x="163.5" y="727.5" width="87" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="JUGAR"/>
                                 <connections>
@@ -296,7 +291,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skb-Sw-yh1" customClass="RouletteView" customModule="SimpleRoulette">
-                                <rect key="frame" x="20" y="200" width="374" height="496"/>
+                                <rect key="frame" x="20" y="208.5" width="374" height="479"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -541,7 +536,7 @@
                 <navigationController id="2EK-5D-vzV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Inicio" image="house.fill" catalog="system" selectedImage="house.fill" id="qv8-Ca-oF9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Yve-MV-7QU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -568,7 +563,7 @@
                 <navigationController id="pun-Gq-Y5H" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Contacto" image="phone.fill" catalog="system" selectedImage="phone.fill" id="Tlr-0t-de8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Qgs-3a-HWG">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -683,10 +678,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ACg-La-g1o">
-                                <rect key="frame" x="30" y="228.5" width="354" height="417.5"/>
+                                <rect key="frame" x="30" y="220" width="354" height="426"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oe-AP-VjC">
-                                        <rect key="frame" x="0.0" y="0.0" width="354" height="298"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="304.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" backgroundImage="btContactoImage1"/>
                                         <connections>
@@ -694,24 +689,24 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="QY0-C1-a2p">
-                                        <rect key="frame" x="0.0" y="298" width="354" height="119.5"/>
+                                        <rect key="frame" x="0.0" y="304.5" width="354" height="121.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-qo-Hyt">
-                                                <rect key="frame" x="0.0" y="0.0" width="108" height="119.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="108" height="121.5"/>
                                                 <state key="normal" backgroundImage="ig"/>
                                                 <connections>
                                                     <action selector="onClickSocialIG:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="hvb-TC-VBq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-6j-W6L">
-                                                <rect key="frame" x="123" y="0.0" width="108" height="119.5"/>
+                                                <rect key="frame" x="123" y="0.0" width="108" height="121.5"/>
                                                 <state key="normal" backgroundImage="fb"/>
                                                 <connections>
                                                     <action selector="onClickSocialFB:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="h4S-GO-F7b"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa7-33-eHp">
-                                                <rect key="frame" x="246" y="0.0" width="108" height="119.5"/>
+                                                <rect key="frame" x="246" y="0.0" width="108" height="121.5"/>
                                                 <state key="normal" backgroundImage="tw"/>
                                                 <connections>
                                                     <action selector="onClickSocialTw:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="6YQ-7Y-z2e"/>
@@ -752,20 +747,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gDg-ek-xnE">
-                                <rect key="frame" x="0.0" y="140" width="414" height="675"/>
+                                <rect key="frame" x="0.0" y="148.5" width="414" height="666.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ABZ-u5-3x7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="175"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recursos Adicionales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN5-ny-IVI">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
                                                 <color key="backgroundColor" red="0.91366368532180786" green="0.82109264347794009" blue="0.70485831753427597" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mC8-Dx-pO7">
-                                                <rect key="frame" x="0.0" y="92" width="414" height="85"/>
+                                                <rect key="frame" x="0.0" y="91" width="414" height="84"/>
                                                 <state key="normal" title="Centro de Escritura"/>
                                                 <connections>
                                                     <action selector="clickLink1:" destination="vV3-ts-XWE" eventType="touchUpInside" id="hJA-Gv-XJg"/>
@@ -774,17 +769,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="q2b-WZ-AhJ">
-                                        <rect key="frame" x="0.0" y="177" width="414" height="221.5"/>
+                                        <rect key="frame" x="0.0" y="175" width="414" height="218.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Referencias Bibliográficas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsu-C1-mNu">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="92.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
                                                 <color key="backgroundColor" red="0.91366368529999997" green="0.8210926435" blue="0.70485831750000005" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcX-IY-hfG">
-                                                <rect key="frame" x="0.0" y="92.5" width="414" height="64.5"/>
+                                                <rect key="frame" x="0.0" y="91" width="414" height="63.5"/>
                                                 <state key="normal">
                                                     <string key="title">Real Academia Española 
 Real Academia Española
@@ -795,7 +790,7 @@ Real Academia Española</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vm-Uu-IHE">
-                                                <rect key="frame" x="0.0" y="157" width="414" height="64.5"/>
+                                                <rect key="frame" x="0.0" y="154.5" width="414" height="64"/>
                                                 <state key="normal" title="Wikilengua del español"/>
                                                 <connections>
                                                     <action selector="clickLink3:" destination="vV3-ts-XWE" eventType="touchUpInside" id="Xr6-wt-V6f"/>
@@ -807,29 +802,29 @@ Real Academia Española</string>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fOj-uE-YnJ">
-                                        <rect key="frame" x="0.0" y="398.5" width="414" height="276.5"/>
+                                        <rect key="frame" x="0.0" y="393.5" width="414" height="273"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encargados de la revisión de este Proyecto" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqh-wI-Udv">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="91"/>
                                                 <color key="backgroundColor" red="0.91366368529999997" green="0.8210926435" blue="0.70485831750000005" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luis Alberto Angeles Morales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IE-Jg-B0G">
-                                                <rect key="frame" x="0.0" y="92" width="414" height="61.5"/>
+                                                <rect key="frame" x="0.0" y="91" width="414" height="60.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moisés López Núñez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvy-0P-Fs3">
-                                                <rect key="frame" x="0.0" y="153.5" width="414" height="61.5"/>
+                                                <rect key="frame" x="0.0" y="151.5" width="414" height="61"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alfredo Flores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTW-NR-BDr">
-                                                <rect key="frame" x="0.0" y="215" width="414" height="61.5"/>
+                                                <rect key="frame" x="0.0" y="212.5" width="414" height="60.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1120,7 +1115,7 @@ Real Academia Española</string>
                 <navigationController id="XDL-Kh-Io7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Recursos" image="pencil" catalog="system" selectedImage="pencil" id="ZKz-mb-tLy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="npL-NQ-tJ3">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1142,7 +1137,7 @@ Real Academia Española</string>
                 <navigationController id="Hob-g5-fDc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Ajustes" image="hammer.fill" catalog="system" selectedImage="hammer.fill" id="DST-G7-BTE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7ri-BQ-0KY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1164,7 +1159,7 @@ Real Academia Española</string>
                 <navigationController id="PSP-qv-Y6a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Trivia" image="person.3" catalog="system" id="4yl-7t-FJJ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="hAt-Ce-fph">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1197,36 +1192,36 @@ Real Academia Española</string>
                                 <rect key="frame" x="30" y="84" width="354" height="708"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SF5-Nb-9Mm">
-                                        <rect key="frame" x="0.0" y="0.0" width="354" height="108"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="133.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="Tcf-mp-e0U">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="81"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultados" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="Tcf-mp-e0U">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a05-T5-ki8">
-                                                <rect key="frame" x="0.0" y="81" width="354" height="27"/>
+                                                <rect key="frame" x="0.0" y="38" width="354" height="95.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="Tcf-mp-e0U" firstAttribute="height" secondItem="a05-T5-ki8" secondAttribute="height" multiplier="3" id="WU7-S4-ENn"/>
+                                            <constraint firstItem="a05-T5-ki8" firstAttribute="height" secondItem="Tcf-mp-e0U" secondAttribute="height" multiplier="2.5" id="8Vu-yx-ZkZ"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kfa-eD-1OT">
-                                        <rect key="frame" x="0.0" y="138" width="354" height="108"/>
+                                        <rect key="frame" x="0.0" y="163.5" width="354" height="103"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmK-aw-SCk">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="54"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmK-aw-SCk">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="51.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aet-7k-793">
-                                                <rect key="frame" x="0.0" y="54" width="354" height="54"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aet-7k-793">
+                                                <rect key="frame" x="0.0" y="51.5" width="354" height="51.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1237,13 +1232,14 @@ Real Academia Española</string>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="666-eC-Ghp">
-                                        <rect key="frame" x="0.0" y="276" width="354" height="432"/>
+                                        <rect key="frame" x="0.0" y="296.5" width="354" height="411.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WyW-Ip-vbX">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="324"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="308.5"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7Q-d2-fnK">
-                                                <rect key="frame" x="0.0" y="324" width="354" height="108"/>
+                                                <rect key="frame" x="0.0" y="308.5" width="354" height="103"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                 <state key="normal" title="Aceptar"/>
                                                 <connections>
                                                     <action selector="btnAceptar:" destination="jUd-Uz-ou3" eventType="touchUpInside" id="pgc-Jx-nat"/>
@@ -1257,7 +1253,7 @@ Real Academia Española</string>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="666-eC-Ghp" firstAttribute="height" secondItem="kfa-eD-1OT" secondAttribute="height" multiplier="4" id="A3q-d5-IqU"/>
-                                    <constraint firstItem="SF5-Nb-9Mm" firstAttribute="height" secondItem="kfa-eD-1OT" secondAttribute="height" id="rF8-Cf-tPc"/>
+                                    <constraint firstItem="SF5-Nb-9Mm" firstAttribute="height" secondItem="kfa-eD-1OT" secondAttribute="height" multiplier="1.3" id="rF8-Cf-tPc"/>
                                 </constraints>
                             </stackView>
                         </subviews>

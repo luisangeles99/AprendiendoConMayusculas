@@ -26,8 +26,8 @@ class triviaResultadosViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
         
-        puntajeLabel.text = String(aciertos) + " / " + String(preguntas)
-        tiempoLabel.text = "Tu tiempo fue de: " //String(tiempo)
+        puntajeLabel.text = String(aciertos) + " / " + String(preguntas) + " lo que equivale a: " + String((Double(aciertos)/Double(preguntas))*100)
+        tiempoLabel.text = "Tu tiempo fue de: " + String(format: "%.2f", tiempo) + " segundos"
         
         
         if aciertos! <= 2 {

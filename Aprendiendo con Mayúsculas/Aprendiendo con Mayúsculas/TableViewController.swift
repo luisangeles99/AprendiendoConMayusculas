@@ -35,7 +35,8 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
 
         
-
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        
         obtenerInfo()
         title = "Inicio"
         

@@ -33,7 +33,9 @@ class NormaImageViewController: UIViewController, UIScrollViewDelegate {
     
     
     @IBAction func shareBtn(_ sender: Any) {
-        
+        print("Share")
+        let activityController = UIActivityViewController(activityItems: [imagen.image!], applicationActivities: nil)
+        present(activityController, animated: true, completion: nil)
     }
     
     

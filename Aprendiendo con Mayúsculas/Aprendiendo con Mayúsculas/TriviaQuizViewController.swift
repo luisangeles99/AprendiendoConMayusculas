@@ -34,6 +34,8 @@ class TriviaQuizViewController: UIViewController {
     var botones : [UIButton] = []
     var currPregunta = 0
     var puntaje = 0
+    var timer : Timer!
+    var tiempo : Double = 0.0
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
@@ -46,6 +48,13 @@ class TriviaQuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
+        //timer
+        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: {_ in 
+            self.tiempo = self.tiempo + 0.1
+            
+        })
+        
+        
         //Array Botonoes
         botones.append(respuesta1)
         botones.append(respuesta2)
@@ -176,11 +185,11 @@ class TriviaQuizViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        timer.invalidate()
         let view = segue.destination as! triviaResultadosViewController
         view.aciertos = puntaje
         view.preguntas = infoArray.count
-        
+        view.tiempo = tiempo
     }
     
 
