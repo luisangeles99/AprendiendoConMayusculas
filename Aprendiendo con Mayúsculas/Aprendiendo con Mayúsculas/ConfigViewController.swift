@@ -9,18 +9,18 @@
 import UIKit
 
 class ConfigViewController: UIViewController {
-
+    
     
     
     @IBOutlet weak var navi: UINavigationItem!
     let bar = UINavigationBarAppearance()
-
-
+   
+    
    
     @IBOutlet weak var btnTogleNot: UISwitch!
 
     @IBOutlet weak var slFontSize: UISlider!
-    let arrNoti = ["En el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas", "Puedes practica tu uso de mayúsculas con minijuegos", "Las obras literarias solo llevan mayúscula en la primer palabra"]
+    static var arrNoti = ["En el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas", "Puedes practica tu uso de mayúsculas con minijuegos", "Las obras literarias solo llevan mayúscula en la primer palabra"]
     var defaults = UserDefaults.standard
     
     override func viewDidLoad() {
@@ -29,20 +29,29 @@ class ConfigViewController: UIViewController {
         title = "Ajustes"
         
         
-        
         // Do any additional setup after loading the view.
     }
     
 
     @IBAction func handleNotificationTogle(_ sender: UISwitch) {
         if btnTogleNot.isOn{
+            defaults.setValue(true, forKey: "notificaciones")
             let rand = Int.random(in: 0...3)
-            LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
+            LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: ConfigViewController.arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
         }else{
             LocalNotificationManager.cancel()
+            defaults.setValue(false, forKey: "notificaciones")
         }
         
     }
+    
+    static func externNotification(flag: Bool){
+        if flag{
+            let rand = Int.random(in: 0...3)
+            LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
+        }
+    }
+    
     
 
 
@@ -51,7 +60,7 @@ class ConfigViewController: UIViewController {
     @IBAction func onChangeBlue(_ sender: UIButton) {
         defaults.set("blue", forKey: "color")
         UINavigationBar.appearance().backgroundColor = UIColor.link
-        UINavigationBar.appearance().tintColor = UIColor.link
+        
         navigationController!.navigationBar.backgroundColor = .link
         
     }
@@ -60,14 +69,14 @@ class ConfigViewController: UIViewController {
     @IBAction func onChangePurple(_ sender: UIButton) {
         defaults.set("purple", forKey: "color")
         UINavigationBar.appearance().backgroundColor = UIColor.systemIndigo
-        UINavigationBar.appearance().tintColor = UIColor.systemIndigo
+        
         navigationController!.navigationBar.backgroundColor = .systemIndigo
     }
     
     @IBAction func onChangeGreen(_ sender: UIButton) {
         defaults.set("black", forKey: "color")
         UINavigationBar.appearance().backgroundColor = UIColor.label
-        UINavigationBar.appearance().tintColor = UIColor.label
+        
         navigationController!.navigationBar.backgroundColor = .label
        
 

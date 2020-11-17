@@ -592,53 +592,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paleta de colores" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ai-RR-37F">
-                                <rect key="frame" x="20" y="368" width="142" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo0-GI-IHE">
-                                <rect key="frame" x="100" y="461" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="onChangeBlue:" destination="AO5-ax-dbL" eventType="touchUpInside" id="64t-78-9U2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTQ-kO-h7u">
-                                <rect key="frame" x="184" y="461" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="onChangePurple:" destination="AO5-ax-dbL" eventType="touchUpInside" id="nuw-bc-Tik"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-Jd-W0L">
-                                <rect key="frame" x="267" y="461" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <connections>
-                                    <action selector="onChangeGreen:" destination="AO5-ax-dbL" eventType="touchUpInside" id="6O3-BK-NsS"/>
-                                </connections>
-                            </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TkH-qg-is0">
-                                <rect key="frame" x="304" y="604" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="handleNotificationTogle:" destination="AO5-ax-dbL" eventType="valueChanged" id="E7H-Af-uV5"/>
-                                </connections>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activar notificaciones  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfT-WW-C7r">
-                                <rect key="frame" x="18" y="582" width="216" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="bSY-5d-WRG">
+                                <rect key="frame" x="30" y="198.5" width="354" height="325"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paleta de colores" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ai-RR-37F">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="116.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="sWa-wR-kdR">
+                                        <rect key="frame" x="0.0" y="166.5" width="354" height="77.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo0-GI-IHE">
+                                                <rect key="frame" x="0.0" y="0.0" width="71.5" height="77.5"/>
+                                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="onChangeBlue:" destination="AO5-ax-dbL" eventType="touchUpInside" id="64t-78-9U2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTQ-kO-h7u">
+                                                <rect key="frame" x="141.5" y="0.0" width="71" height="77.5"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="onChangePurple:" destination="AO5-ax-dbL" eventType="touchUpInside" id="nuw-bc-Tik"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-Jd-W0L">
+                                                <rect key="frame" x="282.5" y="0.0" width="71.5" height="77.5"/>
+                                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <connections>
+                                                    <action selector="onChangeGreen:" destination="AO5-ax-dbL" eventType="touchUpInside" id="6O3-BK-NsS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="yo0-GI-IHE" firstAttribute="width" secondItem="HTQ-kO-h7u" secondAttribute="width" id="49j-Ze-HlG"/>
+                                            <constraint firstItem="HTQ-kO-h7u" firstAttribute="width" secondItem="N9B-Jd-W0L" secondAttribute="width" id="DJG-cD-DF5"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BN6-K8-dkK">
+                                        <rect key="frame" x="0.0" y="294" width="354" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activar notificaciones  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfT-WW-C7r">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TkH-qg-is0">
+                                                <rect key="frame" x="305" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="handleNotificationTogle:" destination="AO5-ax-dbL" eventType="valueChanged" id="E7H-Af-uV5"/>
+                                                </connections>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6ai-RR-37F" firstAttribute="height" secondItem="sWa-wR-kdR" secondAttribute="height" multiplier="1.5" id="maa-5l-b3R"/>
+                                    <constraint firstItem="sWa-wR-kdR" firstAttribute="height" secondItem="BN6-K8-dkK" secondAttribute="height" multiplier="2.5" id="zgm-a6-zcu"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bSY-5d-WRG" firstAttribute="centerX" secondItem="TvD-gj-yLT" secondAttribute="centerX" id="PrC-cl-LIj"/>
+                            <constraint firstItem="bSY-5d-WRG" firstAttribute="top" secondItem="TRh-cC-Dd6" secondAttribute="top" constant="50" id="SnP-kM-SfA"/>
+                            <constraint firstItem="bSY-5d-WRG" firstAttribute="leading" secondItem="TRh-cC-Dd6" secondAttribute="leading" constant="30" id="XDG-ba-fGq"/>
+                            <constraint firstItem="TRh-cC-Dd6" firstAttribute="trailing" secondItem="bSY-5d-WRG" secondAttribute="trailing" constant="30" id="xjA-Yq-1Jm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="TRh-cC-Dd6"/>
                     </view>
                     <navigationItem key="navigationItem" title="Configuración" id="0l4-AM-pzc"/>
@@ -729,20 +752,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gDg-ek-xnE">
-                                <rect key="frame" x="0.0" y="158" width="414" height="657"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="675"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ABZ-u5-3x7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="151.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recursos Adicionales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN5-ny-IVI">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
-                                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                                <color key="backgroundColor" red="0.91366368532180786" green="0.82109264347794009" blue="0.70485831753427597" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mC8-Dx-pO7">
-                                                <rect key="frame" x="0.0" y="84" width="414" height="67.5"/>
+                                                <rect key="frame" x="0.0" y="92" width="414" height="85"/>
                                                 <state key="normal" title="Centro de Escritura"/>
                                                 <connections>
                                                     <action selector="clickLink1:" destination="vV3-ts-XWE" eventType="touchUpInside" id="hJA-Gv-XJg"/>
@@ -751,17 +774,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="q2b-WZ-AhJ">
-                                        <rect key="frame" x="0.0" y="151.5" width="414" height="253"/>
+                                        <rect key="frame" x="0.0" y="177" width="414" height="221.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Referencias Bibliográficas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsu-C1-mNu">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="84.5"/>
-                                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="92.5"/>
+                                                <color key="backgroundColor" red="0.91366368529999997" green="0.8210926435" blue="0.70485831750000005" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcX-IY-hfG">
-                                                <rect key="frame" x="0.0" y="84.5" width="414" height="84"/>
+                                                <rect key="frame" x="0.0" y="92.5" width="414" height="64.5"/>
                                                 <state key="normal">
                                                     <string key="title">Real Academia Española 
 Real Academia Española
@@ -772,7 +795,7 @@ Real Academia Española</string>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vm-Uu-IHE">
-                                                <rect key="frame" x="0.0" y="168.5" width="414" height="84.5"/>
+                                                <rect key="frame" x="0.0" y="157" width="414" height="64.5"/>
                                                 <state key="normal" title="Wikilengua del español"/>
                                                 <connections>
                                                     <action selector="clickLink3:" destination="vV3-ts-XWE" eventType="touchUpInside" id="Xr6-wt-V6f"/>
@@ -784,29 +807,29 @@ Real Academia Española</string>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fOj-uE-YnJ">
-                                        <rect key="frame" x="0.0" y="404.5" width="414" height="252.5"/>
+                                        <rect key="frame" x="0.0" y="398.5" width="414" height="276.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encargados de la revisión de este Proyecto" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqh-wI-Udv">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
-                                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encargados de la revisión de este Proyecto" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqh-wI-Udv">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                                <color key="backgroundColor" red="0.91366368529999997" green="0.8210926435" blue="0.70485831750000005" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luis Alberto Angeles Morales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IE-Jg-B0G">
-                                                <rect key="frame" x="0.0" y="84" width="414" height="56"/>
+                                                <rect key="frame" x="0.0" y="92" width="414" height="61.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moisés López Núñez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvy-0P-Fs3">
-                                                <rect key="frame" x="0.0" y="140" width="414" height="56.5"/>
+                                                <rect key="frame" x="0.0" y="153.5" width="414" height="61.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alfredo Flores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTW-NR-BDr">
-                                                <rect key="frame" x="0.0" y="196.5" width="414" height="56"/>
+                                                <rect key="frame" x="0.0" y="215" width="414" height="61.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -820,16 +843,16 @@ Real Academia Española</string>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="ABZ-u5-3x7" firstAttribute="height" secondItem="q2b-WZ-AhJ" secondAttribute="height" multiplier="0.6" id="XX1-DL-cBb"/>
+                                    <constraint firstItem="ABZ-u5-3x7" firstAttribute="height" secondItem="q2b-WZ-AhJ" secondAttribute="height" multiplier="0.8" id="XX1-DL-cBb"/>
                                     <constraint firstItem="TN5-ny-IVI" firstAttribute="height" secondItem="vsu-C1-mNu" secondAttribute="height" id="kMF-GQ-brx"/>
-                                    <constraint firstItem="q2b-WZ-AhJ" firstAttribute="height" secondItem="fOj-uE-YnJ" secondAttribute="height" id="shi-2Y-zwe"/>
+                                    <constraint firstItem="q2b-WZ-AhJ" firstAttribute="height" secondItem="fOj-uE-YnJ" secondAttribute="height" multiplier="0.8" id="shi-2Y-zwe"/>
                                     <constraint firstItem="vsu-C1-mNu" firstAttribute="height" secondItem="rqh-wI-Udv" secondAttribute="height" id="xm7-lq-v5f"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="gDg-ek-xnE" firstAttribute="top" secondItem="LBV-RG-nYf" secondAttribute="top" constant="18" id="2cZ-S9-pO0"/>
+                            <constraint firstItem="gDg-ek-xnE" firstAttribute="top" secondItem="LBV-RG-nYf" secondAttribute="top" id="2cZ-S9-pO0"/>
                             <constraint firstAttribute="trailing" secondItem="gDg-ek-xnE" secondAttribute="trailing" id="nEM-1Z-Kyh"/>
                             <constraint firstAttribute="bottomMargin" secondItem="gDg-ek-xnE" secondAttribute="bottom" constant="-2" id="rxr-dH-S6a"/>
                             <constraint firstItem="gDg-ek-xnE" firstAttribute="leading" secondItem="tca-Zq-AZd" secondAttribute="leading" id="xZK-Z4-HSC"/>
@@ -1119,7 +1142,7 @@ Real Academia Española</string>
                 <navigationController id="Hob-g5-fDc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Ajustes" image="hammer.fill" catalog="system" selectedImage="hammer.fill" id="DST-G7-BTE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7ri-BQ-0KY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>

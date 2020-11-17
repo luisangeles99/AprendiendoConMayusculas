@@ -34,6 +34,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
 
         obtenerInfo()
         title = "Inicio"
@@ -49,13 +50,7 @@ class TableViewController: UITableViewController {
         temasTitles[1] = temasTitles[1]!.sorted(by: { s1, s2 in return s1 < s2 })
         
         
-        if (defaults.string(forKey: "color") == "purple"){
-            navigationController!.navigationBar.tintColor = .systemIndigo
-        } else if (defaults.string(forKey: "color") == "black") {
-            navigationController!.navigationBar.tintColor = .label
-        } else {
-            navigationController!.navigationBar.tintColor = .link
-        }
+        
       
         
         
@@ -64,6 +59,17 @@ class TableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if (defaults.string(forKey: "color") == "purple"){
+            navigationController!.navigationBar.barTintColor = .systemIndigo
+        } else if (defaults.string(forKey: "color") == "black") {
+            navigationController!.navigationBar.barTintColor = .label
+        } else {
+            navigationController!.navigationBar.barTintColor = .link
+        }
     }
 
     // MARK: - Table view data source

@@ -24,14 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         if (defaults.string(forKey: "color") == "purple"){
             UINavigationBar.appearance().backgroundColor = UIColor.systemIndigo
-            UINavigationBar.appearance().tintColor = UIColor.systemIndigo
+            
         } else if (defaults.string(forKey: "color") == "black") {
             UINavigationBar.appearance().backgroundColor = UIColor.label
-            UINavigationBar.appearance().tintColor = UIColor.label
         } else {
             UINavigationBar.appearance().backgroundColor = UIColor.link
-            UINavigationBar.appearance().tintColor = UIColor.link
+            
         }
+        UINavigationBar.appearance().tintColor = .white
 
         return true
     }
@@ -64,22 +64,27 @@ extension AppDelegate {
                 return
             }
             guard granted else {
+                let defaults = UserDefaults.standard
                 print("Failed to request autorization for notification center: not granted")
+                defaults.setValue(false, forKey: "notificaciones")
                 return
             }
             DispatchQueue.main.async {
                 application.registerForRemoteNotifications()
                 let defaults = UserDefaults.standard
                 let launchedBefore = defaults.bool(forKey: "launchedBefore")
+                let notificaciones = defaults.bool(forKey: "notificaciones")
                 if launchedBefore{
                     print("launchedBefore")
-                    
+                    ConfigViewController.externNotification(flag: notificaciones)
                 }else{
                     let arrNoti = ["En el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas", "Puedes practica tu uso de mayúsculas con minijuegos", "Las obras literarias solo llevan mayúscula en la primer palabra"]
                     let rand = Int.random(in: 0...3)
                     LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
+                    
                     print("not launched before")
                     defaults.setValue(true, forKey: "launchedBefore")
+                    defaults.setValue(true, forKey: "notificaciones")
                 }
             }
         }
