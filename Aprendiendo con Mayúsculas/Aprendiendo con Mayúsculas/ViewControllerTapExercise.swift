@@ -10,15 +10,56 @@ import UIKit
 class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
 
 
+    @IBOutlet weak var numTotals: UILabel!
     @IBOutlet weak var textView: UITextView!
-    let indicesCorrectos = [9,54]
-    var myString : NSMutableAttributedString!;
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var indicesCorrectos : NSArray!
+    var myString : NSMutableAttributedString!
+    var tema : String!
+    var categoria : String!
+    var myPList : NSDictionary!
+    var arrEjercicios : NSArray!
+    var ejercicio : NSDictionary!
+    var respuestasCorrectasActual : Int!
+    var respuestasCorrectas : Int!
+
+    override func viewDidAppear(_ animated: Bool) {
+        ejercicio = arrEjercicios[0] as! NSDictionary
+        var myStringProblema = ejercicio["ejercicio"] as! String
+        indicesCorrectos = ejercicio["indicesCorrectos"] as! NSArray
+        
+        respuestasCorrectas = indicesCorrectos.count
+        respuestasCorrectasActual = 0
+        refreshCounter()
 
         // Create an attributed string
-        myString = NSMutableAttributedString(string: "Me llamo moisés y estoy armando una casa con mi amigo armando.")
+        myString = NSMutableAttributedString(string: myStringProblema)
+
+        // Set an attribute on part of the string
+        let myRange = NSRange(location: 0, length: 5) // range of "Swift"
+        let myCustomAttribute = [ NSAttributedString.Key.myAttributeName: "some value"]
+        myString.addAttributes(myCustomAttribute, range: myRange)
+        textView.attributedText = myString
+        textView.font = UIFont(name: textView.font!.fontName, size: 25)
+        
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
+        myPList = NSDictionary(contentsOfFile: path!)
+        let cat = myPList[tema!] as! NSDictionary
+        //print(tema)
+        let dificultad = cat["Basico"] as! NSDictionary
+        arrEjercicios = dificultad["tapExercise"] as! NSArray
+        ejercicio = arrEjercicios[0] as! NSDictionary
+        var myStringProblema = ejercicio["ejercicio"] as! String
+        indicesCorrectos = ejercicio["indicesCorrectos"] as! NSArray
+        
+        respuestasCorrectas = indicesCorrectos.count
+        respuestasCorrectasActual = 0
+        refreshCounter()
+
+        // Create an attributed string
+        myString = NSMutableAttributedString(string: myStringProblema)
 
         // Set an attribute on part of the string
         let myRange = NSRange(location: 0, length: 5) // range of "Swift"
@@ -32,6 +73,12 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         let tap = UITapGestureRecognizer(target: self, action: #selector(myMethodToHandleTap(_:)))
         tap.delegate = self
         textView.addGestureRecognizer(tap)
+    }
+    
+    func refreshCounter(){
+        print(respuestasCorrectasActual)
+        numTotals.text = String(respuestasCorrectasActual) + "/" + String(respuestasCorrectas)
+        numTotals.font = UIFont(name: numTotals.font!.fontName, size: 25)
     }
     
     func getPalabra(indiceTap : Int) -> Int{
@@ -48,6 +95,13 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         }
         return firstIndex + 1
 
+    }
+    
+    func completedExercise(){
+        if respuestasCorrectas == respuestasCorrectasActual{
+            print("TESTING")
+            performSegue(withIdentifier: "segueCorrecta", sender: nil)
+        }
     }
     
     func myReplace(myString: String, _ index: Int, _ newChar: Character) -> String {
@@ -87,7 +141,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             if indicesCorrectos.contains(indexTappedWord){
                 let alert = UIAlertController(title: "Alert", message: "Correcto", preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+                //self.present(alert, animated: true, completion: nil)
                 print("CORRECTO")
                 //textView.attributedText = correctString
                 let auxRange = NSRange(location: indexTappedWord, length: 1)
@@ -97,6 +151,9 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
                 let myNewAttributedText = NSMutableAttributedString(string: newText)
                 textView.attributedText = myNewAttributedText
                 textView.font = UIFont(name: textView.font!.fontName, size: 25)
+                respuestasCorrectasActual = respuestasCorrectasActual + 1
+                refreshCounter()
+                completedExercise()
             }
             // check if the tap location has a certain attribute
             let attributeName = NSAttributedString.Key.myAttributeName
@@ -106,5 +163,13 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             }*/
 
         }
+    }
+    
+    let defaults = UserDefaults.standard
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let puntajeView = segue.destination as! PuntajeViewController
+        defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
+        puntajeView.correcto = true
     }
 }

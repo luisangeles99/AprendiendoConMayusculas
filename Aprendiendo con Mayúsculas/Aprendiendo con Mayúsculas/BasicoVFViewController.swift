@@ -16,14 +16,16 @@ class BasicoVFViewController: UIViewController {
     var bCorrecto: Bool = false
     var problemasDisp : NSMutableArray!
     var problema: NSDictionary!
+    var tema : String!
+    var categoria : String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Práctica Básica"
         let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
         arrDiccionarios = NSDictionary(contentsOfFile: path!)
-        let  tema = arrDiccionarios["Nombres propios"] as! NSDictionary
-        let  tipo = tema["Basico"] as! NSDictionary
+        let  tema2 = arrDiccionarios[tema] as! NSDictionary
+        let  tipo = tema2["Basico"] as! NSDictionary
         let problemas = tipo["verdaderoFalso"] as! NSMutableArray
         problemasDisp = problemas
         let x = Int.random(in: 0..<problemas.count)
@@ -54,27 +56,41 @@ class BasicoVFViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let puntajeView = segue.destination as! PuntajeViewController
         let boton = sender as! UIButton
-        if(boton.restorationIdentifier == "btTrue"){
-            //print(problema)
-            if  true == (problema["Respuesta"] as! Bool){
-                print("correcto")
-                bCorrecto = true
-                defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
-                
-            }else{
-                print("incorrecto")
-                bCorrecto = false
-            }
-        } else {
-            //print(problema)
-            if  false == (problema["Respuesta"] as! Bool){
-                print("correcto")
-                bCorrecto = true
-            }else{
-                print("incorrecto")
-                bCorrecto = false
-            }
+        let statusBtn : Bool!
+        if boton.restorationIdentifier == "btTrue"{
+            statusBtn = true
+        }else{
+            statusBtn = false
         }
+        if statusBtn == problema["Respuesta"] as! Bool{
+            print("Correcto")
+            bCorrecto = true
+            defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
+        }else{
+            bCorrecto = false
+            print("Incorrecto")
+        }
+//        if(boton.restorationIdentifier == "btTrue"){
+//            //print(problema)
+//            if  true == (problema["Respuesta"] as! Bool){
+//                print("correcto")
+//                bCorrecto = true
+//
+//
+//            }else{
+//                print("incorrecto")
+//                bCorrecto = false
+//            }
+//        } else {
+//            //print(problema)
+//            if  false == (problema["Respuesta"] as! Bool){
+//                print("correcto")
+//                bCorrecto = true
+//            }else{
+//                print("incorrecto")
+//                bCorrecto = false
+//            }
+//        }
         puntajeView.correcto = bCorrecto
     }
     

@@ -28,6 +28,10 @@ class ViewController: UIViewController {
             let vistaEjemplos = segue.destination as!EjemploViewController
             vistaEjemplos.tema = tema
             vistaEjemplos.categoria = minmay
+        }else if segue.identifier == "seguePractica"{
+            let vistaPractica = segue.destination as! DifcultadPracticaViewController
+            vistaPractica.tema = tema
+            vistaPractica.categoria = minmay
         }
     }
 

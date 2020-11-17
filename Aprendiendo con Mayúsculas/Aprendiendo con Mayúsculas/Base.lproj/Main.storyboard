@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -44,7 +44,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Práctica"/>
                                 <connections>
-                                    <segue destination="PvL-WQ-axu" kind="show" id="uPZ-MB-76z"/>
+                                    <segue destination="PvL-WQ-axu" kind="show" identifier="seguePractica" id="uPZ-MB-76z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.68115942029" y="164.73214285714286"/>
+            <point key="canvasLocation" x="1426" y="165"/>
         </scene>
         <!--Ejemplo View Controller-->
         <scene sceneID="1Xv-Tb-Ha2">
@@ -527,12 +527,27 @@
                                     <action selector="onChangeGreen:" destination="AO5-ax-dbL" eventType="touchUpInside" id="6O3-BK-NsS"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TkH-qg-is0">
+                                <rect key="frame" x="304" y="604" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="handleNotificationTogle:" destination="AO5-ax-dbL" eventType="valueChanged" id="E7H-Af-uV5"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activar notificaciones  " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfT-WW-C7r">
+                                <rect key="frame" x="18" y="582" width="216" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TRh-cC-Dd6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Configuración" id="0l4-AM-pzc"/>
                     <connections>
+                        <outlet property="btnTogleNot" destination="TkH-qg-is0" id="s6d-IC-wuc"/>
                         <outlet property="slFontSize" destination="4Pe-nd-Cru" id="BXl-WY-lTO"/>
                     </connections>
                 </viewController>
@@ -740,10 +755,10 @@ Real Academia Española</string>
             </objects>
             <point key="canvasLocation" x="1339" y="948"/>
         </scene>
-        <!--View Controller-->
+        <!--Picker Exercise View Controller-->
         <scene sceneID="sdl-hL-YN9">
             <objects>
-                <viewController id="Zyn-wQ-vUP" sceneMemberID="viewController">
+                <viewController id="Zyn-wQ-vUP" customClass="PickerExerciseViewController" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gSi-rW-lgI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -753,7 +768,7 @@ Real Academia Española</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Verdadero Falso"/>
                                 <connections>
-                                    <segue destination="1xl-7K-TgQ" kind="show" id="hBz-Uw-0nI"/>
+                                    <segue destination="1xl-7K-TgQ" kind="show" identifier="segueVerdadero" id="hBz-Uw-0nI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAW-L1-yga" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
@@ -761,7 +776,7 @@ Real Academia Española</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Selecciona palabra"/>
                                 <connections>
-                                    <segue destination="LkD-N1-0Ry" kind="show" id="Psf-Du-Biy"/>
+                                    <segue destination="LkD-N1-0Ry" kind="show" identifier="segueTap" id="Psf-Du-Biy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -783,7 +798,7 @@ Real Academia Española</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m6M-jv-4zY">
-                                <rect key="frame" x="54" y="140" width="307" height="227"/>
+                                <rect key="frame" x="42" y="282" width="307" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -791,18 +806,41 @@ Real Academia Española</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selecciona las palabras que deberían estar en mayúsculas" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aa9-ir-fl0">
+                                <rect key="frame" x="54" y="155" width="283" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xC-Qt-j4z">
+                                <rect key="frame" x="116" y="613" width="158" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Número de respuestas correctas" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-fu-naW">
+                                <rect key="frame" x="70" y="552" width="250" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V5M-3X-zwN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="t9e-ER-h9R"/>
                     <connections>
+                        <outlet property="numTotals" destination="7xC-Qt-j4z" id="eWp-Q4-ONi"/>
                         <outlet property="textView" destination="m6M-jv-4zY" id="hrA-hH-Gdh"/>
+                        <segue destination="dJC-7P-4Sq" kind="show" identifier="segueCorrecta" id="MbU-Tv-sNA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WWG-54-0H4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3913" y="1681"/>
+            <point key="canvasLocation" x="3911.594202898551" y="1680.8035714285713"/>
         </scene>
         <!--BasicoVF View Controller-->
         <scene sceneID="f9y-fB-yXI">
@@ -812,34 +850,36 @@ Real Academia Española</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-xJ-9PN">
-                                <rect key="frame" x="113" y="303" width="188" height="73"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYY-xJ-9PN">
+                                <rect key="frame" x="85" y="303" width="216" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="btFalse" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ln-oc-2iR">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="btFalse" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ln-oc-2iR" customClass="CustomButtonVF" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="49" y="563" width="145" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="false"/>
                                 <state key="normal" title="False"/>
                                 <connections>
                                     <action selector="falseBtn:" destination="1xl-7K-TgQ" eventType="touchUpInside" id="SlJ-K7-vZD"/>
                                     <segue destination="dJC-7P-4Sq" kind="show" id="LZy-mU-uxg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="btTrue" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSI-0C-gUU">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="btTrue" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSI-0C-gUU" customClass="CustomButtonVF" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="230" y="563" width="145" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26777303218841553" green="0.91636151075363159" blue="0.25262558460235596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="true"/>
                                 <state key="normal" title="True"/>
                                 <connections>
                                     <action selector="trueBtn:" destination="1xl-7K-TgQ" eventType="touchUpInside" id="jmc-bQ-tlW"/>
                                     <segue destination="dJC-7P-4Sq" kind="show" id="GPe-nY-1ul"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Práctica Verdadero/Falso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaf-qv-atF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Práctica Verdadero/Falso" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaf-qv-atF">
                                 <rect key="frame" x="111" y="166" width="192" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -857,7 +897,7 @@ Real Academia Española</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cN-KO-wC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3703" y="971"/>
+            <point key="canvasLocation" x="3702.898550724638" y="970.98214285714278"/>
         </scene>
         <!--Puntaje View Controller-->
         <scene sceneID="fY9-EI-Yci">
@@ -888,6 +928,14 @@ Real Academia Española</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCL-ap-a0U" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                <rect key="frame" x="146" y="593" width="145" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Compartir"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="dJC-7P-4Sq" eventType="touchUpInside" id="JT8-jJ-Jbp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tmC-Al-4PU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -900,7 +948,7 @@ Real Academia Española</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="en5-Ta-nfM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5019" y="971"/>
+            <point key="canvasLocation" x="5018.840579710145" y="970.98214285714278"/>
         </scene>
         <!--Recursos-->
         <scene sceneID="FNg-Xw-zb5">

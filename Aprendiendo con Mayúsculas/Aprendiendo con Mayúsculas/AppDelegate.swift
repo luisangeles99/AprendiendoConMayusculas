@@ -14,10 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        setupNotifications(on: application)
+
         // Override point for customization after application launch.
         UITabBar.appearance().backgroundColor = .darkGray
         UITabBar.appearance().tintColor = UIColor(red: 20/255, green: 20/255, blue: 200/255, alpha: 1)
-        setupNotifications(on: application)
+        
         let UILabelAppeareance = UILabel.appearance()
         UILabelAppeareance.font = UIFont(name: "systemFont", size: CGFloat(defaults.float(forKey: "fontSize")))
         if (defaults.string(forKey: "color") == "purple"){
@@ -27,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } else {
             UINavigationBar.appearance().backgroundColor = UIColor.blue
         }
-        
+
         return true
     }
 
@@ -50,6 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate {
     func setupNotifications(on application: UIApplication) {
+        print("SETUP")
         let notificationCenter = UNUserNotificationCenter.current()
         notificationCenter.delegate = self
         notificationCenter.requestAuthorization(options: [.alert, .sound]) { granted, error in
@@ -63,6 +66,16 @@ extension AppDelegate {
             }
             DispatchQueue.main.async {
                 application.registerForRemoteNotifications()
+                let defaults = UserDefaults.standard
+                let launchedBefore = defaults.bool(forKey: "launchedBefore")
+                if launchedBefore{
+                    print("launchedBefore")
+                    
+                }else{
+                    LocalNotificationManager.setNotification(60, of: .seconds, repeats: true, title: "Sabías qué...", body: "Los nombres propios empiezan con mayúsculas", userInfo: ["aps" : ["hello" : "world"]])
+                    print("not launched before")
+                    defaults.setValue(true, forKey: "launchedBefore")
+                }
             }
         }
     }
