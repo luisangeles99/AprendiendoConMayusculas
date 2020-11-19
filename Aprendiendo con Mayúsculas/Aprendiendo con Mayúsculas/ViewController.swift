@@ -29,12 +29,19 @@ class ViewController: UIViewController {
             vistaEjemplos.tema = tema
             vistaEjemplos.categoria = minmay
         }else if segue.identifier == "seguePractica"{
-            let vistaPractica = segue.destination as! DifcultadPracticaViewController
+            let vistaPractica = segue.destination as! PickerExerciseViewController
             vistaPractica.tema = tema
             vistaPractica.categoria = minmay
         }
     }
 
-
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
 }
 

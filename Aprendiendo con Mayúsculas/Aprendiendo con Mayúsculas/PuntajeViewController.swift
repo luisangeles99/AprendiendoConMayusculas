@@ -26,6 +26,9 @@ class PuntajeViewController: UIViewController {
     let defaults = UserDefaults.standard
     var correcto : Bool!
     override func viewDidLoad() {
+        
+        title = "Puntuación"
+        
         super.viewDidLoad()
         let puntos = defaults.integer(forKey: "puntos")
         lbPuntos.text = String(puntos)
@@ -47,5 +50,13 @@ class PuntajeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
 
 }

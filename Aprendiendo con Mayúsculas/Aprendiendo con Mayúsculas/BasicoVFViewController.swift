@@ -21,10 +21,11 @@ class BasicoVFViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(tema!)
         title = "Práctica Básica"
         let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
         arrDiccionarios = NSDictionary(contentsOfFile: path!)
-        let  tema2 = arrDiccionarios[tema] as! NSDictionary
+        let  tema2 = arrDiccionarios[tema!] as! NSDictionary
         let  tipo = tema2["Basico"] as! NSDictionary
         let problemas = tipo["verdaderoFalso"] as! NSMutableArray
         problemasDisp = problemas
@@ -62,7 +63,7 @@ class BasicoVFViewController: UIViewController {
         }else{
             statusBtn = false
         }
-        if statusBtn == problema["Respuesta"] as! Bool{
+        if statusBtn == problema["Respuesta"] as? Bool{
             print("Correcto")
             bCorrecto = true
             defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
@@ -92,6 +93,14 @@ class BasicoVFViewController: UIViewController {
 //            }
 //        }
         puntajeView.correcto = bCorrecto
+    }
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
     
 

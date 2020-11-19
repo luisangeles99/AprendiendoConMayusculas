@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class RoulettePartTextLayer: CATextLayer {
-    let part: RoulettePartType!
+    var part: RoulettePartType!
     
     init(part: RoulettePartType) {
         self.part = part

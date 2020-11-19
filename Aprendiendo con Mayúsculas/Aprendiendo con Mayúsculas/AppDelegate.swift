@@ -17,18 +17,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupNotifications(on: application)
 
         // Override point for customization after application launch.
+        
         UITabBar.appearance().backgroundColor = .darkGray
         UITabBar.appearance().tintColor = UIColor(red: 20/255, green: 20/255, blue: 200/255, alpha: 1)
         
-        let UILabelAppeareance = UILabel.appearance()
-        UILabelAppeareance.font = UIFont(name: "systemFont", size: CGFloat(defaults.float(forKey: "fontSize")))
+
         if (defaults.string(forKey: "color") == "purple"){
-            UINavigationBar.appearance().backgroundColor = UIColor.purple
+            UINavigationBar.appearance().backgroundColor = UIColor.systemIndigo
+            
         } else if (defaults.string(forKey: "color") == "black") {
-            UINavigationBar.appearance().backgroundColor = UIColor.black
+            UINavigationBar.appearance().backgroundColor = UIColor.label
         } else {
-            UINavigationBar.appearance().backgroundColor = UIColor.blue
+            UINavigationBar.appearance().backgroundColor = UIColor.link
+            
         }
+        UINavigationBar.appearance().tintColor = .white
 
         return true
     }
@@ -61,20 +64,27 @@ extension AppDelegate {
                 return
             }
             guard granted else {
+                let defaults = UserDefaults.standard
                 print("Failed to request autorization for notification center: not granted")
+                defaults.setValue(false, forKey: "notificaciones")
                 return
             }
             DispatchQueue.main.async {
                 application.registerForRemoteNotifications()
                 let defaults = UserDefaults.standard
                 let launchedBefore = defaults.bool(forKey: "launchedBefore")
+                let notificaciones = defaults.bool(forKey: "notificaciones")
                 if launchedBefore{
                     print("launchedBefore")
-                    
+                    ConfigViewController.externNotification(flag: notificaciones)
                 }else{
-                    LocalNotificationManager.setNotification(60, of: .seconds, repeats: true, title: "Sabías qué...", body: "Los nombres propios empiezan con mayúsculas", userInfo: ["aps" : ["hello" : "world"]])
+                    let arrNoti = ["En el centro de escritura te pueden asesorar con tus trabajos literarios", "Los nombres propios empiezan con mayúsculas", "Puedes practica tu uso de mayúsculas con minijuegos", "Las obras literarias solo llevan mayúscula en la primer palabra"]
+                    let rand = Int.random(in: 0...3)
+                    LocalNotificationManager.setNotification(5, of: .hours, repeats: true, title: "Sabías qué...", body: arrNoti[rand], userInfo: ["aps" : ["hello" : "world"]])
+                    
                     print("not launched before")
                     defaults.setValue(true, forKey: "launchedBefore")
+                    defaults.setValue(true, forKey: "notificaciones")
                 }
             }
         }

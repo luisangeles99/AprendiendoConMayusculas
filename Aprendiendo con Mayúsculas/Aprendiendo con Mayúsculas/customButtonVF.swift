@@ -25,7 +25,7 @@ class CustomButtonVF: UIButton {
     func setupButton() {
         setShadow()
         setTitleColor(.white, for: .normal)
-        if titleLabel?.text == "False"{
+        if titleLabel?.text == "Incorrecto"{
             backgroundColor      = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
         }else{
             backgroundColor      = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)

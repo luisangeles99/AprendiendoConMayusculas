@@ -21,13 +21,15 @@ class TriviaViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         spin = false
+        self.navigationController?.navigationBar.isHidden = false
+
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Trivia"
-        
+
         rouletteView.delegate = self
         rouletteView.configure(parts: [
             Roulette.HugePart(name: "Oraciones", huge: .normal, delegate: rouletteView, index: 0),
@@ -56,7 +58,6 @@ class TriviaViewController: UIViewController {
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + valor + 1.5) {
-            
             self.performSegue(withIdentifier: "playSegue", sender: nil)
         }
         
@@ -66,8 +67,6 @@ class TriviaViewController: UIViewController {
     
     @IBAction func spinRoulette(_ sender: Any) {
         playRoulette()
-        
-        
     }
     
     
@@ -101,6 +100,7 @@ extension TriviaViewController: RouletteViewDelegate {
         
         indice = part.index
         tema = part.name
+        //part.fillColor = .systemTeal
         
         /*
         let alert = UIAlertController(title: "Elegido", message: part.name, preferredStyle: .alert)
@@ -114,5 +114,13 @@ extension TriviaViewController: RouletteViewDelegate {
         */
         
         
+    }
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
 }

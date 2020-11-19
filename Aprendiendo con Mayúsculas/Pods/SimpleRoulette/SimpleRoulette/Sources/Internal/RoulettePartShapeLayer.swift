@@ -9,7 +9,7 @@
 import UIKit
 
 class RoulettePartShapeLayer: CAShapeLayer {
-    let part: RoulettePartType!
+    var part: RoulettePartType!
     
     init(part: RoulettePartType) {
         self.part = part

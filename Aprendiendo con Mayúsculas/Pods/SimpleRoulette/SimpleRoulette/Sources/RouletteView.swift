@@ -168,8 +168,8 @@ public class RouletteView: UIView {
         for part in parts {
             let start = part.startRadianAngle + Double(angle)
             let end = part.endRadianAngle + Double(angle)
-            print("start: \(start.degree())")
-            print("end: \(end.degree())")
+            //print("start: \(start.degree())")
+            //print("end: \(end.degree())")
             
             if checkIfContainsPoint(from: CGFloat(start), to: CGFloat(end), point: CGFloat.pi * 1.5) {
                 delegate.rouletteView(self, didStopAt: part)

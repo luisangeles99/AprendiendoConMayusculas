@@ -23,16 +23,16 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     var respuestasCorrectas : Int!
 
     override func viewDidAppear(_ animated: Bool) {
-        ejercicio = arrEjercicios[0] as! NSDictionary
-        var myStringProblema = ejercicio["ejercicio"] as! String
-        indicesCorrectos = ejercicio["indicesCorrectos"] as! NSArray
+        ejercicio = arrEjercicios[0] as? NSDictionary
+        var myStringProblema = ejercicio["ejercicio"] as? String
+        indicesCorrectos = ejercicio["indicesCorrectos"] as? NSArray
         
         respuestasCorrectas = indicesCorrectos.count
         respuestasCorrectasActual = 0
         refreshCounter()
 
         // Create an attributed string
-        myString = NSMutableAttributedString(string: myStringProblema)
+        myString = NSMutableAttributedString(string: myStringProblema!)
 
         // Set an attribute on part of the string
         let myRange = NSRange(location: 0, length: 5) // range of "Swift"
@@ -44,22 +44,25 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Dime la mayúscula"
+        
         let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
         let cat = myPList[tema!] as! NSDictionary
         //print(tema)
         let dificultad = cat["Basico"] as! NSDictionary
-        arrEjercicios = dificultad["tapExercise"] as! NSArray
-        ejercicio = arrEjercicios[0] as! NSDictionary
-        var myStringProblema = ejercicio["ejercicio"] as! String
-        indicesCorrectos = ejercicio["indicesCorrectos"] as! NSArray
+        arrEjercicios = dificultad["tapExercise"] as? NSArray
+        ejercicio = arrEjercicios[0] as? NSDictionary
+        var myStringProblema = ejercicio["ejercicio"] as? String
+        indicesCorrectos = ejercicio["indicesCorrectos"] as? NSArray
         
         respuestasCorrectas = indicesCorrectos.count
         respuestasCorrectasActual = 0
         refreshCounter()
 
         // Create an attributed string
-        myString = NSMutableAttributedString(string: myStringProblema)
+        myString = NSMutableAttributedString(string: myStringProblema!)
 
         // Set an attribute on part of the string
         let myRange = NSRange(location: 0, length: 5) // range of "Swift"
@@ -76,7 +79,6 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     }
     
     func refreshCounter(){
-        print(respuestasCorrectasActual)
         numTotals.text = String(respuestasCorrectasActual) + "/" + String(respuestasCorrectas)
         numTotals.font = UIFont(name: numTotals.font!.fontName, size: 25)
     }
@@ -165,11 +167,21 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         }
     }
     
+
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
     let defaults = UserDefaults.standard
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let puntajeView = segue.destination as! PuntajeViewController
         defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
         puntajeView.correcto = true
+
     }
 }

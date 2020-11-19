@@ -19,6 +19,7 @@ class NormaController: UIViewController {
     var tema : String!
     var seccion : Int!
     var categoria: String!
+    var tappedimage : UIImage!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,19 +34,47 @@ class NormaController: UIViewController {
         norma = norma["Teoría"] as! NSDictionary
         explicacion.text = norma["Explicación"] as? String
         myTitle.text = tema
+        myTitle.font = myTitle.font.withSize(30)
         media1img.image = UIImage(named: "infografia_ej")
+        
+    
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        media1img.isUserInteractionEnabled = true
+        media1img.addGestureRecognizer(tapGestureRecognizer)
+        
         // Do any additional setup after loading the view.
     }
     
 
-    /*
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
+        tappedimage = tappedImage.image
+        
+        self.performSegue(withIdentifier: "imagen", sender: nil)
+        
+        // Your action
+    }
+    
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        let view = segue.destination as! NormaImageViewController
+        view.image = tappedimage
+        
     }
-    */
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
 
 }

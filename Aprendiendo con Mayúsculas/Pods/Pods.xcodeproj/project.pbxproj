@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,7 +27,6 @@
 		CF954C214CB5247AEC61DA5B9715E221 /* RouletteShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29090324A2CB79D0657B9AA9C894B4D /* RouletteShape.swift */; };
 		D143B92E245286896D3A5C9E6762205C /* SimpleRoulette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24D57F3A47C27FEC0315EEC1F0A7726 /* SimpleRoulette-dummy.m */; };
 		D92CE88265CF59CD9B73182257C605B9 /* AccurateDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF903F577D99354956FE8236FA38E20A /* AccurateDegree.swift */; };
-		E6BA903BA604D547C61EC1DEED109532 /* RouletteViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C7191E2872169A75CF1773F2227C7 /* RouletteViewSwiftUI.swift */; };
 		E8672CD5451E50533FF22B87942AFDCA /* AccurateCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEDF57B3879361375B88790D02F16DD /* AccurateCGFloat.swift */; };
 		ED6BCBA01CC742328CEEE686605A03B8 /* AccuracyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19F7DF8F285AD24888831173D82684 /* AccuracyType.swift */; };
 /* End PBXBuildFile section */
@@ -45,10 +44,10 @@
 /* Begin PBXFileReference section */
 		0A534DB673125672B577CA5109372649 /* Pods-Aprendiendo con Mayúsculas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aprendiendo con Mayúsculas.release.xcconfig"; sourceTree = "<group>"; };
 		0CDAA39EC25D53FE6F23BBE370B08CEB /* Pods-Aprendiendo con Mayúsculas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aprendiendo con Mayúsculas.modulemap"; sourceTree = "<group>"; };
-		1521AAC2C53D76CDC75D2B2AEB149F07 /* libSimpleRoulette.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSimpleRoulette.a; path = libSimpleRoulette.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1521AAC2C53D76CDC75D2B2AEB149F07 /* libSimpleRoulette.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleRoulette.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		159C003E962A6D1FCCBC678FB779704D /* Pods-Aprendiendo con Mayúsculas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aprendiendo con Mayúsculas-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24A6B6FE4D73A04B1D5A3753C9BD8214 /* Pods-Aprendiendo con Mayúsculas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aprendiendo con Mayúsculas-dummy.m"; sourceTree = "<group>"; };
-		28D9BBE8DEA37AC66FE2BC5C64DC2D30 /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Aprendiendo con Mayúsculas.a"; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D9BBE8DEA37AC66FE2BC5C64DC2D30 /* libPods-Aprendiendo con Mayúsculas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aprendiendo con Mayúsculas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B299DF36D2CBA6EE42FEE65924ACD4F /* RouletteViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouletteViewModel.swift; path = SimpleRoulette/Sources/SwiftUI/RouletteViewModel.swift; sourceTree = "<group>"; };
 		2CEDF57B3879361375B88790D02F16DD /* AccurateCGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccurateCGFloat.swift; path = SimpleRoulette/Sources/Internal/Accurate/AccurateCGFloat.swift; sourceTree = "<group>"; };
 		3552BE3E1043C99AFB5B80A17431E4A7 /* AccurateDouble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccurateDouble.swift; path = SimpleRoulette/Sources/Internal/Accurate/AccurateDouble.swift; sourceTree = "<group>"; };
@@ -59,9 +58,8 @@
 		70BE1D72357F112E036AD747367A1BAB /* Color+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Ex.swift"; path = "SimpleRoulette/Sources/Ex/Color+Ex.swift"; sourceTree = "<group>"; };
 		812C4DFC58156AF4882BC969915679E2 /* Pods-Aprendiendo con Mayúsculas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aprendiendo con Mayúsculas-umbrella.h"; sourceTree = "<group>"; };
 		89D16C49F1E47573ACB5382BBABCBA86 /* SimpleRoulette-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRoulette-prefix.pch"; sourceTree = "<group>"; };
-		8B4C7191E2872169A75CF1773F2227C7 /* RouletteViewSwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouletteViewSwiftUI.swift; path = SimpleRoulette/Sources/SwiftUI/RouletteViewSwiftUI.swift; sourceTree = "<group>"; };
 		958EBE5FA848C8A52B99A2023B063896 /* SimpleRoulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleRoulette.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8E22612ADE9C6B83943AB6B9ED5D3D /* SimpleRoulette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRoulette-umbrella.h"; sourceTree = "<group>"; };
 		9F19F7DF8F285AD24888831173D82684 /* AccuracyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccuracyType.swift; path = SimpleRoulette/Sources/Internal/Accurate/AccuracyType.swift; sourceTree = "<group>"; };
 		AA0EC1AA88039725D5CC61FB0370C1FF /* CGFloat+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Ex.swift"; path = "SimpleRoulette/Sources/Ex/CGFloat+Ex.swift"; sourceTree = "<group>"; };
@@ -191,10 +189,8 @@
 				D29090324A2CB79D0657B9AA9C894B4D /* RouletteShape.swift */,
 				EF32F1BCDFE3D437D40DC7681C8E645D /* RouletteView.swift */,
 				2B299DF36D2CBA6EE42FEE65924ACD4F /* RouletteViewModel.swift */,
-				8B4C7191E2872169A75CF1773F2227C7 /* RouletteViewSwiftUI.swift */,
 				2663968C68932C59F1083960F0BB264C /* Support Files */,
 			);
-			name = SimpleRoulette;
 			path = SimpleRoulette;
 			sourceTree = "<group>";
 		};
@@ -266,7 +262,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -334,7 +330,6 @@
 				CF954C214CB5247AEC61DA5B9715E221 /* RouletteShape.swift in Sources */,
 				C71D91082D6B807A64F34026C400E28B /* RouletteView.swift in Sources */,
 				33EE956AB20AB00DDE0B5083776E334E /* RouletteViewModel.swift in Sources */,
-				E6BA903BA604D547C61EC1DEED109532 /* RouletteViewSwiftUI.swift in Sources */,
 				D143B92E245286896D3A5C9E6762205C /* SimpleRoulette-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,7 @@ class PickerExerciseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Nivel básico"
         // Do any additional setup after loading the view.
     }
     
@@ -30,7 +31,7 @@ class PickerExerciseViewController: UIViewController {
             vistaTap.tema = tema
             vistaTap.categoria = categoria
         }else if segue.identifier == "segueVerdadero"{
-            let vistaVerdadero = segue.destination as!BasicoVFViewController
+            let vistaVerdadero = segue.destination as! BasicoVFViewController
             vistaVerdadero.tema = tema
             vistaVerdadero.categoria = categoria
         }

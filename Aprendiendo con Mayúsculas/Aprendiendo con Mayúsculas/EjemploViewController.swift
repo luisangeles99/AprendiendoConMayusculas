@@ -15,6 +15,7 @@ class customCell : UITableViewCell{
 class EjemploViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
+    @IBOutlet weak var tituloLabel: UILabel!
     var tema : String!
     var myPList : NSDictionary!
     @IBOutlet weak var tableView: UITableView!
@@ -25,7 +26,7 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
         super.viewDidLoad()
         
         title = "Ejemplos"
-        
+      
         let path = Bundle.main.path(forResource:"TemasPList", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)
         let cat = myPList[categoria!] as! NSDictionary
@@ -58,6 +59,7 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
         let celda = tableView.dequeueReusableCell(withIdentifier: "celda") as! customCell
         let unEjemplo = arrEjemplos[indexPath.row] as! NSDictionary
         celda.myLb.text = unEjemplo["Ejemplo"] as? String
+        celda.myLb.font = celda.myLb.font.withSize(22)
         celda.myBtn.tag = indexPath.row
         return celda
     }
@@ -70,5 +72,13 @@ class EjemploViewController: UIViewController, UITableViewDataSource, UITableVie
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
 
 }

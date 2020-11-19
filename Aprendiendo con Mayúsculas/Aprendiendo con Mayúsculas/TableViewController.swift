@@ -17,7 +17,8 @@ class customTableViewCell: UITableViewCell{
 
 class TableViewController: UITableViewController {
 
-    
+    //user defaults
+    let defaults = UserDefaults.standard
     
     @IBOutlet weak var navBarAppearence: UINavigationItem!
     
@@ -33,7 +34,9 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        
         obtenerInfo()
         title = "Inicio"
         
@@ -57,6 +60,17 @@ class TableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if (defaults.string(forKey: "color") == "purple"){
+            navigationController!.navigationBar.barTintColor = .systemIndigo
+        } else if (defaults.string(forKey: "color") == "black") {
+            navigationController!.navigationBar.barTintColor = .label
+        } else {
+            navigationController!.navigationBar.barTintColor = .link
+        }
     }
 
     // MARK: - Table view data source
@@ -83,7 +97,7 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! customTableViewCell
 
         cell.nombreTema.text = temasTitles[indexPath.section]![indexPath.row]
-        
+        cell.nombreTema.font = cell.nombreTema.font.withSize(22)
         if indexPath.section == 0{
             imgTema = mayusTitles[temasTitles[indexPath.section]![indexPath.row]] as? NSDictionary
             let img = imgTema["Imagen"] as? String
@@ -159,6 +173,14 @@ class TableViewController: UITableViewController {
         destination.tema = temasTitles[indice.section]![indice.row]
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+    }
+    
+    //Modo Portrait
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
     
 
