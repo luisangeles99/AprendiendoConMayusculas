@@ -262,7 +262,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Las cuatro Estaciones fue compuesta por Vivaldi.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -285,7 +285,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>¿Leíste el Quijote?</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -308,7 +308,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Últimas tardes con Teresa</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -331,7 +331,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>La semana pasada leí &quot;Cien años De Soledad&quot;.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>

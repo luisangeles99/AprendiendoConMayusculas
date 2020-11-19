@@ -30,7 +30,7 @@ class resultsVFViewController: UIViewController {
         
         imagen.image = UIImage(named: "question")
         labelMensaje.text = "Observa tus resultados y comprueba si debes seguir estudiando."
-        labelPuntuacion.text = "Tuviste " + String(aciertos) + " / " + String(preguntas) + " lo que equivale a " + String(format: "%.2f",Double(aciertos)/Double(preguntas))
+        labelPuntuacion.text = "Tuviste " + String(aciertos) + " / " + String(preguntas) + " lo que equivale a " + String(format: "%.2f",(Double(aciertos)/Double(preguntas))*100)
         self.navigationItem.setHidesBackButton(true, animated: true)
         // Do any additional setup after loading the view.
     }

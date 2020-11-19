@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="E4X-bz-CU9">
-                                <rect key="frame" x="40" y="188.5" width="334" height="573.5"/>
+                                <rect key="frame" x="40" y="180" width="334" height="582"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB4-al-A6b" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="151"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="154"/>
                                         <color key="backgroundColor" red="0.16418161988258362" green="0.47509568929672241" blue="0.93177968263626099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Norma"/>
@@ -28,7 +28,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obF-yF-kEq" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="211" width="334" height="151.5"/>
+                                        <rect key="frame" x="0.0" y="214" width="334" height="154"/>
                                         <color key="backgroundColor" red="0.039017278701066971" green="0.92684626579284668" blue="0.79674476385116577" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Ejemplos"/>
@@ -37,7 +37,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-vS-Ogq" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="422.5" width="334" height="151"/>
+                                        <rect key="frame" x="0.0" y="428" width="334" height="154"/>
                                         <color key="backgroundColor" red="0.91779690980911255" green="0.26176375150680542" blue="0.28120929002761841" alpha="0.9993896484375" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Práctica"/>
@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Qm-Sl-viI">
-                                <rect key="frame" x="20" y="198.5" width="374" height="682.5"/>
+                                <rect key="frame" x="20" y="190" width="374" height="691"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda" rowHeight="151" id="ApB-gh-Otm" customClass="customCell" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
@@ -230,10 +230,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58J-yg-CHQ">
-                                <rect key="frame" x="0.0" y="148.5" width="414" height="664.5"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zS7-wg-8R4">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="664.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="673"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -283,7 +283,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-zK-AEh">
-                                <rect key="frame" x="163.5" y="747.5" width="87" height="45"/>
+                                <rect key="frame" x="163.5" y="756" width="87" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="JUGAR"/>
                                 <connections>
@@ -291,7 +291,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skb-Sw-yh1" customClass="RouletteView" customModule="SimpleRoulette">
-                                <rect key="frame" x="5" y="168.5" width="404" height="559"/>
+                                <rect key="frame" x="5" y="160" width="404" height="576"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -902,7 +902,7 @@ Real Academia Española</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-iM-7BQ">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-iM-7BQ">
                                 <rect key="frame" x="40" y="270" width="334" height="383"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-aB-KS0" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
@@ -928,9 +928,6 @@ Real Academia Española</string>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="bBh-aB-KS0" firstAttribute="height" secondItem="fAW-L1-yga" secondAttribute="height" priority="750" id="NE5-cA-344"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -958,19 +955,19 @@ Real Academia Española</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-kM-Zym">
-                                <rect key="frame" x="30" y="160" width="354" height="623"/>
+                                <rect key="frame" x="30" y="168.5" width="354" height="614.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hnL-V6-IWd">
-                                        <rect key="frame" x="0.0" y="0.0" width="354" height="415.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="409.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona las palabras que deberían estar en mayúsculas" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aa9-ir-fl0">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="118.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="117"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="m6M-jv-4zY">
-                                                <rect key="frame" x="0.0" y="118.5" width="354" height="297"/>
+                                                <rect key="frame" x="0.0" y="117" width="354" height="292.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -983,16 +980,16 @@ Real Academia Española</string>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-oR-53w">
-                                        <rect key="frame" x="0.0" y="415.5" width="354" height="207.5"/>
+                                        <rect key="frame" x="0.0" y="409.5" width="354" height="205"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de respuestas correctas" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-fu-naW">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="85.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="84.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xC-Qt-j4z">
-                                                <rect key="frame" x="0.0" y="85.5" width="354" height="122"/>
+                                                <rect key="frame" x="0.0" y="84.5" width="354" height="120.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1218,27 +1215,33 @@ Real Academia Española</string>
                                         <rect key="frame" x="0.0" y="0.0" width="314" height="289"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Correcto!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAq-hJ-Zpy">
-                                                <rect key="frame" x="0.0" y="0.0" width="314" height="208.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="314" height="176.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntaje" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woe-TD-BSC">
-                                                <rect key="frame" x="0.0" y="208.5" width="314" height="21"/>
+                                                <rect key="frame" x="0.0" y="176.5" width="314" height="29.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="uWo-OL-8je"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWU-M1-45t">
-                                                <rect key="frame" x="0.0" y="229.5" width="314" height="59.5"/>
+                                                <rect key="frame" x="0.0" y="206" width="314" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="7HO-So-UZS"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="vWU-M1-45t" firstAttribute="height" secondItem="woe-TD-BSC" secondAttribute="height" multiplier="2.80488" id="MTy-30-qpm"/>
-                                            <constraint firstItem="yAq-hJ-Zpy" firstAttribute="height" secondItem="woe-TD-BSC" secondAttribute="height" multiplier="9.90244" id="ZtC-oG-bkj"/>
+                                            <constraint firstItem="vWU-M1-45t" firstAttribute="height" secondItem="woe-TD-BSC" secondAttribute="height" multiplier="2.80488" priority="750" id="MTy-30-qpm"/>
+                                            <constraint firstItem="yAq-hJ-Zpy" firstAttribute="height" secondItem="woe-TD-BSC" secondAttribute="height" multiplier="6" priority="750" id="ZtC-oG-bkj"/>
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCL-ap-a0U" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
@@ -1333,7 +1336,7 @@ Real Academia Española</string>
                 <navigationController id="PSP-qv-Y6a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Trivia" image="person.3" catalog="system" id="4yl-7t-FJJ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="hAt-Ce-fph">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -1489,7 +1492,7 @@ Alfredo Flores</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Z17-FD-sdc">
                                                         <rect key="frame" x="0.0" y="478.5" width="374" height="286.5"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imágenes" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLM-CJ-B9M">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La información presente en esta aplicación fue recolectada a partir del contenido de la Real Academia Española." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLM-CJ-B9M">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="95.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <nil key="textColor"/>

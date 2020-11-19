@@ -4,34 +4,122 @@
 <dict>
 	<key>Mayúsculas</key>
 	<dict>
-		<key>Nombres propios</key>
+		<key>Abreviaturas, siglas y acrónimos</key>
 		<dict>
+			<key>Imagen</key>
+			<string>ONU</string>
 			<key>Teoría</key>
 			<dict>
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string> Los nombes propios llevan mayúscula para diferenciarlos de los comunes “son sustantivos o grupos nominales creados específicamente para designar y referirse a seres únicos, ya sean animados o inanimados: personas, animales, lugares geográficos, instituciones, obras de creación, acontecimientos, etc.” (RAE, 2010)</string>
+				<string>Se escriben enteramente en mayúscula las siglas y algunos acrónimos: ISBN, OTI, ONG. Cuando los acrónimos son nombres propios y tienen más de cuatro letras, solo se escribe en mayúscula la inicial.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>ONU</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Las siglas que corresponden a la Organización de las Naciones Unidas.</string>
 				</dict>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>Unesco</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Acrónimo de más de cuatro letras por lo que solo se escribe la primera en mayúscula.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>radar, láser</string>
+					<key>Justificación</key>
+					<string>Acrónimo que el uso ha convertido en sustantivo común</string>
 				</dict>
 			</array>
+		</dict>
+		<key>Días festivos</key>
+		<dict>
 			<key>Imagen</key>
-			<string>barack</string>
-			<key>completado</key>
-			<false/>
+			<string>ofrenda</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los nombres de festividades religiosas o civiles se escriben con mayúscula.</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Navidad</string>
+					<key>Justificación</key>
+					<string>Festividad religiosa o civil debe llevar mayúscula.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Día de la Bandera</string>
+					<key>Justificación</key>
+					<string>Festividad religiosa o civil debe llevar mayúscula.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Año Nuevo</string>
+					<key>Justificación</key>
+					<string>Festividad religiosa o civil debe llevar mayúscula.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Día de la Virgen</string>
+					<key>Justificación</key>
+					<string>Advocaciones a la Virgen o festividades que a ella se dedican.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Virgen de Guadalupe</string>
+					<key>Justificación</key>
+					<string>Advocaciones a la Virgen o festividades que a ella se dedican.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Feria de Abril</string>
+					<key>Justificación</key>
+					<string>Festividad religiosa o civil debe llevar mayúscula.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Fórmulas de tratamiento</key>
+		<dict>
+			<key>Imagen</key>
+			<string>papa</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se encuentran en una abrevación, caso contrario se escriben minúscula. Mayúscula únicamente cuando la fórmula de tratamiento funcione como nombre propio, por ejemplo, el Papa visitó México.</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>el Rey Don Juan Carlos</string>
+					<key>Justificación</key>
+					<string>Tratamiento don se escribe con mayúsculas por respeto a la familia reinante.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>la Infanta Doña Cristina</string>
+					<key>Justificación</key>
+					<string>Tratamiento don se escribe con mayúsculas por respeto a la familia reinante.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>El Papa visitará la India en su próximo viaje</string>
+					<key>Justificación</key>
+					<string>Se escribre con mayúscula cuando títulos o cargos aparecen sin el nombre concreto de la persona; no es obligatorio.</string>
+				</dict>
+			</array>
 		</dict>
 		<key>Marcas</key>
 		<dict>
@@ -48,11 +136,109 @@
 			<array>
 				<dict>
 					<key>Ejemplo</key>
+					<string>Nike</string>
+					<key>Justificación</key>
+					<string>Los nombres de las marcas son nombres propios.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Nombres científicos</key>
+		<dict>
+			<key>Imagen</key>
+			<string>leon</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>La primera palabra del nombre latino de las especies vegetales y animales: Pimpinella anisum, Panthera leo (los nombres científicos latinos deben escribirse, además, en cursiva). Se escriben también con mayúscula los nombres de los grupos taxonómicos zoológicos y botánicos superiores al género, cuando se usan en aposición: orden Roedores, familia Leguminosas; pero estos mismos términos se escriben con minúscula cuando se usan como adjetivos o como nombres comunes</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Phantera leo</string>
+					<key>Justificación</key>
+					<string>La primera palabra de los nombres latinos de animes debe escribirse con mayúscula.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Nombres de disciplinas científicas y materias escolares</key>
+		<dict>
+			<key>Imagen</key>
+			<string>materias</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los sustantivos y adjetivos que forman el nombre de disciplinas científicas, cuando nos referimos a ellas como materias de estudio, y especialmente en contextos académicos (nombres de asignaturas, cátedras, facultades, etc.) o curriculares</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>El profesor de Cálculo Numérico es extraordinario</string>
+					<key>Justificación</key>
+					<string>En contexto científico o como materia de estudio se escribe con mayúscula.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Nombres de organismos públicos y privados</key>
+		<dict>
+			<key>Imagen</key>
+			<string>segob</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Se escriben con mayúscula los sustantivos y adjetivos que componen el nombre de entidades, organismos, departamentos o divisiones administrativas, edificios, monumentos, establecimientos públicos, partidos políticos, etc.</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>el Ministerio de Hacienda</string>
+					<key>Justificación</key>
+					<string>Nombre de entidades, organismos, departamentos o divisiones administrativas, edificios, monumentos, establecimientos públicos, partidos políticos, etc.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Nombres propios</key>
+		<dict>
+			<key>completado</key>
+			<false/>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
 					<string>Me llamo Moisés</string>
 					<key>Justificación</key>
 					<string>Es un nombre propio.</string>
 				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Mi amiga Karla es muy atenta.</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Leo Messi es considerado por muchos el mejor jugador de la historia.</string>
+					<key>Justificación</key>
+					<string>Es un nombre propio.</string>
+				</dict>
 			</array>
+			<key>Imagen</key>
+			<string>barack</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string> Los nombes propios llevan mayúscula para diferenciarlos de los comunes “son sustantivos o grupos nominales creados específicamente para designar y referirse a seres únicos, ya sean animados o inanimados: personas, animales, lugares geográficos, instituciones, obras de creación, acontecimientos, etc.” (RAE, 2010)</string>
+			</dict>
 		</dict>
 		<key>Publicaciones periódicas</key>
 		<dict>
@@ -69,9 +255,30 @@
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string> Biblioteca de Autores Españoles.</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Sustantivo y adjetivos del nombre de publicaciones periódicas se acentúan.</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Símbolos químicos</key>
+		<dict>
+			<key>Imagen</key>
+			<string>elementos</string>
+			<key>Teoría</key>
+			<dict>
+				<key>Imagen</key>
+				<string>imagen</string>
+				<key>Explicación</key>
+				<string>Los de los elementos químicos se escriben con una sola letra mayúscula: C, O; o, si están constituidos por dos letras, con una combinación de mayúscula y minúscula: Ag, Fe.</string>
+			</dict>
+			<key>Ejemplos</key>
+			<array>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Ag, Au, K, C</string>
+					<key>Justificación</key>
+					<string>Llevan mayúscula los símbolos químicos.</string>
 				</dict>
 			</array>
 		</dict>
@@ -108,111 +315,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>Días festivos</key>
-		<dict>
-			<key>Imagen</key>
-			<string>ofrenda</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>Los nombres de festividades religiosas o civiles se escriben con mayúscula.</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Nombres de organismos públicos y privados</key>
-		<dict>
-			<key>Imagen</key>
-			<string>segob</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>Se escriben con mayúscula los sustantivos y adjetivos que componen el nombre de entidades, organismos, departamentos o divisiones administrativas, edificios, monumentos, establecimientos públicos, partidos políticos, etc.</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Abreviaturas, siglas y acrónimos</key>
-		<dict>
-			<key>Imagen</key>
-			<string>ONU</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>Se escriben enteramente en mayúscula las siglas y algunos acrónimos: ISBN, OTI, ONG. Cuando los acrónimos son nombres propios y tienen más de cuatro letras, solo se escribe en mayúscula la inicial.</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Nombres de disciplinas científicas y materias escolares</key>
-		<dict>
-			<key>Imagen</key>
-			<string>materias</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>Los sustantivos y adjetivos que forman el nombre de disciplinas científicas, cuando nos referimos a ellas como materias de estudio, y especialmente en contextos académicos (nombres de asignaturas, cátedras, facultades, etc.) o curriculares</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Fórmulas de tratamiento</key>
-		<dict>
-			<key>Imagen</key>
-			<string>papa</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se encuentran en una abrevación, caso contrario se escriben minúscula. Mayúscula únicamente cuando la fórmula de tratamiento funcione como nombre propio, por ejemplo, el Papa visitó México.</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Unidades de medición</key>
 		<dict>
 			<key>Imagen</key>
@@ -228,51 +330,9 @@
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>Newton, Ohm</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Símbolos químicos</key>
-		<dict>
-			<key>Imagen</key>
-			<string>elementos</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>Los de los elementos químicos se escriben con una sola letra mayúscula: C, O; o, si están constituidos por dos letras, con una combinación de mayúscula y minúscula: Ag, Fe.</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Nombres científicos</key>
-		<dict>
-			<key>Imagen</key>
-			<string>leon</string>
-			<key>Teoría</key>
-			<dict>
-				<key>Imagen</key>
-				<string>imagen</string>
-				<key>Explicación</key>
-				<string>La primera palabra del nombre latino de las especies vegetales y animales: Pimpinella anisum, Panthera leo (los nombres científicos latinos deben escribirse, además, en cursiva). Se escriben también con mayúscula los nombres de los grupos taxonómicos zoológicos y botánicos superiores al género, cuando se usan en aposición: orden Roedores, familia Leguminosas; pero estos mismos términos se escriben con minúscula cuando se usan como adjetivos o como nombres comunes</string>
-			</dict>
-			<key>Ejemplos</key>
-			<array>
-				<dict>
-					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
-					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Unidades que tienen su origen de un nombre propio.</string>
 				</dict>
 			</array>
 		</dict>
@@ -291,9 +351,15 @@
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>La Iglesia tiene seguidores en todo el mundo.</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Se refiere a la institución.</string>
+				</dict>
+				<dict>
+					<key>Ejemplo</key>
+					<string>Esta iglesia es demasiado vieja.</string>
+					<key>Justificación</key>
+					<string>Se refiere al edificio.</string>
 				</dict>
 			</array>
 		</dict>
@@ -315,9 +381,9 @@
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>lápiz, computadora</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Sustantivos comunes que no llevan mayúscula salvo que inicien la oración.</string>
 				</dict>
 			</array>
 		</dict>
@@ -336,9 +402,9 @@
 			<array>
 				<dict>
 					<key>Ejemplo</key>
-					<string>Me llamo Moisés</string>
+					<string>Los mexicanos son personas muy alegres.</string>
 					<key>Justificación</key>
-					<string>Es un nombre propio.</string>
+					<string>Se expresa el origen geográfico o racial y no lleva mayúscula.</string>
 				</dict>
 			</array>
 		</dict>
