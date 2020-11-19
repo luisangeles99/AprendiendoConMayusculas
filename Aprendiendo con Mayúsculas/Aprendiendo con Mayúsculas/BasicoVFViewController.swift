@@ -11,7 +11,15 @@ import AVFoundation
 
 class BasicoVFViewController: UIViewController {
 
+    
+    //outlets
     @IBOutlet weak var txtProblema: UILabel!
+    @IBOutlet weak var btnIncorrecto: UIButton!
+    @IBOutlet weak var btnCorrecto: UIButton!
+    @IBOutlet weak var infoLabel: UILabel!
+    
+    
+    //Info vars
     var arrDiccionarios: NSDictionary!
     let defaults = UserDefaults.standard
     var bCorrecto: Bool = false
@@ -19,6 +27,8 @@ class BasicoVFViewController: UIViewController {
     var problema: NSDictionary!
     var tema : String!
     var categoria : String!
+    var currPregunta: Int = 0
+    var aciertos: Int  = 0
     
     //Sound effects
     var player : AVAudioPlayer!
@@ -30,15 +40,15 @@ class BasicoVFViewController: UIViewController {
         super.viewDidLoad()
         print(tema!)
         title = "Práctica C/I"
-        let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
-        arrDiccionarios = NSDictionary(contentsOfFile: path!)
-        let  tema2 = arrDiccionarios[tema!] as! NSDictionary
-        let  tipo = tema2["Basico"] as! NSDictionary
-        let problemas = tipo["verdaderoFalso"] as! NSMutableArray
-        problemasDisp = problemas
-        let x = Int.random(in: 0..<problemas.count)
-        problema = problemas[x] as? NSDictionary
-        txtProblema.text = problema["Problema"] as? String
+        
+        //Load Info
+        loadInfo()
+        
+        loadPregunta(curr: currPregunta)
+        
+        
+        
+        
         
         // Do any additional setup after loading the view.
     }
@@ -49,64 +59,55 @@ class BasicoVFViewController: UIViewController {
         txtProblema.text = problema["Problema"] as? String
     }
     
-    @IBAction func falseBtn(_ sender: UIButton) {
+    
+    @IBAction func btnAnswer(_ sender: UIButton){
+        var corrIncorr = false
+        switch sender.tag {
+        case 0:
+            corrIncorr = true
+            break
+        case 1:
+            corrIncorr = false
+            break
+        default:
+            break
+        }
+        //Checar Respuesta
+        if corrIncorr == problema["Respuesta"] as? Bool{
+            print("Correcto")
+            bCorrecto = true
+            defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
+            play(acierto: true)
+            aciertos = aciertos + 1
+        }else{
+            play(acierto: false)
+            bCorrecto = false
+            print("Incorrecto")
+        }
+        currPregunta = currPregunta + 1
+        btnCorrecto.isEnabled = false
+        btnIncorrecto.isEnabled = false
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+            self.loadPregunta(curr: self.currPregunta)
+        }
         
     }
     
-    @IBAction func trueBtn(_ sender: UIButton) {
-        
-    }
     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let puntajeView = segue.destination as! PuntajeViewController
-        let boton = sender as! UIButton
-        let statusBtn : Bool!
-        if boton.restorationIdentifier == "btTrue"{
-            statusBtn = true
-        }else{
-            statusBtn = false
-        }
-        if statusBtn == problema["Respuesta"] as? Bool{
-            print("Correcto")
-            bCorrecto = true
-            defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
-            play(acierto: true)
-        }else{
-            play(acierto: false)
-            bCorrecto = false
-            print("Incorrecto")
-        }
-//        if(boton.restorationIdentifier == "btTrue"){
-//            //print(problema)
-//            if  true == (problema["Respuesta"] as! Bool){
-//                print("correcto")
-//                bCorrecto = true
-//
-//
-//            }else{
-//                print("incorrecto")
-//                bCorrecto = false
-//            }
-//        } else {
-//            //print(problema)
-//            if  false == (problema["Respuesta"] as! Bool){
-//                print("correcto")
-//                bCorrecto = true
-//            }else{
-//                print("incorrecto")
-//                bCorrecto = false
-//            }
-//        }
-        puntajeView.correcto = bCorrecto
+        let view = segue.destination as! resultsVFViewController
+        
+        view.aciertos = aciertos
+        view.preguntas = problemasDisp.count
+        
     }
     
     //MARK: - Sound Effects
     func play(acierto: Bool){
-        
         if acierto {
             do{
                 try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString!))
@@ -122,7 +123,33 @@ class BasicoVFViewController: UIViewController {
                 print("error with audio file!")
             }
         }
+        
     }
+    
+    //MARK:- Load Info/Preguntas
+    func loadInfo(){
+        let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
+        arrDiccionarios = NSDictionary(contentsOfFile: path!)
+        let  tema2 = arrDiccionarios[tema!] as! NSDictionary
+        let  tipo = tema2["Basico"] as! NSDictionary
+        problemasDisp = tipo["verdaderoFalso"] as? NSMutableArray
+        
+    }
+    
+    func loadPregunta(curr: Int){
+        if currPregunta < problemasDisp.count {
+            problema = problemasDisp[curr] as? NSDictionary
+            txtProblema.text = problema["Problema"] as? String
+            btnCorrecto.isEnabled = true
+            btnIncorrecto.isEnabled = true
+        }else{
+            performSegue(withIdentifier: "showResults", sender: nil)
+        }
+    }
+    
+    
+    //MARK:- Load Next Question
+    
     
     
     

@@ -19,6 +19,7 @@
 		880D6DE725661A700002C301 /* acierto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DE525661A6F0002C301 /* acierto.mp3 */; };
 		880D6DEC256620190002C301 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DEB256620190002C301 /* error.mp3 */; };
 		880D6DEE2566320A0002C301 /* creditosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D6DED2566320A0002C301 /* creditosViewController.swift */; };
+		880D6DF0256656340002C301 /* resultsVFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D6DEF256656340002C301 /* resultsVFViewController.swift */; };
 		8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71A2535317F00B8A4F1 /* AppDelegate.swift */; };
 		8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */; };
 		8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71E2535317F00B8A4F1 /* ViewController.swift */; };
@@ -79,6 +80,7 @@
 		880D6DE525661A6F0002C301 /* acierto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acierto.mp3; sourceTree = "<group>"; };
 		880D6DEB256620190002C301 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
 		880D6DED2566320A0002C301 /* creditosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = creditosViewController.swift; path = ../creditosViewController.swift; sourceTree = "<group>"; };
+		880D6DEF256656340002C301 /* resultsVFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsVFViewController.swift; sourceTree = "<group>"; };
 		8819E7172535317F00B8A4F1 /* Aprendiendo con Mayúsculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aprendiendo con Mayúsculas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8819E71A2535317F00B8A4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				8819E75A2536C18E00B8A4F1 /* LoadData.swift */,
 				887EA0582563A3A100644E0C /* LocalNotificationManager.swift */,
 				8819E7202535317F00B8A4F1 /* Main.storyboard */,
+				880D6DEF256656340002C301 /* resultsVFViewController.swift */,
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
 				8819E74C2535612800B8A4F1 /* NormaController.swift */,
 				88C63A182554ABA0006DB84C /* NormaImageViewController.swift */,
@@ -415,6 +418,7 @@
 				88BC884B2551FBE60029D2DE /* TriviaViewController.swift in Sources */,
 				8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */,
 				88E630052539FE5E00F13608 /* Tema.swift in Sources */,
+				880D6DF0256656340002C301 /* resultsVFViewController.swift in Sources */,
 				88C63A192554ABA0006DB84C /* NormaImageViewController.swift in Sources */,
 				4D710146256316CF00CC2AAB /* PickerExerciseViewController.swift in Sources */,
 				4D1E2773253CFA530001DC29 /* customButton.swift in Sources */,
