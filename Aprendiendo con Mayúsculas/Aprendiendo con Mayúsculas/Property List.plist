@@ -69,23 +69,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Mi chamarra nike</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -122,22 +106,6 @@
 					<key>Respuesta</key>
 					<true/>
 				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Me llamo moisés</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Estoy armando una bicicleta con armando</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
-				</dict>
 			</array>
 		</dict>
 	</dict>
@@ -162,7 +130,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Estamos en otoño</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -175,14 +143,6 @@
 					<false/>
 					<key>Respuesta</key>
 					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -208,11 +168,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Mi amiga Chilena viene a México cada año.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>Problema</key>
@@ -254,11 +214,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Voy a tomar el Sol durante verano</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>Problema</key>
@@ -300,27 +260,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>El Banco Central de españa no ofrece servicio a partir de las 11:00 PM</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -346,23 +290,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Ni el hombre de las cavernas ni el primer homo sapiens agricultor conocían el sistema financiero o monetario</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -392,7 +320,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>El agua está conformado por hidrógeno es representado por el símbolo H en la tabla periódica</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -438,27 +366,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Un kilogramo de fuerza equivale a 9.8 N</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -484,23 +396,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Mañana tengo una cita con el dr. Andres</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -530,23 +426,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Mis padre estudió ingeniería en sistemas</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -576,27 +456,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>La SEP tiene como objetivo mejorar la educación</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -622,11 +486,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>El gobierno debe tomar acción para disminuir la desigualdad</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
-					<true/>
+					<false/>
 				</dict>
 				<dict>
 					<key>Problema</key>
@@ -668,23 +532,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Todos los años celebro el dia de muertos con mi familia</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -714,27 +562,11 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Gracias a “El análisis económico del derecho” puede realizar una investigación más profunda</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -760,23 +592,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>The New york times ha publicado noticias relevantes los últimos 10 años.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
