@@ -22,7 +22,7 @@ class BasicoVFViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(tema!)
-        title = "Práctica Básica"
+        title = "Práctica C/I"
         let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
         arrDiccionarios = NSDictionary(contentsOfFile: path!)
         let  tema2 = arrDiccionarios[tema!] as! NSDictionary

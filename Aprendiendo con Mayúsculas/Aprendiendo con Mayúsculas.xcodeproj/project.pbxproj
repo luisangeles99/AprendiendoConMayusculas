@@ -15,6 +15,8 @@
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
 		50B4A728912A447952245F31 /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C953555CC39060F51F7356CC /* libPods-Aprendiendo con Mayúsculas.a */; };
 		880D6DE425645BAD0002C301 /* ACM-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DE325645BAD0002C301 /* ACM-1024.png */; };
+		880D6DE725661A700002C301 /* acierto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DE525661A6F0002C301 /* acierto.mp3 */; };
+		880D6DEC256620190002C301 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DEB256620190002C301 /* error.mp3 */; };
 		8819E71B2535317F00B8A4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71A2535317F00B8A4F1 /* AppDelegate.swift */; };
 		8819E71D2535317F00B8A4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */; };
 		8819E71F2535317F00B8A4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8819E71E2535317F00B8A4F1 /* ViewController.swift */; };
@@ -71,6 +73,8 @@
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
 		64C2479358F45350494B9E7F /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
 		880D6DE325645BAD0002C301 /* ACM-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACM-1024.png"; sourceTree = "<group>"; };
+		880D6DE525661A6F0002C301 /* acierto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acierto.mp3; sourceTree = "<group>"; };
+		880D6DEB256620190002C301 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
 		8819E7172535317F00B8A4F1 /* Aprendiendo con Mayúsculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aprendiendo con Mayúsculas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8819E71A2535317F00B8A4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8819E71C2535317F00B8A4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 		8819E7192535317F00B8A4F1 /* Aprendiendo con Mayúsculas */ = {
 			isa = PBXGroup;
 			children = (
+				880D6DE525661A6F0002C301 /* acierto.mp3 */,
+				880D6DEB256620190002C301 /* error.mp3 */,
 				8819E75C2536C30800B8A4F1 /* mayus.json */,
 				4D1E2772253CFA530001DC29 /* customButton.swift */,
 				887EA054256251F600644E0C /* answerButton.swift */,
@@ -339,9 +345,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8819E7272535318000B8A4F1 /* LaunchScreen.storyboard in Resources */,
+				880D6DEC256620190002C301 /* error.mp3 in Resources */,
 				88C63A0D2553B904006DB84C /* trivia.plist in Resources */,
 				8819E75D2536C30800B8A4F1 /* mayus.json in Resources */,
 				8819E7242535318000B8A4F1 /* Assets.xcassets in Resources */,
+				880D6DE725661A700002C301 /* acierto.mp3 in Resources */,
 				880D6DE425645BAD0002C301 /* ACM-1024.png in Resources */,
 				4DB518F2253798D600C79229 /* Property List.plist in Resources */,
 				4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */,

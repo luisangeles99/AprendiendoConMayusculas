@@ -24,7 +24,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidAppear(_ animated: Bool) {
         ejercicio = arrEjercicios[0] as? NSDictionary
-        var myStringProblema = ejercicio["ejercicio"] as? String
+        let myStringProblema = ejercicio["ejercicio"] as? String
         indicesCorrectos = ejercicio["indicesCorrectos"] as? NSArray
         
         respuestasCorrectas = indicesCorrectos.count
@@ -54,7 +54,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         let dificultad = cat["Basico"] as! NSDictionary
         arrEjercicios = dificultad["tapExercise"] as? NSArray
         ejercicio = arrEjercicios[0] as? NSDictionary
-        var myStringProblema = ejercicio["ejercicio"] as? String
+        let myStringProblema = ejercicio["ejercicio"] as? String
         indicesCorrectos = ejercicio["indicesCorrectos"] as? NSArray
         
         respuestasCorrectas = indicesCorrectos.count
@@ -158,8 +158,8 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
                 completedExercise()
             }
             // check if the tap location has a certain attribute
-            let attributeName = NSAttributedString.Key.myAttributeName
-            let attributeValue = myTextView.attributedText?.attribute(attributeName, at: characterIndex, effectiveRange: nil)
+            //let attributeName = NSAttributedString.Key.myAttributeName
+            //let attributeValue = myTextView.attributedText?.attribute(attributeName, at: characterIndex, effectiveRange: nil)
             /*if let value = attributeValue {
                 print("You tapped on \(attributeName.rawValue) and the value is: \(value)")
             }*/

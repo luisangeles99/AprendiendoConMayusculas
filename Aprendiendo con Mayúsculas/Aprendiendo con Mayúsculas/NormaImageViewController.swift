@@ -18,6 +18,8 @@ class NormaImageViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationController!.navigationBar.isHidden = true
+        
         imagen.image = image
         
         scroll.minimumZoomScale = 1.0

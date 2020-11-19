@@ -13,6 +13,7 @@ import SimpleRoulette
 class TriviaViewController: UIViewController {
 
 
+    @IBOutlet weak var btnPlay: UIButton!
     @IBOutlet var rouletteView: RouletteView!
     var spin : Bool = false
     //var nombresTemas : [String] = ["Oraciones", "Párrafos", "Títulos", "Nombres", "Sorpresa"]
@@ -59,15 +60,18 @@ class TriviaViewController: UIViewController {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + valor + 1.5) {
             self.performSegue(withIdentifier: "playSegue", sender: nil)
+            self.btnPlay.isEnabled = true
         }
         
     }
     
     
     
-    @IBAction func spinRoulette(_ sender: Any) {
+    @IBAction func spinRoulette(_ sender: UIButton) {
         playRoulette()
+        btnPlay.isEnabled = false
     }
+    
     
     
 
