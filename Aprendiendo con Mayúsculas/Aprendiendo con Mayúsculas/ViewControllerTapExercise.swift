@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
 
 
@@ -21,6 +22,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     var ejercicio : NSDictionary!
     var respuestasCorrectasActual : Int!
     var respuestasCorrectas : Int!
+    var correctEffect : AVAudioPlayer?
 
     override func viewDidAppear(_ animated: Bool) {
         ejercicio = arrEjercicios[0] as? NSDictionary
@@ -53,8 +55,12 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         //print(tema)
         let dificultad = cat["Basico"] as! NSDictionary
         arrEjercicios = dificultad["tapExercise"] as? NSArray
-        ejercicio = arrEjercicios[0] as? NSDictionary
-        let myStringProblema = ejercicio["ejercicio"] as? String
+
+        let numEjercicios = arrEjercicios.count
+        let rand = Int.random(in: 1...numEjercicios)
+        ejercicio = arrEjercicios[rand-1] as? NSDictionary
+
+        var myStringProblema = ejercicio["ejercicio"] as? String
         indicesCorrectos = ejercicio["indicesCorrectos"] as? NSArray
         
         respuestasCorrectas = indicesCorrectos.count
@@ -81,6 +87,18 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     func refreshCounter(){
         numTotals.text = String(respuestasCorrectasActual) + "/" + String(respuestasCorrectas)
         numTotals.font = UIFont(name: numTotals.font!.fontName, size: 25)
+    }
+    
+    func playSound(){
+        let path = Bundle.main.path(forResource: "correcto", ofType:"mp3")!
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            correctEffect = try AVAudioPlayer(contentsOf: url)
+            correctEffect?.play()
+        } catch {
+            // couldn't load file :(
+        }
     }
     
     func getPalabra(indiceTap : Int) -> Int{
@@ -154,6 +172,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
                 textView.attributedText = myNewAttributedText
                 textView.font = UIFont(name: textView.font!.fontName, size: 25)
                 respuestasCorrectasActual = respuestasCorrectasActual + 1
+                playSound()
                 refreshCounter()
                 completedExercise()
             }

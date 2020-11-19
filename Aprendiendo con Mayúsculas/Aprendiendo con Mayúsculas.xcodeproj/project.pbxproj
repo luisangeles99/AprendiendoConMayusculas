@@ -13,6 +13,7 @@
 		4DB518F2253798D600C79229 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518F1253798D600C79229 /* Property List.plist */; };
 		4DB518F725379AE000C79229 /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB518F625379AE000C79229 /* TrueFalseViewController.swift */; };
 		4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB518FB2537AEDC00C79229 /* TemasPList.plist */; };
+		4DE4F45725661EE9008F7FBA /* correcto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DE4F45625661EE9008F7FBA /* correcto.mp3 */; };
 		50B4A728912A447952245F31 /* libPods-Aprendiendo con Mayúsculas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C953555CC39060F51F7356CC /* libPods-Aprendiendo con Mayúsculas.a */; };
 		880D6DE425645BAD0002C301 /* ACM-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DE325645BAD0002C301 /* ACM-1024.png */; };
 		880D6DE725661A700002C301 /* acierto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 880D6DE525661A6F0002C301 /* acierto.mp3 */; };
@@ -71,6 +72,7 @@
 		4DB518F1253798D600C79229 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4DB518F625379AE000C79229 /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		4DB518FB2537AEDC00C79229 /* TemasPList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemasPList.plist; sourceTree = "<group>"; };
+		4DE4F45625661EE9008F7FBA /* correcto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correcto.mp3; sourceTree = "<group>"; };
 		64C2479358F45350494B9E7F /* Pods-Aprendiendo con Mayúsculas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; path = "Target Support Files/Pods-Aprendiendo con Mayúsculas/Pods-Aprendiendo con Mayúsculas.debug.xcconfig"; sourceTree = "<group>"; };
 		880D6DE325645BAD0002C301 /* ACM-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACM-1024.png"; sourceTree = "<group>"; };
 		880D6DE525661A6F0002C301 /* acierto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acierto.mp3; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				8819E754253623B300B8A4F1 /* ConfigViewController.swift */,
 				88C63A162553D390006DB84C /* NSAttributedStringKeyCustomAttribute.swift */,
 				8819E756253623BD00B8A4F1 /* RecursosViewController.swift */,
+				4DE4F45625661EE9008F7FBA /* correcto.mp3 */,
 				8819E758253623C500B8A4F1 /* ContactoViewController.swift */,
 				8819E7522536211C00B8A4F1 /* BasicoVFViewController.swift */,
 				8819E74E2535619100B8A4F1 /* EjemploViewController.swift */,
@@ -351,6 +354,7 @@
 				8819E7242535318000B8A4F1 /* Assets.xcassets in Resources */,
 				880D6DE725661A700002C301 /* acierto.mp3 in Resources */,
 				880D6DE425645BAD0002C301 /* ACM-1024.png in Resources */,
+				4DE4F45725661EE9008F7FBA /* correcto.mp3 in Resources */,
 				4DB518F2253798D600C79229 /* Property List.plist in Resources */,
 				4DB518FC2537AEDC00C79229 /* TemasPList.plist in Resources */,
 				8819E7222535317F00B8A4F1 /* Main.storyboard in Resources */,
