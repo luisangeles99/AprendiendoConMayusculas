@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 public protocol RoulettePartType {
     var id: UUID { get }
     var name: String { get }
@@ -18,7 +19,7 @@ public protocol RoulettePartType {
     /// From [0, 2pi)
     var endRadianAngle: Double { get }
     var fillColor: UIColor { get set }
-    var strokeColor: UIColor { get }
+    var strokeColor: UIColor { get set }
 }
 
 public enum Roulette {
@@ -39,8 +40,8 @@ public enum Roulette {
             huge: Kind,
             delegate: RoulettePartHugeDelegate?,
             index: Int,
-            fillColor: UIColor = .lightGray,
-            strokeColor: UIColor = .systemBlue
+            fillColor: UIColor = #colorLiteral(red: 0.6073725514, green: 0.9137254902, blue: 0.904033244, alpha: 0.6390196918),
+            strokeColor: UIColor = .lightGray
         ) {
             self.name = name
             self.huge = huge

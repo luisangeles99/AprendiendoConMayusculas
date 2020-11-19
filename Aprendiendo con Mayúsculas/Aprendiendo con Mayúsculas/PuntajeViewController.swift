@@ -39,6 +39,9 @@ class PuntajeViewController: UIViewController {
         
         title = "Puntuación"
         
+        self.navigationItem.setHidesBackButton(true, animated: true)
+        
+        
         super.viewDidLoad()
         let puntos = defaults.integer(forKey: "puntos")
         lbPuntos.text = String(puntos)

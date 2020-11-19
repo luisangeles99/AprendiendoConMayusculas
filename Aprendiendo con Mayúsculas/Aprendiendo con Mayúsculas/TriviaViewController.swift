@@ -86,7 +86,7 @@ class TriviaViewController: UIViewController {
         let view = segue.destination as! TriviaQuizViewController
         view.tema = tema
         view.indice = indice
-    
+        
         
         
     }
@@ -104,18 +104,6 @@ extension TriviaViewController: RouletteViewDelegate {
         
         indice = part.index
         tema = part.name
-        //part.fillColor = .systemTeal
-        
-        /*
-        let alert = UIAlertController(title: "Elegido", message: part.name, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Valor", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
-        rouletteView.configure(parts: [
-            Roulette.HugePart(name: "Oraciones", huge: .normal, delegate: rouletteView, index: 0),
-            Roulette.HugePart(name: "Párrafos", huge: .normal, delegate: rouletteView, index: 1),
-            Roulette.HugePart(name: "Títulos", huge: .normal, delegate: rouletteView, index: 2),
-        ])
-        */
         
         
     }
