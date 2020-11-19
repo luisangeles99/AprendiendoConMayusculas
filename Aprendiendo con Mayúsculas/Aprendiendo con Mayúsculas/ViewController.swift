@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             vistaEjemplos.tema = tema
             vistaEjemplos.categoria = minmay
         }else if segue.identifier == "seguePractica"{
-            let vistaPractica = segue.destination as! DifcultadPracticaViewController
+            let vistaPractica = segue.destination as! PickerExerciseViewController
             vistaPractica.tema = tema
             vistaPractica.categoria = minmay
         }

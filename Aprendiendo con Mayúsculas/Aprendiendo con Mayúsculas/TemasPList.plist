@@ -63,7 +63,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string> Se esriben con mayúscula los sustantivos y adjetivos que forman parte del nombre de publicaciones periódicas o de colecciones: La Vanguardia, Nueva Revista de Filología Hispánica, Biblioteca de Autores Españoles.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -264,7 +264,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>FALTA EXPLICACIÓN</string>
+				<string>La primera palabra del nombre latino de las especies vegetales y animales: Pimpinella anisum, Panthera leo (los nombres científicos latinos deben escribirse, además, en cursiva). Se escriben también con mayúscula los nombres de los grupos taxonómicos zoológicos y botánicos superiores al género, cuando se usan en aposición: orden Roedores, familia Leguminosas; pero estos mismos términos se escriben con minúscula cuando se usan como adjetivos o como nombres comunes</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -330,7 +330,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Se escriben en minúscula los nombres de tribus o pueblos y de lenguas, así como los gentilicios: el pueblo inca, los mayas, el español, los ingleses.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -351,7 +351,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los días de la semana no llevan mayúsculas</string>
+				<string>Salvo que la mayúscula venga exigida por la puntuación (a comienzo de texto o después de punto), los nombres de los días de la semana, de los meses y de las estaciones del año se escriben en español con minúscula inicial.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>

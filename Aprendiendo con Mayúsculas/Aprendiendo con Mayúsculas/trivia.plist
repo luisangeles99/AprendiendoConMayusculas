@@ -5,7 +5,53 @@
 	<array>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Oraciones</string>
+			<string>Mi nombre es Luis y soy estudiante del ITESM.</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Nombres propios</string>
+					<true/>
+				</array>
+				<array>
+					<string>Nombres Comunes</string>
+					<false/>
+				</array>
+				<array>
+					<string>Fórmulas de tratamiento</string>
+					<false/>
+				</array>
+				<array>
+					<string>Títulos de publicaciones</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>En el cuento “Pedro y el lobo” Pedro dice la verdad, pero al final ya nadie le cree después de tantas mentiras.</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Títulos de publicaciones</string>
+					<true/>
+				</array>
+				<array>
+					<string>Usos diacríticos</string>
+					<false/>
+				</array>
+				<array>
+					<string>Gentilicios</string>
+					<false/>
+				</array>
+				<array>
+					<string>Nombres propios</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>La ONU estableció que la enfermedad COVID-19 es una pandemia.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -17,7 +63,7 @@
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Abreviaturas, siglas y acrónimos</string>
 					<true/>
 				</array>
 				<array>
@@ -28,7 +74,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Las ventas de Nike subieron un cincuenta por ciento desde que inició la copa.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -40,7 +86,7 @@
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Marcas</string>
 					<true/>
 				</array>
 				<array>
@@ -51,12 +97,12 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Los mexicanos y argentinos comparten su pasión por el fútbol, es interesante pensar en el partido en el que se enfrentarán.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
-					<false/>
+					<string>Gentilicios</string>
+					<true/>
 				</array>
 				<array>
 					<string>Respuesta 2</string>
@@ -64,76 +110,7 @@
 				</array>
 				<array>
 					<string>Respuesta 3</string>
-					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
 					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<true/>
 				</array>
 				<array>
 					<string>Respuesta 4</string>
@@ -262,7 +239,7 @@
 	<array>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Títulos</string>
+			<string>El libro &quot;La Divina Comedia&quot; fue escrito por Dante Alighieri.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -274,7 +251,7 @@
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>&quot;La divina comedia&quot;</string>
 					<true/>
 				</array>
 				<array>
@@ -379,7 +356,30 @@
 	<array>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Nombres</string>
+			<string>EL UNIVERSAL, LA NACIÓN, TIEMPO</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Cabeceras de diarios y revistas</string>
+					<true/>
+				</array>
+				<array>
+					<string>Respuesta 3</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 4</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>lápiz, computadora, playera, televisión</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -392,6 +392,29 @@
 				</array>
 				<array>
 					<string>Respuesta 3</string>
+					<false/>
+				</array>
+				<array>
+					<string>Nombres comunes</string>
+					<false/>
+				</array>
+			</array>
+		</dict>
+		<dict>
+			<key>Pregunta</key>
+			<string>Si Dios me manda alguna señal, sin dudar lo haré.</string>
+			<key>Respuestas</key>
+			<array>
+				<array>
+					<string>Respuesta 1</string>
+					<false/>
+				</array>
+				<array>
+					<string>Respuesta 2</string>
+					<false/>
+				</array>
+				<array>
+					<string>Nombres de deidades</string>
 					<true/>
 				</array>
 				<array>
@@ -402,7 +425,7 @@
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Señor De Ávalos</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
@@ -415,72 +438,26 @@
 				</array>
 				<array>
 					<string>Respuesta 3</string>
-					<true/>
+					<false/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
-					<false/>
+					<string>Se omite nombre de pila</string>
+					<true/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Me gustan mucho las pínturas de El Greco.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>de el Greco</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
+					<string>del Greco</string>
 					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
-				</array>
-			</array>
-		</dict>
-		<dict>
-			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
-			<key>Respuestas</key>
-			<array>
-				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
 				</array>
 				<array>
 					<string>Respuesta 3</string>
