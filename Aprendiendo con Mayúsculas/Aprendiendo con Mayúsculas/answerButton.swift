@@ -27,7 +27,7 @@ class answerButton: UIButton {
         setTitleColor(.white, for: .normal)
         backgroundColor = UIColor.systemTeal
         titleLabel?.textColor = .white
-        titleLabel?.font     = UIFont(name: "AvenirNext-DemiBold", size: 20)
+        titleLabel?.font     = UIFont(name: "AvenirNext-DemiBold", size: 18)
         layer.cornerRadius   = 25
         layer.borderWidth    = 3.0
         layer.borderColor    = UIColor.darkGray.cgColor

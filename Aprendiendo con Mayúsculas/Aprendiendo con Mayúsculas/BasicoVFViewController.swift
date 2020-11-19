@@ -53,11 +53,7 @@ class BasicoVFViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        let x = Int.random(in: 0..<problemasDisp.count)
-        problema = problemasDisp[x] as? NSDictionary
-        txtProblema.text = problema["Problema"] as? String
-    }
+    
     
     
     @IBAction func btnAnswer(_ sender: UIButton){

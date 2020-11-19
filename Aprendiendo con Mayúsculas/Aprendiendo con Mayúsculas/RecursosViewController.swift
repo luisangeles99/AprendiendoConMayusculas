@@ -10,12 +10,37 @@ import UIKit
 
 class RecursosViewController: UIViewController {
 
+    //user defaults
+    let defaults = UserDefaults.standard
+    
+    //Outlets for color
+    @IBOutlet weak var recursos: UILabel!
+    @IBOutlet weak var referencias: UILabel!
+    @IBOutlet weak var programadores: UILabel!
+    @IBOutlet weak var creditos: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         title = "Recursos"
         
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        var color : UIColor!
+        if (defaults.string(forKey: "color") == "purple"){
+            color = .systemIndigo
+        } else if (defaults.string(forKey: "color") == "black") {
+            color = .label
+        } else {
+            color = .link
+        }
+        recursos.backgroundColor = color.withAlphaComponent(0.7)
+        referencias.backgroundColor = color.withAlphaComponent(0.7)
+        programadores.backgroundColor = color.withAlphaComponent(0.7)
+        creditos.backgroundColor = color.withAlphaComponent(0.7)
     }
     
     @IBAction func clickLink1(_ sender: UIButton) {

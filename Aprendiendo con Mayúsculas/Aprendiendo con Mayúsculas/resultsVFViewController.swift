@@ -11,17 +11,26 @@ import Social
 
 class resultsVFViewController: UIViewController {
 
-    
+    //VARIABLES
     var aciertos : Int!
     var preguntas : Int!
     let defaults = UserDefaults.standard
 
+    
+    //OUTLETS
+    @IBOutlet weak var labelMensaje: UILabel!
+    @IBOutlet weak var labelPuntuacion: UILabel!
+    @IBOutlet weak var imagen: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Puntuación"
         
+        imagen.image = UIImage(named: "question")
+        labelMensaje.text = "Observa tus resultados y comprueba si debes seguir estudiando."
+        labelPuntuacion.text = "Tuviste " + String(aciertos) + " / " + String(preguntas) + " lo que equivale a " + String(format: "%.2f",Double(aciertos)/Double(preguntas))
         self.navigationItem.setHidesBackButton(true, animated: true)
         // Do any additional setup after loading the view.
     }
@@ -37,6 +46,17 @@ class resultsVFViewController: UIViewController {
     }
     */
 
+    @IBAction func btnAceptar(_ sender: Any) {
+        for controller in self.navigationController!.viewControllers as Array {
+            if controller.isKind(of: PickerExerciseViewController.self) {
+                self.navigationController!.popToViewController(controller, animated: true)
+                break
+            }
+        }
+    }
+    
+    
+    
     //Modo Portrait
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.landscape
