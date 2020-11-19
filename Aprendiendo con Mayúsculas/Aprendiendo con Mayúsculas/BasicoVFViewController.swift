@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class BasicoVFViewController: UIViewController {
 
@@ -18,6 +19,12 @@ class BasicoVFViewController: UIViewController {
     var problema: NSDictionary!
     var tema : String!
     var categoria : String!
+    
+    //Sound effects
+    var player : AVAudioPlayer!
+    let urlString = Bundle.main.path(forResource: "acierto", ofType: "mp3")
+    let urlString2 = Bundle.main.path(forResource: "error", ofType: "mp3")
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,7 +74,9 @@ class BasicoVFViewController: UIViewController {
             print("Correcto")
             bCorrecto = true
             defaults.setValue(defaults.integer(forKey: "puntos") + 100, forKey: "puntos")
+            play(acierto: true)
         }else{
+            play(acierto: false)
             bCorrecto = false
             print("Incorrecto")
         }
@@ -95,6 +104,29 @@ class BasicoVFViewController: UIViewController {
         puntajeView.correcto = bCorrecto
     }
     
+    //MARK: - Sound Effects
+    func play(acierto: Bool){
+        
+        if acierto {
+            do{
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString!))
+                player.play()
+            }catch{
+                print("error with audio file!")
+            }
+        }else{
+            do{
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString2!))
+                player.play()
+            }catch{
+                print("error with audio file!")
+            }
+        }
+    }
+    
+    
+    
+    //MARK: - Portrait Mode
     //Modo Portrait
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.landscape

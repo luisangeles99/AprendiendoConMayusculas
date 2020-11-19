@@ -18,7 +18,7 @@ class NormaImageViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationController!.navigationBar.isHidden = true
+        title = "Infografía"
         
         imagen.image = image
         

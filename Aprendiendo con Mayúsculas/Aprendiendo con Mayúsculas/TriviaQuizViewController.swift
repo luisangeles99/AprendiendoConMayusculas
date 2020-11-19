@@ -154,9 +154,7 @@ class TriviaQuizViewController: UIViewController {
                 self.botones[i-1].isUserInteractionEnabled = false
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                //_ = self.navigationController?.popViewController(animated: true)
                 self.performSegue(withIdentifier: "triviaResults", sender: nil)
-
             }
             
         }
@@ -169,7 +167,7 @@ class TriviaQuizViewController: UIViewController {
         infoPlist = NSArray(contentsOfFile: path!)
     }
     
-    //MARK: - Load Respuestas
+    //MARK: - Load Preguntas/Respuestas
     func loadPregunta(curr : Int){
         infoPregunta = infoArray[curr] as? NSDictionary
         respuestas = infoPregunta["Respuestas"] as? NSArray

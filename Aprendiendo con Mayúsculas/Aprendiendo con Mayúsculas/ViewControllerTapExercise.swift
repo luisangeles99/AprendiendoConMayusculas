@@ -60,7 +60,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
         let rand = Int.random(in: 1...numEjercicios)
         ejercicio = arrEjercicios[rand-1] as? NSDictionary
 
-        var myStringProblema = ejercicio["ejercicio"] as? String
+        let myStringProblema = ejercicio["ejercicio"] as? String
         indicesCorrectos = ejercicio["indicesCorrectos"] as? NSArray
         
         respuestasCorrectas = indicesCorrectos.count
@@ -97,7 +97,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
             correctEffect = try AVAudioPlayer(contentsOf: url)
             correctEffect?.play()
         } catch {
-            // couldn't load file :(
+            print("Error in file loading!")
         }
     }
     
