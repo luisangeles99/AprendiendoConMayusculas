@@ -20,6 +20,16 @@ class PuntajeViewController: UIViewController {
     }
     
     
+    @IBAction func aceptarResultado(_ sender: Any) {
+        for controller in self.navigationController!.viewControllers as Array {
+            if controller.isKind(of: PickerExerciseViewController.self) {
+                self.navigationController!.popToViewController(controller, animated: true)
+                break
+            }
+        }
+    }
+    
+    
     
     @IBOutlet weak var lbPuntos: UILabel!
     @IBOutlet weak var lbCorrecto: UILabel!
@@ -28,6 +38,9 @@ class PuntajeViewController: UIViewController {
     override func viewDidLoad() {
         
         title = "Puntuación"
+        
+        self.navigationItem.setHidesBackButton(true, animated: true)
+        
         
         super.viewDidLoad()
         let puntos = defaults.integer(forKey: "puntos")

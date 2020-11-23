@@ -13,6 +13,7 @@ import SimpleRoulette
 class TriviaViewController: UIViewController {
 
 
+    @IBOutlet weak var btnPlay: UIButton!
     @IBOutlet var rouletteView: RouletteView!
     var spin : Bool = false
     //var nombresTemas : [String] = ["Oraciones", "Párrafos", "Títulos", "Nombres", "Sorpresa"]
@@ -59,15 +60,18 @@ class TriviaViewController: UIViewController {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + valor + 1.5) {
             self.performSegue(withIdentifier: "playSegue", sender: nil)
+            self.btnPlay.isEnabled = true
         }
         
     }
     
     
     
-    @IBAction func spinRoulette(_ sender: Any) {
+    @IBAction func spinRoulette(_ sender: UIButton) {
         playRoulette()
+        btnPlay.isEnabled = false
     }
+    
     
     
 
@@ -82,7 +86,7 @@ class TriviaViewController: UIViewController {
         let view = segue.destination as! TriviaQuizViewController
         view.tema = tema
         view.indice = indice
-    
+        
         
         
     }
@@ -100,18 +104,6 @@ extension TriviaViewController: RouletteViewDelegate {
         
         indice = part.index
         tema = part.name
-        //part.fillColor = .systemTeal
-        
-        /*
-        let alert = UIAlertController(title: "Elegido", message: part.name, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Valor", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
-        rouletteView.configure(parts: [
-            Roulette.HugePart(name: "Oraciones", huge: .normal, delegate: rouletteView, index: 0),
-            Roulette.HugePart(name: "Párrafos", huge: .normal, delegate: rouletteView, index: 1),
-            Roulette.HugePart(name: "Títulos", huge: .normal, delegate: rouletteView, index: 2),
-        ])
-        */
         
         
     }

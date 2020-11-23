@@ -24,7 +24,11 @@ class triviaResultadosViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isHidden = true
+        
+        title = "Puntuación"
+        navigationController!.navigationBar.isHidden = false
+        self.navigationItem.setHidesBackButton(true, animated: true)
+        
         
         puntajeLabel.text = String(aciertos) + " / " + String(preguntas) + " lo que equivale a: " + String((Double(aciertos)/Double(preguntas))*100)
         tiempoLabel.text = "Tu tiempo fue de: " + String(format: "%.2f", tiempo) + " segundos"

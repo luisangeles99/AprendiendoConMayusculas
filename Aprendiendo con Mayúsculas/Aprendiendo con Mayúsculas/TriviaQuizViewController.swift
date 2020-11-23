@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TriviaQuizViewController: UIViewController {
 
@@ -36,6 +37,11 @@ class TriviaQuizViewController: UIViewController {
     var puntaje = 0
     var timer : Timer!
     var tiempo : Double = 0.0
+    
+    //Sound effects
+    var player : AVAudioPlayer!
+    let urlString = Bundle.main.path(forResource: "acierto", ofType: "mp3")
+    let urlString2 = Bundle.main.path(forResource: "error", ofType: "mp3")
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
@@ -122,6 +128,7 @@ class TriviaQuizViewController: UIViewController {
     
     func checkAnswer(index : Int, btn : UIButton){
         respuestasDetalle = respuestas[index] as? NSArray
+        play(acierto: (respuestasDetalle[1] as? Bool)!)
         if (respuestasDetalle[1] as? Bool)! {
             print("Respuesta Correcta")
             btn.backgroundColor = UIColor.green
@@ -131,6 +138,7 @@ class TriviaQuizViewController: UIViewController {
             print("Respuesta Incorrecta")
             btn.backgroundColor = UIColor.red
         }
+        
         
         
     }
@@ -146,9 +154,7 @@ class TriviaQuizViewController: UIViewController {
                 self.botones[i-1].isUserInteractionEnabled = false
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                //_ = self.navigationController?.popViewController(animated: true)
                 self.performSegue(withIdentifier: "triviaResults", sender: nil)
-
             }
             
         }
@@ -161,7 +167,7 @@ class TriviaQuizViewController: UIViewController {
         infoPlist = NSArray(contentsOfFile: path!)
     }
     
-    //MARK: - Load Respuestas
+    //MARK: - Load Preguntas/Respuestas
     func loadPregunta(curr : Int){
         infoPregunta = infoArray[curr] as? NSDictionary
         respuestas = infoPregunta["Respuestas"] as? NSArray
@@ -191,6 +197,28 @@ class TriviaQuizViewController: UIViewController {
         view.preguntas = infoArray.count
         view.tiempo = tiempo
     }
+    
+    
+    //MARK: - Sound Effects
+    func play(acierto: Bool){
+        
+        if acierto {
+            do{
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString!))
+                player.play()
+            }catch{
+                print("error with audio file!")
+            }
+        }else{
+            do{
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString2!))
+                player.play()
+            }catch{
+                print("error with audio file!")
+            }
+        }
+    }
+    
     
 
     //Modo Portrait

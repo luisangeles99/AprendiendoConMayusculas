@@ -30,7 +30,7 @@ class CustomButton: UIButton {
         if titleLabel?.text == "Avanzado"{
             backgroundColor = UIColor.red.withAlphaComponent(0.5)
         }else if titleLabel?.text == "Básico"{
-            backgroundColor = #colorLiteral(red: 0.5607843137, green: 0.9137254902, blue: 0.7607843137, alpha: 1)
+            backgroundColor = #colorLiteral(red: 0.6073725514, green: 0.9137254902, blue: 0.904033244, alpha: 0.6390196918)
         }else if defaults.string(forKey: "color") == "purple"{
             backgroundColor = #colorLiteral(red: 0.7564462184, green: 0.5984446765, blue: 0.9686274529, alpha: 1)
         }else if defaults.string(forKey: "color") == "black"{
