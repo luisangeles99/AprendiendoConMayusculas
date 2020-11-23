@@ -21,7 +21,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 1</string>
+					<string>Ud. debe contestar las preguntas.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -29,15 +29,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>El sr. Raul tiene derecho de señalar a cuatro personas.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -69,7 +61,23 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Mi chamarra nike</string>
+					<string>Después del curso que tomé de google, aprendí a realizar búsquedas avanzadas.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Las empresas como Facebook son responsables de cuidar la información de sus usuarios</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Mi chamarra nike la venden en todos lados.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -100,11 +108,27 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Me llamo Moisés</string>
+					<string>Moisés cuenta con doce investigaciones en el área médica.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La hermana de Alicia tiene clases conmigo</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>El reporte de luis tiene por lo menos ocho fuentes bibliográficas.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -130,7 +154,15 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Estamos en otoño</string>
+					<string>Todos los días de Verano llega a subir la temperatura a los 30 grados.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Estamos en otoño pero se siente como si fuera invierno.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -138,7 +170,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
+					<string>El invierno es la mejor estación del año para estar en casa.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -168,7 +200,8 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Mi amiga Chilena viene a México cada año.</string>
+					<string>Mi amiga Chilena viene a México cada año.
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -176,7 +209,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
+					<string>En mi viaje a Cancún conocí a varios yucatecos.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -184,7 +217,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>El Aleman sabe comunicarse con los latinos a pesar de que no domina el español</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -222,19 +255,11 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
+					<string>La manzana tiene propiedades que ayudan a la salud</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<true/>
-				</dict>
-				<dict>
-					<key>Problema</key>
-					<string>Problema de prueba 3</string>
-					<key>completado</key>
-					<false/>
-					<key>Respuesta</key>
-					<false/>
 				</dict>
 			</array>
 		</dict>
@@ -266,6 +291,22 @@
 					<key>Respuesta</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>El estado Mexicano tiene un plan para impulsar el turismo</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La Virgen de Guadalupe es una imagen muy respetada.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
 			</array>
 		</dict>
 	</dict>
@@ -290,11 +331,28 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Ni el hombre de las cavernas ni el primer homo sapiens agricultor conocían el sistema financiero o monetario</string>
+					<string>Ni el hombre de las cavernas ni el primer homo sapiens agricultor conocían el sistema financiero o monetario
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
 					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>El nombre científico de la sardina peruana es Sardinops sagax sagax</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Hemos recibido un pedido de 500 ejemplares de Laurus nobilis.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
 				</dict>
 			</array>
 		</dict>
@@ -320,7 +378,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>El agua está conformado por hidrógeno es representado por el símbolo H en la tabla periódica</string>
+					<string>El NH3 se utiliza para fabricar desinfectantes ya que eliminan a las bacterias. </string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -328,7 +386,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
+					<string>El agua está conformado por hidrógeno y es representado por el símbolo H en la tabla periódica</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -336,7 +394,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>Los extinguidores de incendio utilizan el compuesto CCl4</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -366,7 +424,24 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Un kilogramo de fuerza equivale a 9.8 N</string>
+					<string>Un kilogramo de fuerza equivale a 9.8 N
+</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La unidad de almacenamiento es de 1TB pero también utilizo un disco externo de 500gb.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La presión se mide en pascales y es representado como “J”</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -402,6 +477,22 @@
 					<key>Respuesta</key>
 					<false/>
 				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Ayer se reportó conmigo el Ing. Alfredo para apoyarme en la investigación.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La Lic. Andrea es reconocida por su excelente trabajo.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
 			</array>
 		</dict>
 	</dict>
@@ -431,6 +522,22 @@
 					<false/>
 					<key>Respuesta</key>
 					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La biología es una disciplina muy compleja.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La persona que estudia Medicina tiene que estar muy preparada para realizar una especialidad</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
 				</dict>
 			</array>
 		</dict>
@@ -462,6 +569,22 @@
 					<key>Respuesta</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La onu tiene un plan de 15 años para mejorar al planeta.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>La FIFA organiza múltiples torneos de fútbol por año.</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
 			</array>
 		</dict>
 	</dict>
@@ -486,7 +609,8 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>El gobierno debe tomar acción para disminuir la desigualdad</string>
+					<string>El gobierno debe tomar acción para disminuir la desigualdad
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -494,7 +618,7 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 2</string>
+					<string>La empresa Pepsico invierte en nuevas oficinas en México.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -502,11 +626,11 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>Problema de prueba 3</string>
+					<string>En mi institución, Telmex provee el servicio de internet.</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
-					<false/>
+					<true/>
 				</dict>
 			</array>
 		</dict>
@@ -532,9 +656,26 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Todos los años celebro el dia de muertos con mi familia</string>
+					<string>El 5 de mayo es el Aniversario de la batalla de Puebla</string>
 					<key>completado</key>
 					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Todos los años celebro el dia de muertos con mi familia
+</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>El 5 de febrero es Día de la Constitución Mexicana.</string>
+					<key>completado</key>
+					<true/>
 					<key>Respuesta</key>
 					<false/>
 				</dict>
@@ -568,6 +709,22 @@
 					<key>Respuesta</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>El artículo “Inteligencia artificial en la gestión financiera empresarial” fue publicado en el 2011</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Problema</key>
+					<string>Gracias a “El análisis económico del derecho” puede realizar una investigación más profunda</string>
+					<key>completado</key>
+					<false/>
+					<key>Respuesta</key>
+					<true/>
+				</dict>
 			</array>
 		</dict>
 	</dict>
@@ -592,7 +749,8 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>The New york times ha publicado noticias relevantes los últimos 10 años.</string>
+					<string>The New york times ha publicado noticias relevantes los últimos 10 años.
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
