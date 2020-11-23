@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W2I-Fa-ieH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W2I-Fa-ieH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -52,7 +54,8 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E4X-bz-CU9" secondAttribute="trailing" constant="40" id="4sR-e3-4ru"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E4X-bz-CU9" secondAttribute="bottom" constant="100" id="8PX-fE-z6q"/>
@@ -60,7 +63,6 @@
                             <constraint firstItem="E4X-bz-CU9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="no6-em-1CT"/>
                             <constraint firstItem="E4X-bz-CU9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="uHV-ER-473"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="hqK-Uj-r6f"/>
                 </viewController>
@@ -78,7 +80,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Qm-Sl-viI">
                                 <rect key="frame" x="20" y="190" width="374" height="691"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda" rowHeight="151" id="ApB-gh-Otm" customClass="customCell" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="151"/>
@@ -122,7 +124,8 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Csl-mY-aZs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8Qm-Sl-viI" firstAttribute="centerX" secondItem="lc6-ts-ins" secondAttribute="centerX" id="6KK-ga-Bbe"/>
                             <constraint firstItem="8Qm-Sl-viI" firstAttribute="leading" secondItem="Csl-mY-aZs" secondAttribute="leading" constant="20" id="Ebl-xG-zal"/>
@@ -130,7 +133,6 @@
                             <constraint firstAttribute="bottom" secondItem="8Qm-Sl-viI" secondAttribute="bottom" constant="15" id="c2B-KE-kOM"/>
                             <constraint firstItem="8Qm-Sl-viI" firstAttribute="top" secondItem="Csl-mY-aZs" secondAttribute="top" constant="50" id="puB-zI-ese"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Csl-mY-aZs"/>
                     </view>
                     <navigationItem key="navigationItem" id="JAE-Dv-msN"/>
                     <connections>
@@ -174,7 +176,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="Ufe-Sz-8KP" firstAttribute="top" secondItem="Bcx-8R-kgX" secondAttribute="top" constant="35" id="0lm-FE-bwx"/>
                                             <constraint firstItem="L73-ca-wvG" firstAttribute="top" secondItem="eJo-YK-pbl" secondAttribute="bottom" constant="30" id="8cd-dn-DLT"/>
@@ -198,14 +200,14 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RT2-Dv-DEe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="cLT-Go-KaK" firstAttribute="trailing" secondItem="RT2-Dv-DEe" secondAttribute="trailing" id="I6b-Mr-gNh"/>
                             <constraint firstAttribute="bottom" secondItem="cLT-Go-KaK" secondAttribute="bottom" id="hfb-du-Jow"/>
                             <constraint firstItem="cLT-Go-KaK" firstAttribute="leading" secondItem="RT2-Dv-DEe" secondAttribute="leading" id="hsA-Yj-7GO"/>
                             <constraint firstItem="cLT-Go-KaK" firstAttribute="top" secondItem="lTz-ik-fkb" secondAttribute="top" id="tnU-gR-Not"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="RT2-Dv-DEe"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Kn-RP-dRp"/>
                     <connections>
@@ -249,14 +251,14 @@
                                 </connections>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="r1K-wD-wg1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="58J-yg-CHQ" firstAttribute="leading" secondItem="r1K-wD-wg1" secondAttribute="leading" id="5Yf-1f-3LU"/>
                             <constraint firstItem="58J-yg-CHQ" firstAttribute="top" secondItem="r1K-wD-wg1" secondAttribute="top" id="Sq1-r4-Zpp"/>
                             <constraint firstItem="58J-yg-CHQ" firstAttribute="trailing" secondItem="r1K-wD-wg1" secondAttribute="trailing" id="bSU-Jw-HEj"/>
                             <constraint firstItem="58J-yg-CHQ" firstAttribute="bottom" secondItem="r1K-wD-wg1" secondAttribute="bottom" id="ytM-mn-7TZ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="r1K-wD-wg1"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="8qs-T9-G5d">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.arrow.up" catalog="system" id="xz3-Ee-Imj">
@@ -282,7 +284,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-zK-AEh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-zK-AEh">
                                 <rect key="frame" x="163.5" y="756" width="87" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="JUGAR"/>
@@ -295,6 +297,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="EGx-EJ-FxO"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="RC3-zK-AEh" firstAttribute="top" secondItem="skb-Sw-yh1" secondAttribute="bottom" constant="20" id="2VN-b6-wT0"/>
@@ -304,7 +307,6 @@
                             <constraint firstItem="skb-Sw-yh1" firstAttribute="top" secondItem="EGx-EJ-FxO" secondAttribute="top" priority="750" constant="20" id="mgT-RT-gDL"/>
                             <constraint firstItem="EGx-EJ-FxO" firstAttribute="trailing" secondItem="skb-Sw-yh1" secondAttribute="trailing" constant="5" id="tf1-dc-XCd"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="EGx-EJ-FxO"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Trivia" image="person.3" catalog="system" id="vhq-5k-KlH"/>
                     <navigationItem key="navigationItem" id="V3v-aE-HEK"/>
@@ -350,9 +352,9 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BY5-0f-r1t">
                                                         <rect key="frame" x="0.0" y="0.0" width="373" height="121.5"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-2a-dVi" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-2a-dVi" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="176.5" height="121.5"/>
-                                                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <state key="normal" title="Button">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -361,9 +363,9 @@
                                                                     <action selector="btnAnswerWithSender:" destination="uQx-rl-pOu" eventType="touchUpInside" id="6eR-kV-hWP"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lDP-Sn-1Bj" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lDP-Sn-1Bj" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                                                 <rect key="frame" x="196.5" y="0.0" width="176.5" height="121.5"/>
-                                                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <state key="normal" title="Button">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -382,7 +384,7 @@
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-Xr-f3I" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="176.5" height="121"/>
-                                                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <state key="normal" title="ESTE SERIA UN TITULO MUY MUY LARGO">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -393,7 +395,7 @@
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nT6-3Y-of7" customClass="answerButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                                                 <rect key="frame" x="196.5" y="0.0" width="176.5" height="121"/>
-                                                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" systemColor="systemBrownColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <state key="normal" title="ESTE SERIA UN TITULO MUY MUY LARGO">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -423,7 +425,8 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="GX6-9H-aE4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="DSC-V7-qFf" firstAttribute="width" secondItem="PNd-Sp-EAO" secondAttribute="width" multiplier="0.9" id="00I-VY-HdB"/>
                             <constraint firstItem="GX6-9H-aE4" firstAttribute="bottom" secondItem="DSC-V7-qFf" secondAttribute="bottom" constant="10" id="KA6-jb-o6B"/>
@@ -431,7 +434,6 @@
                             <constraint firstItem="DSC-V7-qFf" firstAttribute="centerY" secondItem="PNd-Sp-EAO" secondAttribute="centerY" id="Y9h-pQ-Zb9"/>
                             <constraint firstItem="DSC-V7-qFf" firstAttribute="centerX" secondItem="PNd-Sp-EAO" secondAttribute="centerX" id="nIW-dA-J03"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="GX6-9H-aE4"/>
                     </view>
                     <navigationItem key="navigationItem" id="xUH-I5-C7C"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -478,7 +480,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zpL-KM-v8I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda" rowHeight="126" id="mTT-L8-vDe" customClass="customTableViewCell" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="126"/>
@@ -546,15 +548,15 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Yve-MV-7QU">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <color key="barTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                        <color key="barTintColor" systemColor="linkColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            <color key="textShadowColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                            <color key="textShadowColor" systemColor="linkColor"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -571,12 +573,12 @@
                 <navigationController id="pun-Gq-Y5H" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Contacto" image="phone.fill" catalog="system" selectedImage="phone.fill" id="Tlr-0t-de8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Qgs-3a-HWG">
-                        <rect key="frame" x="0.0" y="44" width="414" height="104.5"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -596,7 +598,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bSY-5d-WRG">
-                                <rect key="frame" x="62" y="168.5" width="290" height="206"/>
+                                <rect key="frame" x="62" y="160" width="290" height="206"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paleta de colores" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ai-RR-37F">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="65"/>
@@ -607,9 +609,9 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="sWa-wR-kdR">
                                         <rect key="frame" x="0.0" y="95" width="290" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo0-GI-IHE">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo0-GI-IHE">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" systemColor="linkColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="af8-HT-xTJ"/>
                                                 </constraints>
@@ -617,9 +619,9 @@
                                                     <action selector="onChangeBlue:" destination="AO5-ax-dbL" eventType="touchUpInside" id="64t-78-9U2"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTQ-kO-h7u">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTQ-kO-h7u">
                                                 <rect key="frame" x="120" y="0.0" width="50" height="50"/>
-                                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="EEU-1L-gMz"/>
                                                 </constraints>
@@ -627,9 +629,9 @@
                                                     <action selector="onChangePurple:" destination="AO5-ax-dbL" eventType="touchUpInside" id="nuw-bc-Tik"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-Jd-W0L">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-Jd-W0L">
                                                 <rect key="frame" x="240" y="0.0" width="50" height="50"/>
-                                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="backgroundColor" systemColor="labelColor"/>
                                                 <connections>
                                                     <action selector="onChangeGreen:" destination="AO5-ax-dbL" eventType="touchUpInside" id="6O3-BK-NsS"/>
                                                 </connections>
@@ -660,12 +662,12 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="TRh-cC-Dd6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bSY-5d-WRG" firstAttribute="centerX" secondItem="TvD-gj-yLT" secondAttribute="centerX" id="PrC-cl-LIj"/>
                             <constraint firstItem="bSY-5d-WRG" firstAttribute="top" secondItem="TRh-cC-Dd6" secondAttribute="top" constant="20" id="SnP-kM-SfA"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="TRh-cC-Dd6"/>
                     </view>
                     <navigationItem key="navigationItem" title="Configuración" id="0l4-AM-pzc"/>
                     <connections>
@@ -702,14 +704,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="QY0-C1-a2p">
                                         <rect key="frame" x="0.0" y="317.5" width="354" height="158.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-qo-Hyt">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-qo-Hyt">
                                                 <rect key="frame" x="0.0" y="0.0" width="108" height="158.5"/>
                                                 <state key="normal" backgroundImage="ig"/>
                                                 <connections>
                                                     <action selector="onClickSocialIG:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="hvb-TC-VBq"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-6j-W6L">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-6j-W6L">
                                                 <rect key="frame" x="123" y="0.0" width="108" height="158.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="loU-GF-OBA"/>
@@ -719,7 +721,7 @@
                                                     <action selector="onClickSocialFB:" destination="Vo7-OI-eSm" eventType="touchUpInside" id="h4S-GO-F7b"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa7-33-eHp">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa7-33-eHp">
                                                 <rect key="frame" x="246" y="0.0" width="108" height="158.5"/>
                                                 <state key="normal" backgroundImage="tw"/>
                                                 <connections>
@@ -738,6 +740,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="w3h-As-6ev"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ACg-La-g1o" firstAttribute="top" secondItem="w3h-As-6ev" secondAttribute="top" constant="80" id="c0N-cP-lUQ"/>
@@ -745,7 +748,6 @@
                             <constraint firstItem="ACg-La-g1o" firstAttribute="leading" secondItem="w3h-As-6ev" secondAttribute="leading" constant="30" id="rl0-pD-no3"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ACg-La-g1o" secondAttribute="bottom" constant="200" id="xnN-gf-Hsu"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="w3h-As-6ev"/>
                     </view>
                     <navigationItem key="navigationItem" title="Contacto" id="z0Z-uR-6CT"/>
                     <connections>
@@ -777,7 +779,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mC8-Dx-pO7">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mC8-Dx-pO7">
                                                 <rect key="frame" x="0.0" y="75.5" width="414" height="101.5"/>
                                                 <state key="normal" title="Centro de Escritura"/>
                                                 <connections>
@@ -796,7 +798,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcX-IY-hfG">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcX-IY-hfG">
                                                 <rect key="frame" x="0.0" y="75.5" width="414" height="73"/>
                                                 <state key="normal">
                                                     <string key="title">Real Academia Española 
@@ -807,7 +809,7 @@ Real Academia Española</string>
                                                     <action selector="clickLink2:" destination="vV3-ts-XWE" eventType="touchUpInside" id="um6-U9-mDs"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vm-Uu-IHE">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vm-Uu-IHE">
                                                 <rect key="frame" x="0.0" y="148.5" width="414" height="73"/>
                                                 <state key="normal" title="Wikilengua del español"/>
                                                 <connections>
@@ -847,7 +849,7 @@ Real Academia Española</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWu-xS-Jmf">
+                                            <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWu-xS-Jmf">
                                                 <rect key="frame" x="0.0" y="226" width="414" height="50.5"/>
                                                 <color key="backgroundColor" red="0.91366368529999997" green="0.8210926435" blue="0.70485831750000005" alpha="0.9990234375" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -873,14 +875,14 @@ Real Academia Española</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="LBV-RG-nYf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gDg-ek-xnE" firstAttribute="top" secondItem="LBV-RG-nYf" secondAttribute="top" id="2cZ-S9-pO0"/>
                             <constraint firstAttribute="trailing" secondItem="gDg-ek-xnE" secondAttribute="trailing" id="nEM-1Z-Kyh"/>
                             <constraint firstAttribute="bottomMargin" secondItem="gDg-ek-xnE" secondAttribute="bottom" constant="-2" id="rxr-dH-S6a"/>
                             <constraint firstItem="gDg-ek-xnE" firstAttribute="leading" secondItem="tca-Zq-AZd" secondAttribute="leading" id="xZK-Z4-HSC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="LBV-RG-nYf"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recursos" id="KB0-XR-hqS"/>
                     <connections>
@@ -905,7 +907,7 @@ Real Academia Española</string>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-iM-7BQ">
                                 <rect key="frame" x="40" y="270" width="334" height="383"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-aB-KS0" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBh-aB-KS0" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="154"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="r34-Gc-oUa"/>
@@ -916,7 +918,7 @@ Real Academia Española</string>
                                             <segue destination="1xl-7K-TgQ" kind="show" identifier="segueVerdadero" id="Lyd-Ry-LF1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAW-L1-yga" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAW-L1-yga" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="229" width="334" height="154"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="St3-lD-SHq"/>
@@ -930,7 +932,8 @@ Real Academia Española</string>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Im1-yI-NIK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Bca-iM-7BQ" secondAttribute="trailing" constant="40" id="PfB-9e-IpQ"/>
                             <constraint firstItem="Bca-iM-7BQ" firstAttribute="centerX" secondItem="gSi-rW-lgI" secondAttribute="centerX" id="T3Y-jh-Z50"/>
@@ -938,7 +941,6 @@ Real Academia Española</string>
                             <constraint firstItem="Im1-yI-NIK" firstAttribute="bottom" secondItem="Bca-iM-7BQ" secondAttribute="bottom" constant="160" id="ajU-fT-zya"/>
                             <constraint firstItem="Bca-iM-7BQ" firstAttribute="top" secondItem="Im1-yI-NIK" secondAttribute="top" constant="130" id="blI-jr-yyk"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Im1-yI-NIK"/>
                     </view>
                     <navigationItem key="navigationItem" id="CNE-uV-kl7"/>
                 </viewController>
@@ -955,22 +957,22 @@ Real Academia Española</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-kM-Zym">
-                                <rect key="frame" x="30" y="168.5" width="354" height="614.5"/>
+                                <rect key="frame" x="30" y="160" width="354" height="623"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hnL-V6-IWd">
-                                        <rect key="frame" x="0.0" y="0.0" width="354" height="409.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="415.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona las palabras que deberían estar en mayúsculas" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aa9-ir-fl0">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="117"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="118.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="m6M-jv-4zY">
-                                                <rect key="frame" x="0.0" y="117" width="354" height="292.5"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <rect key="frame" x="0.0" y="118.5" width="354" height="297"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -980,16 +982,16 @@ Real Academia Española</string>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-oR-53w">
-                                        <rect key="frame" x="0.0" y="409.5" width="354" height="205"/>
+                                        <rect key="frame" x="0.0" y="415.5" width="354" height="207.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de respuestas correctas" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-fu-naW">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="84.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="85.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xC-Qt-j4z">
-                                                <rect key="frame" x="0.0" y="84.5" width="354" height="120.5"/>
+                                                <rect key="frame" x="0.0" y="85.5" width="354" height="122"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1005,19 +1007,20 @@ Real Academia Española</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="V5M-3X-zwN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="V5M-3X-zwN" firstAttribute="bottom" secondItem="RgD-kM-Zym" secondAttribute="bottom" constant="30" id="Cs6-7v-FFJ"/>
                             <constraint firstItem="RgD-kM-Zym" firstAttribute="top" secondItem="V5M-3X-zwN" secondAttribute="top" constant="20" id="mfY-LP-EF9"/>
                             <constraint firstAttribute="trailing" secondItem="RgD-kM-Zym" secondAttribute="trailing" constant="30" id="p4G-Hm-d7J"/>
                             <constraint firstItem="RgD-kM-Zym" firstAttribute="leading" secondItem="V5M-3X-zwN" secondAttribute="leading" constant="30" id="r7O-6t-GR4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="V5M-3X-zwN"/>
                     </view>
                     <navigationItem key="navigationItem" id="t9e-ER-h9R"/>
                     <connections>
                         <outlet property="numTotals" destination="7xC-Qt-j4z" id="eWp-Q4-ONi"/>
                         <outlet property="textView" destination="m6M-jv-4zY" id="hrA-hH-Gdh"/>
+                        <outlet property="titleLb" destination="Aa9-ir-fl0" id="xfX-bv-jUg"/>
                         <segue destination="dJC-7P-4Sq" kind="show" identifier="segueCorrecta" id="MbU-Tv-sNA"/>
                     </connections>
                 </viewController>
@@ -1095,14 +1098,14 @@ Real Academia Española</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="eKI-iG-C7E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8sY-YG-I4I" firstAttribute="top" secondItem="eKI-iG-C7E" secondAttribute="top" constant="30" id="0Rl-m3-T94"/>
                             <constraint firstItem="eKI-iG-C7E" firstAttribute="bottom" secondItem="8sY-YG-I4I" secondAttribute="bottom" constant="50" id="J5U-DB-64c"/>
                             <constraint firstItem="eKI-iG-C7E" firstAttribute="trailing" secondItem="8sY-YG-I4I" secondAttribute="trailing" constant="30" id="SY6-vn-yzv"/>
                             <constraint firstItem="8sY-YG-I4I" firstAttribute="leading" secondItem="eKI-iG-C7E" secondAttribute="leading" constant="30" id="kXs-ed-EKg"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="eKI-iG-C7E"/>
                     </view>
                     <navigationItem key="navigationItem" id="ahf-1J-fy5"/>
                     <connections>
@@ -1159,7 +1162,7 @@ Real Academia Española</string>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-cL-zac">
                                                 <rect key="frame" x="0.0" y="0.0" width="354" height="282"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79U-Z7-NRT">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79U-Z7-NRT">
                                                 <rect key="frame" x="0.0" y="282" width="354" height="94"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                 <state key="normal" title="Aceptar"/>
@@ -1179,7 +1182,8 @@ Real Academia Española</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1kM-mg-Dkc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6zc-Pg-DcH" firstAttribute="top" secondItem="aNX-7P-Ybl" secondAttribute="top" constant="150" id="I28-xP-Tbt"/>
                             <constraint firstItem="1kM-mg-Dkc" firstAttribute="trailing" secondItem="6zc-Pg-DcH" secondAttribute="trailing" constant="30" id="Qpj-Sf-cXv"/>
@@ -1187,7 +1191,6 @@ Real Academia Española</string>
                             <constraint firstItem="6zc-Pg-DcH" firstAttribute="centerX" secondItem="aNX-7P-Ybl" secondAttribute="centerX" id="iIs-aa-bBH"/>
                             <constraint firstItem="1kM-mg-Dkc" firstAttribute="bottom" secondItem="6zc-Pg-DcH" secondAttribute="bottom" constant="11" id="mA1-TC-Oie"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="1kM-mg-Dkc"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Bp-Nj-Eze"/>
                     <connections>
@@ -1217,7 +1220,7 @@ Real Academia Española</string>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Correcto!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAq-hJ-Zpy">
                                                 <rect key="frame" x="0.0" y="0.0" width="314" height="176.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntaje" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woe-TD-BSC">
@@ -1244,7 +1247,7 @@ Real Academia Española</string>
                                             <constraint firstItem="yAq-hJ-Zpy" firstAttribute="height" secondItem="woe-TD-BSC" secondAttribute="height" multiplier="6" priority="750" id="ZtC-oG-bkj"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCL-ap-a0U" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCL-ap-a0U" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="339" width="314" height="86.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Compartir"/>
@@ -1252,7 +1255,7 @@ Real Academia Española</string>
                                             <action selector="buttonAction:" destination="dJC-7P-4Sq" eventType="touchUpInside" id="JT8-jJ-Jbp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpp-Jq-W6s" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpp-Jq-W6s" customClass="CustomButton" customModule="Aprendiendo_con_Mayu_sculas" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="475.5" width="314" height="86.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Aceptar"/>
@@ -1267,14 +1270,14 @@ Real Academia Española</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tmC-Al-4PU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rmz-0V-T8U" firstAttribute="leading" secondItem="tmC-Al-4PU" secondAttribute="leading" constant="50" id="06A-KT-PiJ"/>
                             <constraint firstItem="tmC-Al-4PU" firstAttribute="bottom" secondItem="rmz-0V-T8U" secondAttribute="bottom" constant="100" id="32D-qg-chE"/>
                             <constraint firstItem="tmC-Al-4PU" firstAttribute="trailing" secondItem="rmz-0V-T8U" secondAttribute="trailing" constant="50" id="eTI-zS-b9w"/>
                             <constraint firstItem="rmz-0V-T8U" firstAttribute="top" secondItem="tmC-Al-4PU" secondAttribute="top" constant="60" id="gRf-8V-Uct"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="tmC-Al-4PU"/>
                     </view>
                     <navigationItem key="navigationItem" id="R4H-vM-hqq"/>
                     <connections>
@@ -1294,10 +1297,10 @@ Real Academia Española</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="npL-NQ-tJ3">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -1316,10 +1319,10 @@ Real Academia Española</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7ri-BQ-0KY">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -1338,15 +1341,15 @@ Real Academia Española</string>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="hAt-Ce-fph">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <color key="barTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                        <color key="barTintColor" systemColor="linkColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            <color key="textShadowColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                            <color key="textShadowColor" systemColor="linkColor"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -1408,7 +1411,7 @@ Real Academia Española</string>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WyW-Ip-vbX">
                                                 <rect key="frame" x="0.0" y="0.0" width="354" height="316"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7Q-d2-fnK">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7Q-d2-fnK">
                                                 <rect key="frame" x="0.0" y="316" width="354" height="105"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                 <state key="normal" title="Aceptar"/>
@@ -1428,14 +1431,14 @@ Real Academia Española</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="SnZ-bq-T8f"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ndC-Pg-wnx" firstAttribute="top" secondItem="SnZ-bq-T8f" secondAttribute="top" constant="25" id="MWS-Rp-EHs"/>
                             <constraint firstItem="SnZ-bq-T8f" firstAttribute="bottom" secondItem="ndC-Pg-wnx" secondAttribute="bottom" constant="70" id="Rpa-HI-4je"/>
                             <constraint firstItem="ndC-Pg-wnx" firstAttribute="leading" secondItem="SnZ-bq-T8f" secondAttribute="leading" constant="30" id="bO2-Kq-Dla"/>
                             <constraint firstItem="SnZ-bq-T8f" firstAttribute="trailing" secondItem="ndC-Pg-wnx" secondAttribute="trailing" constant="30" id="mei-bJ-Ikp"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="SnZ-bq-T8f"/>
                     </view>
                     <navigationItem key="navigationItem" id="H2C-75-Dns"/>
                     <connections>
@@ -1461,10 +1464,10 @@ Real Academia Española</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7R-zg-IFA">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="937"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="960.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Je2-2G-m1h">
-                                                <rect key="frame" x="20" y="30" width="374" height="877"/>
+                                                <rect key="frame" x="20" y="30" width="374" height="900.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4l-eh-1Tz">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="191"/>
@@ -1484,13 +1487,13 @@ Alfredo Flores</string>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aprendiendo con Mayúsculas se distribuye como está de manera gratuita y se prohíbe su distribución y uso con fines de lucro." textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKa-al-igh">
-                                                        <rect key="frame" x="0.0" y="366.5" width="374" height="72"/>
+                                                        <rect key="frame" x="0.0" y="366.5" width="374" height="95.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Z17-FD-sdc">
-                                                        <rect key="frame" x="0.0" y="478.5" width="374" height="286.5"/>
+                                                        <rect key="frame" x="0.0" y="502" width="374" height="286.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La información presente en esta aplicación fue recolectada a partir del contenido de la Real Academia Española." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLM-CJ-B9M">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="95.5"/>
@@ -1524,7 +1527,7 @@ Alfredo Flores</string>
                                                         </constraints>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Se hace uso de cocoapods, SimpleRoulette cuenta con la MIT License y fue escrito por Fumiya Tanaka." textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hC0-wA-iYe">
-                                                        <rect key="frame" x="0.0" y="805" width="374" height="72"/>
+                                                        <rect key="frame" x="0.0" y="828.5" width="374" height="72"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1532,7 +1535,7 @@ Alfredo Flores</string>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="Je2-2G-m1h" secondAttribute="trailing" constant="20" id="AIj-vC-4bz"/>
                                             <constraint firstItem="Je2-2G-m1h" firstAttribute="leading" secondItem="X7R-zg-IFA" secondAttribute="leading" constant="20" id="K3y-Lb-8w5"/>
@@ -1549,7 +1552,8 @@ Alfredo Flores</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="e6f-US-9fl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="X7R-zg-IFA" firstAttribute="width" secondItem="u9i-Oi-ayD" secondAttribute="width" id="0Or-aa-9j1"/>
                             <constraint firstItem="uSA-Fb-LCE" firstAttribute="top" secondItem="u9i-Oi-ayD" secondAttribute="top" id="Siu-wd-hi3"/>
@@ -1557,7 +1561,6 @@ Alfredo Flores</string>
                             <constraint firstItem="uSA-Fb-LCE" firstAttribute="trailing" secondItem="e6f-US-9fl" secondAttribute="trailing" id="paB-jE-iR3"/>
                             <constraint firstAttribute="bottom" secondItem="uSA-Fb-LCE" secondAttribute="bottom" id="q9O-Md-gCY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="e6f-US-9fl"/>
                     </view>
                     <navigationItem key="navigationItem" id="axB-DW-Z4E"/>
                 </viewController>
@@ -1569,13 +1572,76 @@ Alfredo Flores</string>
     <resources>
         <image name="btContactoImage1" width="600" height="300"/>
         <image name="fb" width="550" height="550"/>
-        <image name="hammer.fill" catalog="system" width="64" height="56"/>
-        <image name="house.fill" catalog="system" width="64" height="52"/>
+        <image name="hammer.fill" catalog="system" width="128" height="117"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="ig" width="550" height="550"/>
-        <image name="pencil" catalog="system" width="64" height="56"/>
-        <image name="person.3" catalog="system" width="72" height="35"/>
-        <image name="phone.fill" catalog="system" width="64" height="56"/>
-        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <image name="tw" width="550" height="550"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

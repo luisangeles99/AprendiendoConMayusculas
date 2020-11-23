@@ -22,6 +22,7 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     var ejercicio : NSDictionary!
     var respuestasCorrectasActual : Int!
     var respuestasCorrectas : Int!
+    @IBOutlet weak var titleLb: UILabel!
     var correctEffect : AVAudioPlayer?
 
     override func viewDidAppear(_ animated: Bool) {
@@ -46,8 +47,13 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        title = "Dime la mayúscula"
+        if categoria == "Mayúsculas"{
+            title = "Dime la mayúscula"
+            titleLb.text = "Selecciona las palabras que deberían estar en mayúsculas"
+        }else{
+            title = "Dime la minúscula"
+            titleLb.text = "Selecciona las palabras que deberían estar en minúscula"
+        }
         
         let path = Bundle.main.path(forResource:"Property List", ofType: "plist")
         myPList = NSDictionary(contentsOfFile: path!)

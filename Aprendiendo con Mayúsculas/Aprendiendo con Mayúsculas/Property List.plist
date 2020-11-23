@@ -64,10 +64,6 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-<<<<<<< HEAD
-					<string>Mi chamarra nike
-</string>
-=======
 					<string>Después del curso que tomé de google, aprendí a realizar búsquedas avanzadas.</string>
 					<key>completado</key>
 					<false/>
@@ -85,7 +81,6 @@
 				<dict>
 					<key>Problema</key>
 					<string>Mi chamarra nike la venden en todos lados.</string>
->>>>>>> 203e4ebd0067339e7aa9e5a44d1e0de71425689c
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -344,8 +339,6 @@
 					<key>Problema</key>
 					<string>Ni el hombre de las cavernas ni el primer homo sapiens agricultor conocían el sistema financiero o monetario
 </string>
-<<<<<<< HEAD
-=======
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -354,7 +347,6 @@
 				<dict>
 					<key>Problema</key>
 					<string>El nombre científico de la sardina peruana es Sardinops sagax sagax</string>
->>>>>>> 203e4ebd0067339e7aa9e5a44d1e0de71425689c
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -393,12 +385,7 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-<<<<<<< HEAD
-					<string>El agua está conformado por hidrógeno es representado por el símbolo H en la tabla periódica
-</string>
-=======
 					<string>El NH3 se utiliza para fabricar desinfectantes ya que eliminan a las bacterias. </string>
->>>>>>> 203e4ebd0067339e7aa9e5a44d1e0de71425689c
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -447,8 +434,6 @@
 					<key>Problema</key>
 					<string>Un kilogramo de fuerza equivale a 9.8 N
 </string>
-<<<<<<< HEAD
-=======
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -465,7 +450,6 @@
 				<dict>
 					<key>Problema</key>
 					<string>La presión se mide en pascales y es representado como “J”</string>
->>>>>>> 203e4ebd0067339e7aa9e5a44d1e0de71425689c
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -684,8 +668,6 @@
 			<array>
 				<dict>
 					<key>Problema</key>
-<<<<<<< HEAD
-=======
 					<string>El 5 de mayo es el Aniversario de la batalla de Puebla</string>
 					<key>completado</key>
 					<false/>
@@ -694,7 +676,6 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
->>>>>>> 203e4ebd0067339e7aa9e5a44d1e0de71425689c
 					<string>Todos los años celebro el dia de muertos con mi familia
 </string>
 					<key>completado</key>
