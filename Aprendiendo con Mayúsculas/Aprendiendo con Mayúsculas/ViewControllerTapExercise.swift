@@ -166,7 +166,13 @@ class ViewControllerTapExercise: UIViewController, UIGestureRecognizerDelegate {
                 //textView.attributedText = correctString
                 let auxRange = NSRange(location: indexTappedWord, length: 1)
                 let firstChar = (myTextView.attributedText.string as NSString).substring(with: auxRange)
-                let characterUpper = Character(String(firstChar).uppercased())
+                let characterUpper : Character!
+                if categoria == "Mayúsculas"{
+                    characterUpper = Character(String(firstChar).uppercased())
+                }else{
+                    characterUpper = Character(String(firstChar).lowercased())
+
+                }
                 let newText = myReplace(myString: textView.attributedText.string, indexTappedWord, characterUpper)
                 let myNewAttributedText = NSMutableAttributedString(string: newText)
                 textView.attributedText = myNewAttributedText

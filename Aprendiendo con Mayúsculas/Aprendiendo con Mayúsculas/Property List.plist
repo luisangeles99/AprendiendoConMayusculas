@@ -11,10 +11,12 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>16</integer>
+						<integer>11</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>La infanta doña cristina</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -59,17 +61,19 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>31</integer>
+						<integer>15</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>Mi chamarra es nike, mis tenis adidas.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Mi chamarra nike</string>
+					<string>Mi chamarra nike
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -120,10 +124,11 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>24</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>En Diciembre estamos en Invierno.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -158,17 +163,19 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>16</integer>
+						<integer>4</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>Los Mexicanos y Colombianos hablan español.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Mi amiga Chilena viene a México cada año.</string>
+					<string>Mi amiga Chilena viene a México cada año.
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -204,10 +211,11 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>28</integer>
+						<integer>8</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>Hay una Mesa en medio de la Calle.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -250,10 +258,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>La iglesia tiene seguidores en todo el mundo.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -280,17 +288,18 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>46</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>El nombre científico de la sardina peruana es sardinops sagax sagax.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Ni el hombre de las cavernas ni el primer homo sapiens agricultor conocían el sistema financiero o monetario</string>
+					<string>Ni el hombre de las cavernas ni el primer homo sapiens agricultor conocían el sistema financiero o monetario
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -310,17 +319,19 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>30</integer>
+						<integer>35</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>Esta reacción química utiliza au y o.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>El agua está conformado por hidrógeno es representado por el símbolo H en la tabla periódica</string>
+					<string>El agua está conformado por hidrógeno es representado por el símbolo H en la tabla periódica
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -356,17 +367,19 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>2</integer>
+						<integer>44</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>1 pa (un pascal) es la presión que ejerce 1 n (un newton) en 1 metro.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Un kilogramo de fuerza equivale a 9.8 N</string>
+					<string>Un kilogramo de fuerza equivale a 9.8 N
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -416,10 +429,11 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>23</integer>
+						<integer>15</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>El profesor de cálculo numérico es extraordinario</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -446,10 +460,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>La unesco es una organización mundial.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -476,17 +490,19 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>17</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>El ministerio de hacienda</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>El gobierno debe tomar acción para disminuir la desigualdad</string>
+					<string>El gobierno debe tomar acción para disminuir la desigualdad
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -522,17 +538,20 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>13</integer>
+						<integer>17</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>La navidad y año nuevo son en diciembre.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>Todos los años celebro el dia de muertos con mi familia</string>
+					<string>Todos los años celebro el dia de muertos con mi familia
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -552,10 +571,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>14</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>Estoy leyendo el laberinto de la soledad</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -582,17 +601,20 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>3</integer>
+						<integer>25</integer>
+						<integer>17</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>La biblioteca de autores españoles.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
 				<dict>
 					<key>Problema</key>
-					<string>The New york times ha publicado noticias relevantes los últimos 10 años.</string>
+					<string>The New york times ha publicado noticias relevantes los últimos 10 años.
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
