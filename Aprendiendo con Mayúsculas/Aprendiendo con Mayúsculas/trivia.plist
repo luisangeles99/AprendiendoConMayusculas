@@ -360,7 +360,7 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres comunes</string>
 					<false/>
 				</array>
 				<array>
@@ -368,11 +368,11 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Usos diacríticos</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Títulos de publicaciones</string>
 					<false/>
 				</array>
 			</array>
@@ -383,20 +383,20 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Nombres científicos</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Fórmulas de tratamiento</string>
 					<false/>
 				</array>
 				<array>
 					<string>Nombres comunes</string>
-					<false/>
+					<true/>
 				</array>
 			</array>
 		</dict>
@@ -406,11 +406,11 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Nombres de disciplinas científicas</string>
 					<false/>
 				</array>
 				<array>
@@ -418,31 +418,31 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres científicos</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Señor De Ávalos</string>
+			<string>El Papa visitará la India en su próximo viaje.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
-					<false/>
-				</array>
-				<array>
-					<string>Se omite nombre de pila</string>
+					<string>Fórmulas de tratamiento</string>
 					<true/>
+				</array>
+				<array>
+					<string>Nombres propios</string>
+					<false/>
+				</array>
+				<array>
+					<string>Nombres de deidades</string>
+					<false/>
+				</array>
+				<array>
+					<string>Usos diacríticos</string>
+					<false/>
 				</array>
 			</array>
 		</dict>
@@ -460,11 +460,11 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
-					<true/>
+					<string>De el Greco</string>
+					<false/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>del greco.</string>
 					<false/>
 				</array>
 			</array>
@@ -473,116 +473,116 @@
 	<array>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Sorpresa la cual es muy larga y que por tanto no debería caber en una sola línea del label.</string>
+			<string>El Panthera leo es un animal majestuoso.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres comunes</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Nombres antiguos</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres científicos</string>
 					<true/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Sorpresa 2</string>
+			<string>La Iglesia tiene seguidores en todo el mundo.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Uso diacrítico</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Fórmulas de tratamiento</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Acrónimos y siglas</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Gentiliciios</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Sorpresa 3</string>
+			<string>El lunes tendré una reunión importante con mi jefe, se espera que acordemos los tiempos para el proyecto de Octubre.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Está correcto</string>
+					<false/>
+				</array>
+				<array>
+					<string>lunes, octubre</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Lunes, Octubre</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
+					<string>Lunes, octubre</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Sorpresa 4</string>
+			<string>Me cuesta creer que los dispostivios de almacenamiento ya tengan capacidades que se miden en Terabytes, aún recuerdo cuando 100 kilobytes eran suficientes.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>terabytes, Kilobytes</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>terabytes, kilobytes</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Está correcto</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Terabytes, Kilobytes</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Sorpresa 5</string>
+			<string>Génesis, Levítico, Libro de los Reyes, Hechos de los Apóstoles</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Usos diacríticos</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Títulos de publicaciones</string>
+					<false/>
+				</array>
+				<array>
+					<string>Libros sagrados</string>
 					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
 				</array>
 			</array>
 		</dict>

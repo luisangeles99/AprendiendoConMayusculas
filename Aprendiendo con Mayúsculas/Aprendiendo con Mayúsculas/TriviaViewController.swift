@@ -23,6 +23,7 @@ class TriviaViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         spin = false
         self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.prefersLargeTitles = true
 
     }
     

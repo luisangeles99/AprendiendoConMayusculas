@@ -22,7 +22,7 @@ class PuntajeViewController: UIViewController {
     
     @IBAction func aceptarResultado(_ sender: Any) {
         for controller in self.navigationController!.viewControllers as Array {
-            if controller.isKind(of: PickerExerciseViewController.self) {
+            if controller.isKind(of: ViewController.self) {
                 self.navigationController!.popToViewController(controller, animated: true)
                 break
             }
