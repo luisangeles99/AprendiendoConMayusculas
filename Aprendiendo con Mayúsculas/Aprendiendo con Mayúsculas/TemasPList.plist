@@ -324,7 +324,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Las unidades de medida se escriben normalmente con minúscula (g, dm, ha), salvo los de aquellas unidades que tienen su origen en nombres propios de persona, que se escriben con mayúscula: N por newton (de Isaac Newton), W por vatio (de Jacobo Watt)</string>
+				<string>Las unidades de medida se escriben normalmente con minúscula (g, dm, ha), salvo los de aquellas unidades que tienen su origen en nombres propios de persona, que se escriben con mayúscula: N por newton (de Isaac Newton), W por vatio (de Jacobo Watt); o los de aquellas que incorporan prefijos para formar múltiplos (unidades superiores a la establecida como referencia), ya que los símbolos de estos prefijos, con la excepción de kilo- (k-), hecto- (h-) y deca- (da-), se escriben con mayúscula: M- (mega-), G- (giga-), T- (tera-), etc.; por el contrario, los símbolos de los prefijos utilizados para formar submúltiplos (unidades inferiores a la establecida como referencia) se escriben siempre con minúscula: d- (deci-), c- (centi-), m- (mili-), etc.</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>

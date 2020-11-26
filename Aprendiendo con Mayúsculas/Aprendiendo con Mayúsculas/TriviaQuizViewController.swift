@@ -44,7 +44,8 @@ class TriviaQuizViewController: UIViewController {
     let urlString2 = Bundle.main.path(forResource: "error", ofType: "mp3")
     
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.navigationBar.isHidden = true
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.prefersLargeTitles = false
        //Label Título
         tituloLabel.text = tema
         tituloLabel.font = tituloLabel.font.withSize(40)

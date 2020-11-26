@@ -27,6 +27,7 @@ class triviaResultadosViewController: UIViewController {
         
         title = "Puntuación"
         navigationController!.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         self.navigationItem.setHidesBackButton(true, animated: true)
         
         
