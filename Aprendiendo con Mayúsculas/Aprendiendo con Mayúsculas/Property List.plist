@@ -147,11 +147,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>24</integer>
 						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>En Diciembre estamos en Invierno.</string>
+					<string>La revolución mexicana se celebra en noviembre.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -242,11 +241,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>28</integer>
-						<integer>8</integer>
+						<integer>24</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Hay una Mesa en medio de la Calle.</string>
+					<string>Cuando lleguemos al río balsas podremos recorrerlo en balsa.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -261,7 +259,8 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>La manzana tiene propiedades que ayudan a la salud</string>
+					<string>La manzana tiene propiedades que ayudan a la salud
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -281,10 +280,12 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>3</integer>
+						<integer>21</integer>
+						<integer>31</integer>
+						<integer>45</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>La iglesia tiene seguidores en todo el mundo.</string>
+					<string>Representantes de la república socialista de vietnam visitarán la república mexicana.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -299,7 +300,8 @@
 				</dict>
 				<dict>
 					<key>Problema</key>
-					<string>El estado Mexicano tiene un plan para impulsar el turismo</string>
+					<string>El estado Mexicano tiene un plan para impulsar el turismo
+</string>
 					<key>completado</key>
 					<false/>
 					<key>Respuesta</key>
@@ -324,6 +326,14 @@
 		<dict>
 			<key>tapExercise</key>
 			<array>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>13</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>El lobogris (canis lupus) se cazó hasta su extinción.</string>
+				</dict>
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
@@ -421,11 +431,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>2</integer>
-						<integer>44</integer>
+						<integer>36</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>1 pa (un pascal) es la presión que ejerce 1 n (un newton) en 1 metro.</string>
+					<string>En mi país se consideran los grados celsius para medir la temperatura.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -608,6 +617,15 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
+						<integer>3</integer>
+						<integer>13</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La cámara de senadores tendrá sesión permanente.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
 						<integer>17</integer>
 						<integer>3</integer>
 					</array>
@@ -705,6 +723,15 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
+						<integer>3</integer>
+						<integer>14</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La caperucita roja es uno de los cuentos más conocidos por los niños a nivel mundial.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
 						<integer>14</integer>
 					</array>
 					<key>ejercicio</key>
@@ -748,6 +775,14 @@
 		<dict>
 			<key>tapExercise</key>
 			<array>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>3</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>El universal es un periódico muy reconocido.</string>
+				</dict>
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
