@@ -59,6 +59,14 @@
 					<key>ejercicio</key>
 					<string>Mi chamarra es nike, mis tenis adidas.</string>
 				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>12</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>Mi chamarra nike está en la tintorería.</string>
+				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
@@ -147,6 +155,14 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
+						<integer>3</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La revolución mexicana se celebra en noviembre.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
 						<integer>24</integer>
 						<integer>3</integer>
 					</array>
@@ -199,6 +215,14 @@
 					</array>
 					<key>ejercicio</key>
 					<string>Los Mexicanos y Colombianos hablan español.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>10</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La comida Mexicana es reconocida mundialmente.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -286,6 +310,15 @@
 					<key>ejercicio</key>
 					<string>La iglesia tiene seguidores en todo el mundo.</string>
 				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>21</integer>
+						<integer>31</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>Representantes de la república socialista de Vietnam visitarán la república mexicana.</string>
+				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
@@ -331,6 +364,14 @@
 					</array>
 					<key>ejercicio</key>
 					<string>El nombre científico de la sardina peruana es sardinops sagax sagax.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>13</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>El lobogris (canis lupus) se cazó hasta su extinción.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -380,6 +421,14 @@
 					<key>ejercicio</key>
 					<string>Esta reacción química utiliza au y o.</string>
 				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>15</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La carencia de Yodo causa retraso mental.</string>
+				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
@@ -425,7 +474,15 @@
 						<integer>44</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>1 pa (un pascal) es la presión que ejerce 1 n (un newton) en 1 metro.</string>
+					<string>1 pa (un pascal) es la presión que ejerce 1 n (un Newton) en 1 metro.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>36</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>En mi país se consideran los grados celsius para medir la temperatura.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -469,10 +526,10 @@
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
-						<integer>7</integer>
+						<integer>3</integer>
 					</array>
 					<key>ejercicio</key>
-					<string>Da tap aquí. Este es un ejemplo de ejercicio.</string>
+					<string>El Presidente se volvió a reunir con los embajadores.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -521,6 +578,14 @@
 					<key>ejercicio</key>
 					<string>El profesor de cálculo numérico es extraordinario</string>
 				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>18</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>Los avances de la Medicina son sorprendentes.</string>
+				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
@@ -566,6 +631,16 @@
 					</array>
 					<key>ejercicio</key>
 					<string>La unesco es una organización mundial.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>3</integer>
+						<integer>4</integer>
+						<integer>5</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La onu participará en la reunión general del congreso.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>
@@ -614,6 +689,15 @@
 					<key>ejercicio</key>
 					<string>El ministerio de hacienda</string>
 				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>3</integer>
+						<integer>13</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La cámara de senadores tendrá sesión permanente.</string>
+				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
@@ -653,6 +737,16 @@
 		<dict>
 			<key>tapExercise</key>
 			<array>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>13</integer>
+						<integer>17</integer>
+						<integer>3</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>La navidad y año nuevo son en diciembre.</string>
+				</dict>
 				<dict>
 					<key>indicesCorrectos</key>
 					<array>
@@ -710,6 +804,15 @@
 					<key>ejercicio</key>
 					<string>Estoy leyendo el laberinto de la soledad</string>
 				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>0</integer>
+						<integer>11</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>caperucita roja es uno de los cuentos más conocidos por los niños a nivel mundial.</string>
+				</dict>
 			</array>
 			<key>verdaderoFalso</key>
 			<array>
@@ -757,6 +860,14 @@
 					</array>
 					<key>ejercicio</key>
 					<string>La biblioteca de autores españoles.</string>
+				</dict>
+				<dict>
+					<key>indicesCorrectos</key>
+					<array>
+						<integer>3</integer>
+					</array>
+					<key>ejercicio</key>
+					<string>El universal es un periódico muy reconocido.</string>
 				</dict>
 			</array>
 			<key>verdaderoFalso</key>

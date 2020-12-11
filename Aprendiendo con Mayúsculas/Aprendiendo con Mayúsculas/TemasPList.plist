@@ -13,7 +13,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Se escriben enteramente en mayúscula las siglas y algunos acrónimos: ISBN, OTI, ONG. Cuando los acrónimos son nombres propios y tienen más de cuatro letras, solo se escribe en mayúscula la inicial.</string>
+				<string>Se escriben enteramente en mayúscula las siglas y algunos acrónimos: ISBN, OTI, ONG. Cuando los acrónimos son nombres propios y tienen más de cuatro letras, solo se escribe en mayúscula la inicial (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -46,7 +46,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres de festividades religiosas o civiles se escriben con mayúscula.</string>
+				<string>Los nombres de festividades religiosas o civiles se escriben con mayúscula (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -97,7 +97,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se encuentran en una abrevación, caso contrario se escriben minúscula. Mayúscula únicamente cuando la fórmula de tratamiento funcione como nombre propio, por ejemplo, el Papa visitó México.</string>
+				<string>Las fórmulas de tratamiento se escriben únicamente en mayúscula cuando se encuentran en una abrevación, caso contrario se escriben minúscula. Mayúscula únicamente cuando la fórmula de tratamiento funcione como nombre propio, por ejemplo, el Papa visitó México (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -130,7 +130,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Las marcas comerciales son nombres propios, de forma que, utilizados específicamente para referirse a un producto de la marca, han de escribirse con mayúscula.</string>
+				<string>Las marcas comerciales son nombres propios, de forma que, utilizados específicamente para referirse a un producto de la marca, han de escribirse con mayúscula (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -151,7 +151,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>La primera palabra del nombre latino de las especies vegetales y animales: Pimpinella anisum, Panthera leo (los nombres científicos latinos deben escribirse, además, en cursiva). Se escriben también con mayúscula los nombres de los grupos taxonómicos zoológicos y botánicos superiores al género, cuando se usan en aposición: orden Roedores, familia Leguminosas; pero estos mismos términos se escriben con minúscula cuando se usan como adjetivos o como nombres comunes</string>
+				<string>La primera palabra del nombre latino de las especies vegetales y animales: Pimpinella anisum, Panthera leo (los nombres científicos latinos deben escribirse, además, en cursiva). Se escriben también con mayúscula los nombres de los grupos taxonómicos zoológicos y botánicos superiores al género, cuando se usan en aposición: orden Roedores, familia Leguminosas; pero estos mismos términos se escriben con minúscula cuando se usan como adjetivos o como nombres comunes (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -172,7 +172,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los sustantivos y adjetivos que forman el nombre de disciplinas científicas, cuando nos referimos a ellas como materias de estudio, y especialmente en contextos académicos (nombres de asignaturas, cátedras, facultades, etc.) o curriculares</string>
+				<string>Los sustantivos y adjetivos que forman el nombre de disciplinas científicas, cuando nos referimos a ellas como materias de estudio, y especialmente en contextos académicos (nombres de asignaturas, cátedras, facultades, etc.) o curriculares (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -193,7 +193,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Se escriben con mayúscula los sustantivos y adjetivos que componen el nombre de entidades, organismos, departamentos o divisiones administrativas, edificios, monumentos, establecimientos públicos, partidos políticos, etc.</string>
+				<string>Se escriben con mayúscula los sustantivos y adjetivos que componen el nombre de entidades, organismos, departamentos o divisiones administrativas, edificios, monumentos, establecimientos públicos, partidos políticos, etc. (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -237,7 +237,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string> Los nombes propios llevan mayúscula para diferenciarlos de los comunes “son sustantivos o grupos nominales creados específicamente para designar y referirse a seres únicos, ya sean animados o inanimados: personas, animales, lugares geográficos, instituciones, obras de creación, acontecimientos, etc.” (RAE, 2010)</string>
+				<string> Los nombes propios llevan mayúscula para diferenciarlos de los comunes “son sustantivos o grupos nominales creados específicamente para designar y referirse a seres únicos, ya sean animados o inanimados: personas, animales, lugares geográficos, instituciones, obras de creación, acontecimientos, etc.” (RAE,2010).</string>
 			</dict>
 		</dict>
 		<key>Publicaciones periódicas</key>
@@ -249,7 +249,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string> Se esriben con mayúscula los sustantivos y adjetivos que forman parte del nombre de publicaciones periódicas o de colecciones: La Vanguardia, Nueva Revista de Filología Hispánica, Biblioteca de Autores Españoles.</string>
+				<string> Se esriben con mayúscula los sustantivos y adjetivos que forman parte del nombre de publicaciones periódicas o de colecciones: La Vanguardia, Nueva Revista de Filología Hispánica, Biblioteca de Autores Españoles (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -270,7 +270,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los de los elementos químicos se escriben con una sola letra mayúscula: C, O; o, si están constituidos por dos letras, con una combinación de mayúscula y minúscula: Ag, Fe.</string>
+				<string>Los de los elementos químicos se escriben con una sola letra mayúscula: C, O; o, si están constituidos por dos letras, con una combinación de mayúscula y minúscula: Ag, Fe (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -291,7 +291,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>La primera palabra del título de cualquier obra de creación (libros, películas, cuadros, esculturas, piezas musicales, programas de radio o televisión, etc.); el resto de las palabras que lo componen, salvo que se trate de nombres propios, deben escribirse con minúscula.</string>
+				<string>La primera palabra del título de cualquier obra de creación (libros, películas, cuadros, esculturas, piezas musicales, programas de radio o televisión, etc.); el resto de las palabras que lo componen, salvo que se trate de nombres propios, deben escribirse con minúscula (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -324,7 +324,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Las unidades de medida se escriben normalmente con minúscula (g, dm, ha), salvo los de aquellas unidades que tienen su origen en nombres propios de persona, que se escriben con mayúscula: N por newton (de Isaac Newton), W por vatio (de Jacobo Watt); o los de aquellas que incorporan prefijos para formar múltiplos (unidades superiores a la establecida como referencia), ya que los símbolos de estos prefijos, con la excepción de kilo- (k-), hecto- (h-) y deca- (da-), se escriben con mayúscula: M- (mega-), G- (giga-), T- (tera-), etc.; por el contrario, los símbolos de los prefijos utilizados para formar submúltiplos (unidades inferiores a la establecida como referencia) se escriben siempre con minúscula: d- (deci-), c- (centi-), m- (mili-), etc.</string>
+				<string>Las unidades de medida se escriben normalmente con minúscula (g, dm, ha), salvo los de aquellas unidades que tienen su origen en nombres propios de persona, que se escriben con mayúscula: N por newton (de Isaac Newton), W por vatio (de Jacobo Watt); o los de aquellas que incorporan prefijos para formar múltiplos (unidades superiores a la establecida como referencia), ya que los símbolos de estos prefijos, con la excepción de kilo- (k-), hecto- (h-) y deca- (da-), se escriben con mayúscula: M- (mega-), G- (giga-), T- (tera-), etc.; por el contrario, los símbolos de los prefijos utilizados para formar submúltiplos (unidades inferiores a la establecida como referencia) se escriben siempre con minúscula: d- (deci-), c- (centi-), m- (mili-), etc. (RAE,2010) .</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -345,7 +345,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>La mayúscula diacrítica sirve para diferenciar un significado de nombre propio de otro de nombre común, permite distinguir entre aceptaciones distintas de una palabra.</string>
+				<string>La mayúscula diacrítica sirve para diferenciar un significado de nombre propio de otro de nombre común, permite distinguir entre aceptaciones distintas de una palabra (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -375,7 +375,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Los nombres propios llevan mayúsculas</string>
+				<string>Los nombres comunes se escriben con minúsculas (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -396,7 +396,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Se escriben en minúscula los nombres de tribus o pueblos y de lenguas, así como los gentilicios: el pueblo inca, los mayas, el español, los ingleses.</string>
+				<string>Se escriben en minúscula los nombres de tribus o pueblos y de lenguas, así como los gentilicios: el pueblo inca, los mayas, el español, los ingleses (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>
@@ -417,7 +417,7 @@
 				<key>Imagen</key>
 				<string>imagen</string>
 				<key>Explicación</key>
-				<string>Salvo que la mayúscula venga exigida por la puntuación (a comienzo de texto o después de punto), los nombres de los días de la semana, de los meses y de las estaciones del año se escriben en español con minúscula inicial.</string>
+				<string>Salvo que la mayúscula venga exigida por la puntuación (a comienzo de texto o después de punto), los nombres de los días de la semana, de los meses y de las estaciones del año se escriben en español con minúscula inicial (RAE,2010).</string>
 			</dict>
 			<key>Ejemplos</key>
 			<array>

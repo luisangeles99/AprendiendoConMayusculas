@@ -55,11 +55,11 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Marcas</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Usos diacríticos</string>
 					<false/>
 				</array>
 				<array>
@@ -67,7 +67,7 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 			</array>
@@ -78,11 +78,11 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres comunes</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Fórmulas de tratamiento</string>
 					<false/>
 				</array>
 				<array>
@@ -90,7 +90,7 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres de organismos públicos</string>
 					<false/>
 				</array>
 			</array>
@@ -105,15 +105,15 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Días festivos</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres científicos</string>
 					<false/>
 				</array>
 			</array>
@@ -122,115 +122,115 @@
 	<array>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta Párrafos</string>
+			<string>Este coche deportivo alcanza los 250 kms.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Nombres propios</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Fechas y estaciones</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Unidades de medición</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres comunes</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>La Física Cuántica es una rama fascinante.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
+					<string>Disciplinas científicas</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Grados académicos</string>
+					<false/>
+				</array>
+				<array>
+					<string>Unidades de medición</string>
+					<false/>
+				</array>
+				<array>
+					<string>Títulos de publicaciones</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>Los Gobiernos de las islas caribeñas se reunieron ayer.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Organismos públicos y privados</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
+					<string>Usos diacríticos</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres propios</string>
+					<false/>
+				</array>
+				<array>
+					<string>Abreviatus, siglas</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>El Colegio de México se fundó en 1940.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Fecha de estaciones</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Publicaciones periódicas</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Nombres propios</string>
+					<false/>
+				</array>
+				<array>
+					<string>Organismos públicos y privados</string>
 					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Ejemplo de Pregunta</string>
+			<string>El mosquito Aedes aegypti es el trasnmisor del dengue.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Unidades de medición</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Disciplina científica</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Nombres científicos</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Nombres comunes</string>
 					<false/>
 				</array>
 			</array>
@@ -243,11 +243,11 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>&quot;La divina Comedia&quot;</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>&quot;la divina comedia&quot;</string>
 					<false/>
 				</array>
 				<array>
@@ -255,7 +255,7 @@
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>&quot;la Divina Comedia&quot;</string>
 					<false/>
 				</array>
 			</array>
@@ -266,19 +266,19 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Las Cuatro estaciones</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>las Cuatro Estaciones</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Las cuatro estaciones</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Las Cuatro Estataciones</string>
 					<false/>
 				</array>
 			</array>
@@ -289,65 +289,65 @@
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>el quijote</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
+					<string>Uso correcto de la regla</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>&quot;EL QUIJOTE&quot;</string>
+					<false/>
+				</array>
+				<array>
+					<string>El Quijote</string>
 					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>Últimas tardes con Teresa</string>
+			<string>Es importante que consultes la Ortografía de la lengua española.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
+					<string>Grados académicos</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 2</string>
+					<string>Nombres comúnes</string>
 					<false/>
 				</array>
 				<array>
-					<string>Respuesta 3</string>
+					<string>Nombres propios</string>
+					<false/>
+				</array>
+				<array>
+					<string>Títulos de publicaciones</string>
 					<true/>
-				</array>
-				<array>
-					<string>Respuesta 4</string>
-					<false/>
 				</array>
 			</array>
 		</dict>
 		<dict>
 			<key>Pregunta</key>
-			<string>La semana pasada leí &quot;Cien años De Soledad&quot;.</string>
+			<string>La semana pasada leí Cien años De Soledad.</string>
 			<key>Respuestas</key>
 			<array>
 				<array>
-					<string>Respuesta 1</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 2</string>
-					<false/>
-				</array>
-				<array>
-					<string>Respuesta 3</string>
+					<string>Cien años de soledad</string>
 					<true/>
 				</array>
 				<array>
-					<string>Respuesta 4</string>
+					<string>Cien Años de Soledad</string>
+					<false/>
+				</array>
+				<array>
+					<string>cien años de soledad</string>
+					<false/>
+				</array>
+				<array>
+					<string>Cien Años De Soledad</string>
 					<false/>
 				</array>
 			</array>
